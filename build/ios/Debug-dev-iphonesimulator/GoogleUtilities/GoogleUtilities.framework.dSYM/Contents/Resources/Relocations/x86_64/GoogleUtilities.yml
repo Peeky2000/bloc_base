@@ -1,0 +1,363 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/peekaboo/Documents/Work/ATI/bloc_cubit_base/build/ios/Debug-dev-iphonesimulator/GoogleUtilities/GoogleUtilities.framework/GoogleUtilities'
+relocations:
+  - { offsetInCU: 0x33, offset: 0x282EA, size: 0x8, addend: 0x0, symName: _GoogleUtilitiesVersionString, symObjAddr: 0x0, symBinAddr: 0xEC00, symSize: 0x0 }
+  - { offsetInCU: 0x67, offset: 0x2831E, size: 0x8, addend: 0x0, symName: _GoogleUtilitiesVersionNumber, symObjAddr: 0x30, symBinAddr: 0xEC30, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x2835A, size: 0x8, addend: 0x0, symName: '-[GULZeroingWeakContainer object]', symObjAddr: 0x0, symBinAddr: 0x1660, symSize: 0x16 }
+  - { offsetInCU: 0xB1, offset: 0x283E4, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateObserver sharedInstance]', symObjAddr: 0x35, symBinAddr: 0x1695, symSize: 0x30 }
+  - { offsetInCU: 0xDA, offset: 0x2840D, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x16360, symBinAddr: 0x1B4C0, symSize: 0x0 }
+  - { offsetInCU: 0xEF, offset: 0x28422, size: 0x8, addend: 0x0, symName: _sharedInstance.once, symObjAddr: 0x16368, symBinAddr: 0x1B4C8, symSize: 0x0 }
+  - { offsetInCU: 0x1D2, offset: 0x28505, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler interceptors]', symObjAddr: 0x11AD, symBinAddr: 0x280D, symSize: 0x30 }
+  - { offsetInCU: 0x1FD, offset: 0x28530, size: 0x8, addend: 0x0, symName: _interceptors.onceToken, symObjAddr: 0x16398, symBinAddr: 0x1B4F8, symSize: 0x0 }
+  - { offsetInCU: 0x213, offset: 0x28546, size: 0x8, addend: 0x0, symName: _interceptors.sInterceptors, symObjAddr: 0x163A0, symBinAddr: 0x1B500, symSize: 0x0 }
+  - { offsetInCU: 0x26A, offset: 0x2859D, size: 0x8, addend: 0x0, symName: _gOriginalAppDelegate, symObjAddr: 0x16370, symBinAddr: 0x1B4D0, symSize: 0x0 }
+  - { offsetInCU: 0x2A8, offset: 0x285DB, size: 0x8, addend: 0x0, symName: _gOriginalAppDelegateClass, symObjAddr: 0x16390, symBinAddr: 0x1B4F0, symSize: 0x0 }
+  - { offsetInCU: 0x2C6, offset: 0x285F9, size: 0x8, addend: 0x0, symName: _gAppDelegateSubclass, symObjAddr: 0x16388, symBinAddr: 0x1B4E8, symSize: 0x0 }
+  - { offsetInCU: 0x2DB, offset: 0x2860E, size: 0x8, addend: 0x0, symName: _sProxyAppDelegateOnceToken, symObjAddr: 0x16378, symBinAddr: 0x1B4D8, symSize: 0x0 }
+  - { offsetInCU: 0x2F0, offset: 0x28623, size: 0x8, addend: 0x0, symName: _sProxyAppDelegateRemoteNotificationOnceToken, symObjAddr: 0x16380, symBinAddr: 0x1B4E0, symSize: 0x0 }
+  - { offsetInCU: 0x313, offset: 0x28646, size: 0x8, addend: 0x0, symName: _kGULRealIMPBySelectorKey, symObjAddr: 0x69A8, symBinAddr: 0x15178, symSize: 0x0 }
+  - { offsetInCU: 0x337, offset: 0x2866A, size: 0x8, addend: 0x0, symName: _kGULRealClassKey, symObjAddr: 0x69D0, symBinAddr: 0x151A0, symSize: 0x0 }
+  - { offsetInCU: 0x3A5, offset: 0x286D8, size: 0x8, addend: 0x0, symName: '-[GULZeroingWeakContainer object]', symObjAddr: 0x0, symBinAddr: 0x1660, symSize: 0x16 }
+  - { offsetInCU: 0x3D9, offset: 0x2870C, size: 0x8, addend: 0x0, symName: '-[GULZeroingWeakContainer setObject:]', symObjAddr: 0x16, symBinAddr: 0x1676, symSize: 0x11 }
+  - { offsetInCU: 0x414, offset: 0x28747, size: 0x8, addend: 0x0, symName: '-[GULZeroingWeakContainer .cxx_destruct]', symObjAddr: 0x27, symBinAddr: 0x1687, symSize: 0xE }
+  - { offsetInCU: 0x4E2, offset: 0x28815, size: 0x8, addend: 0x0, symName: '___40+[GULAppDelegateObserver sharedInstance]_block_invoke', symObjAddr: 0x65, symBinAddr: 0x16C5, symSize: 0x25 }
+  - { offsetInCU: 0x512, offset: 0x28845, size: 0x8, addend: 0x0, symName: '-[GULAppDelegateObserver observeUIApplication]', symObjAddr: 0x8A, symBinAddr: 0x16EA, symSize: 0x6E }
+  - { offsetInCU: 0x581, offset: 0x288B4, size: 0x8, addend: 0x0, symName: '-[GULAppDelegateObserver observeValueForKeyPath:ofObject:change:context:]', symObjAddr: 0xF8, symBinAddr: 0x1758, symSize: 0x143 }
+  - { offsetInCU: 0x706, offset: 0x28A39, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler isAppDelegateProxyEnabled]', symObjAddr: 0x23B, symBinAddr: 0x189B, symSize: 0x11F }
+  - { offsetInCU: 0x81F, offset: 0x28B52, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler registerAppDelegateInterceptor:]', symObjAddr: 0x35A, symBinAddr: 0x19BA, symSize: 0x221 }
+  - { offsetInCU: 0x9D4, offset: 0x28D07, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler unregisterAppDelegateInterceptorWithID:]', symObjAddr: 0x57B, symBinAddr: 0x1BDB, symSize: 0x19F }
+  - { offsetInCU: 0xB22, offset: 0x28E55, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler proxyOriginalDelegate]', symObjAddr: 0x71A, symBinAddr: 0x1D7A, symSize: 0x3C }
+  - { offsetInCU: 0xB76, offset: 0x28EA9, size: 0x8, addend: 0x0, symName: '___47+[GULAppDelegateSwizzler proxyOriginalDelegate]_block_invoke', symObjAddr: 0x756, symBinAddr: 0x1DB6, symSize: 0x77 }
+  - { offsetInCU: 0xC0D, offset: 0x28F40, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler proxyOriginalDelegateIncludingAPNSMethods]', symObjAddr: 0x7CD, symBinAddr: 0x1E2D, symSize: 0x85 }
+  - { offsetInCU: 0xC8D, offset: 0x28FC0, size: 0x8, addend: 0x0, symName: '___67+[GULAppDelegateSwizzler proxyOriginalDelegateIncludingAPNSMethods]_block_invoke', symObjAddr: 0x852, symBinAddr: 0x1EB2, symSize: 0x10B }
+  - { offsetInCU: 0xE22, offset: 0x29155, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler sharedApplication]', symObjAddr: 0x95D, symBinAddr: 0x1FBD, symSize: 0x77 }
+  - { offsetInCU: 0xEDE, offset: 0x29211, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler createSubclassWithObject:]', symObjAddr: 0x9D4, symBinAddr: 0x2034, symSize: 0x573 }
+  - { offsetInCU: 0x144A, offset: 0x2977D, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler proxyRemoteNotificationsMethodsWithAppDelegateSubClass:realClass:appDelegate:realImplementationsBySelector:]', symObjAddr: 0xF47, symBinAddr: 0x25A7, symSize: 0x154 }
+  - { offsetInCU: 0x15C6, offset: 0x298F9, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler reassignAppDelegate]', symObjAddr: 0x109B, symBinAddr: 0x26FB, symSize: 0x112 }
+  - { offsetInCU: 0x16FA, offset: 0x29A2D, size: 0x8, addend: 0x0, symName: '___38+[GULAppDelegateSwizzler interceptors]_block_invoke', symObjAddr: 0x11DD, symBinAddr: 0x283D, symSize: 0x25 }
+  - { offsetInCU: 0x172E, offset: 0x29A61, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler originalImplementationForSelector:object:]', symObjAddr: 0x1202, symBinAddr: 0x2862, symSize: 0x7C }
+  - { offsetInCU: 0x17EE, offset: 0x29B21, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler proxyDestinationSelector:implementationsFromSourceSelector:fromClass:toClass:realClass:storeDestinationImplementationTo:]', symObjAddr: 0x127E, symBinAddr: 0x28DE, symSize: 0xE5 }
+  - { offsetInCU: 0x1978, offset: 0x29CAB, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler addInstanceMethodWithSelector:fromClass:toClass:]', symObjAddr: 0x1363, symBinAddr: 0x29C3, symSize: 0x1B }
+  - { offsetInCU: 0x1A0F, offset: 0x29D42, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler addInstanceMethodWithDestinationSelector:withImplementationFromSourceSelector:fromClass:toClass:]', symObjAddr: 0x137E, symBinAddr: 0x29DE, symSize: 0xD7 }
+  - { offsetInCU: 0x1C0A, offset: 0x29F3D, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler implementationOfMethodSelector:fromClass:]', symObjAddr: 0x1455, symBinAddr: 0x2AB5, symSize: 0x18 }
+  - { offsetInCU: 0x1C9C, offset: 0x29FCF, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler notifyInterceptorsWithMethodSelector:callback:]', symObjAddr: 0x146D, symBinAddr: 0x2ACD, symSize: 0xED }
+  - { offsetInCU: 0x1D9A, offset: 0x2A0CD, size: 0x8, addend: 0x0, symName: '___72+[GULAppDelegateSwizzler notifyInterceptorsWithMethodSelector:callback:]_block_invoke', symObjAddr: 0x155A, symBinAddr: 0x2BBA, symSize: 0x127 }
+  - { offsetInCU: 0x1F16, offset: 0x2A249, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x1681, symBinAddr: 0x2CE1, symSize: 0x17 }
+  - { offsetInCU: 0x1F3F, offset: 0x2A272, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x1698, symBinAddr: 0x2CF8, symSize: 0xF }
+  - { offsetInCU: 0x1F69, offset: 0x2A29C, size: 0x8, addend: 0x0, symName: '-[GULAppDelegateSwizzler fakeDescription]', symObjAddr: 0x16A7, symBinAddr: 0x2D07, symSize: 0x46 }
+  - { offsetInCU: 0x1FCC, offset: 0x2A2FF, size: 0x8, addend: 0x0, symName: '-[GULAppDelegateSwizzler application:openURL:options:]', symObjAddr: 0x16ED, symBinAddr: 0x2D4D, symSize: 0x1CE }
+  - { offsetInCU: 0x21D6, offset: 0x2A509, size: 0x8, addend: 0x0, symName: '___54-[GULAppDelegateSwizzler application:openURL:options:]_block_invoke', symObjAddr: 0x18BB, symBinAddr: 0x2F1B, symSize: 0x3A }
+  - { offsetInCU: 0x226D, offset: 0x2A5A0, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56r, symObjAddr: 0x18F5, symBinAddr: 0x2F55, symSize: 0x4B }
+  - { offsetInCU: 0x22B7, offset: 0x2A5EA, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56r, symObjAddr: 0x1940, symBinAddr: 0x2FA0, symSize: 0x3A }
+  - { offsetInCU: 0x22F7, offset: 0x2A62A, size: 0x8, addend: 0x0, symName: '-[GULAppDelegateSwizzler application:openURL:sourceApplication:annotation:]', symObjAddr: 0x197A, symBinAddr: 0x2FDA, symSize: 0x1FE }
+  - { offsetInCU: 0x2566, offset: 0x2A899, size: 0x8, addend: 0x0, symName: '___75-[GULAppDelegateSwizzler application:openURL:sourceApplication:annotation:]_block_invoke', symObjAddr: 0x1B78, symBinAddr: 0x31D8, symSize: 0x3E }
+  - { offsetInCU: 0x260E, offset: 0x2A941, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64r, symObjAddr: 0x1BB6, symBinAddr: 0x3216, symSize: 0x52 }
+  - { offsetInCU: 0x2663, offset: 0x2A996, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64r, symObjAddr: 0x1C08, symBinAddr: 0x3268, symSize: 0x41 }
+  - { offsetInCU: 0x26AE, offset: 0x2A9E1, size: 0x8, addend: 0x0, symName: '-[GULAppDelegateSwizzler application:handleEventsForBackgroundURLSession:completionHandler:]', symObjAddr: 0x1C49, symBinAddr: 0x32A9, symSize: 0x160 }
+  - { offsetInCU: 0x289E, offset: 0x2ABD1, size: 0x8, addend: 0x0, symName: '___92-[GULAppDelegateSwizzler application:handleEventsForBackgroundURLSession:completionHandler:]_block_invoke', symObjAddr: 0x1DA9, symBinAddr: 0x3409, symSize: 0x24 }
+  - { offsetInCU: 0x2924, offset: 0x2AC57, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b, symObjAddr: 0x1DCD, symBinAddr: 0x342D, symSize: 0x44 }
+  - { offsetInCU: 0x2963, offset: 0x2AC96, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x1E11, symBinAddr: 0x3471, symSize: 0x2C }
+  - { offsetInCU: 0x29A3, offset: 0x2ACD6, size: 0x8, addend: 0x0, symName: '-[GULAppDelegateSwizzler application:continueUserActivity:restorationHandler:]', symObjAddr: 0x1E3D, symBinAddr: 0x349D, symSize: 0x1CE }
+  - { offsetInCU: 0x2BAD, offset: 0x2AEE0, size: 0x8, addend: 0x0, symName: '___78-[GULAppDelegateSwizzler application:continueUserActivity:restorationHandler:]_block_invoke', symObjAddr: 0x200B, symBinAddr: 0x366B, symSize: 0x3A }
+  - { offsetInCU: 0x2C44, offset: 0x2AF77, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b56r, symObjAddr: 0x2045, symBinAddr: 0x36A5, symSize: 0x56 }
+  - { offsetInCU: 0x2C83, offset: 0x2AFB6, size: 0x8, addend: 0x0, symName: '-[GULAppDelegateSwizzler application:donor_didRegisterForRemoteNotificationsWithDeviceToken:]', symObjAddr: 0x209B, symBinAddr: 0x36FB, symSize: 0x13B }
+  - { offsetInCU: 0x2E1E, offset: 0x2B151, size: 0x8, addend: 0x0, symName: '___93-[GULAppDelegateSwizzler application:donor_didRegisterForRemoteNotificationsWithDeviceToken:]_block_invoke', symObjAddr: 0x21D6, symBinAddr: 0x3836, symSize: 0xC9 }
+  - { offsetInCU: 0x2F7F, offset: 0x2B2B2, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x229F, symBinAddr: 0x38FF, symSize: 0x25 }
+  - { offsetInCU: 0x2FBE, offset: 0x2B2F1, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x22C4, symBinAddr: 0x3924, symSize: 0x25 }
+  - { offsetInCU: 0x2FF3, offset: 0x2B326, size: 0x8, addend: 0x0, symName: '-[GULAppDelegateSwizzler application:donor_didFailToRegisterForRemoteNotificationsWithError:]', symObjAddr: 0x22E9, symBinAddr: 0x3949, symSize: 0x13B }
+  - { offsetInCU: 0x318E, offset: 0x2B4C1, size: 0x8, addend: 0x0, symName: '___93-[GULAppDelegateSwizzler application:donor_didFailToRegisterForRemoteNotificationsWithError:]_block_invoke', symObjAddr: 0x2424, symBinAddr: 0x3A84, symSize: 0xC9 }
+  - { offsetInCU: 0x32EF, offset: 0x2B622, size: 0x8, addend: 0x0, symName: '-[GULAppDelegateSwizzler application:donor_didReceiveRemoteNotification:fetchCompletionHandler:]', symObjAddr: 0x24ED, symBinAddr: 0x3B4D, symSize: 0x335 }
+  - { offsetInCU: 0x35F7, offset: 0x2B92A, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x2822, symBinAddr: 0x3E82, symSize: 0x16 }
+  - { offsetInCU: 0x361C, offset: 0x2B94F, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x2838, symBinAddr: 0x3E98, symSize: 0xF }
+  - { offsetInCU: 0x3646, offset: 0x2B979, size: 0x8, addend: 0x0, symName: '___96-[GULAppDelegateSwizzler application:donor_didReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke', symObjAddr: 0x2847, symBinAddr: 0x3EA7, symSize: 0x72 }
+  - { offsetInCU: 0x36F6, offset: 0x2BA29, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r40r, symObjAddr: 0x28B9, symBinAddr: 0x3F19, symSize: 0x38 }
+  - { offsetInCU: 0x371F, offset: 0x2BA52, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r40r, symObjAddr: 0x28F1, symBinAddr: 0x3F51, symSize: 0x2B }
+  - { offsetInCU: 0x373E, offset: 0x2BA71, size: 0x8, addend: 0x0, symName: '___96-[GULAppDelegateSwizzler application:donor_didReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke.340', symObjAddr: 0x291C, symBinAddr: 0x3F7C, symSize: 0xE9 }
+  - { offsetInCU: 0x38FF, offset: 0x2BC32, size: 0x8, addend: 0x0, symName: '___96-[GULAppDelegateSwizzler application:donor_didReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke.341', symObjAddr: 0x2A05, symBinAddr: 0x4065, symSize: 0x197 }
+  - { offsetInCU: 0x3A2D, offset: 0x2BD60, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40r, symObjAddr: 0x2B9C, symBinAddr: 0x41FC, symSize: 0x38 }
+  - { offsetInCU: 0x3A56, offset: 0x2BD89, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0x2BD4, symBinAddr: 0x4234, symSize: 0x27 }
+  - { offsetInCU: 0x3A80, offset: 0x2BDB3, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler appDelegateInvocationForSelector:]', symObjAddr: 0x2BFB, symBinAddr: 0x425B, symSize: 0x79 }
+  - { offsetInCU: 0x3B5A, offset: 0x2BE8D, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler proxyAppDelegate:]', symObjAddr: 0x2C74, symBinAddr: 0x42D4, symSize: 0x319 }
+  - { offsetInCU: 0x3DDD, offset: 0x2C110, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler correctAppDelegateProxyKey]', symObjAddr: 0x2F8D, symBinAddr: 0x45ED, symSize: 0x2B }
+  - { offsetInCU: 0x3E1B, offset: 0x2C14E, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler correctAlternativeWhenAppDelegateProxyNotCreated]', symObjAddr: 0x2FB8, symBinAddr: 0x4618, symSize: 0x2B }
+  - { offsetInCU: 0x3E59, offset: 0x2C18C, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler clearInterceptors]', symObjAddr: 0x2FE3, symBinAddr: 0x4643, symSize: 0x3D }
+  - { offsetInCU: 0x3EB5, offset: 0x2C1E8, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler resetProxyOriginalDelegateOnceToken]', symObjAddr: 0x3020, symBinAddr: 0x4680, symSize: 0x16 }
+  - { offsetInCU: 0x3EE3, offset: 0x2C216, size: 0x8, addend: 0x0, symName: '+[GULAppDelegateSwizzler originalDelegate]', symObjAddr: 0x3036, symBinAddr: 0x4696, symSize: 0x11 }
+  - { offsetInCU: 0x27, offset: 0x2CD37, size: 0x8, addend: 0x0, symName: '+[GULAppEnvironmentUtil isFromAppStore]', symObjAddr: 0x0, symBinAddr: 0x46A7, symSize: 0x1A6 }
+  - { offsetInCU: 0x39, offset: 0x2CD49, size: 0x8, addend: 0x0, symName: '+[GULAppEnvironmentUtil isFromAppStore]', symObjAddr: 0x0, symBinAddr: 0x46A7, symSize: 0x1A6 }
+  - { offsetInCU: 0x63, offset: 0x2CD73, size: 0x8, addend: 0x0, symName: _isFromAppStore.isEncryptedOnce, symObjAddr: 0x4390, symBinAddr: 0x1B508, symSize: 0x0 }
+  - { offsetInCU: 0x78, offset: 0x2CD88, size: 0x8, addend: 0x0, symName: _isFromAppStore.isEncrypted, symObjAddr: 0x4398, symBinAddr: 0x1B510, symSize: 0x0 }
+  - { offsetInCU: 0x22C, offset: 0x2CF3C, size: 0x8, addend: 0x0, symName: '+[GULAppEnvironmentUtil getSysctlEntry:]', symObjAddr: 0x2ED, symBinAddr: 0x4994, symSize: 0xAB }
+  - { offsetInCU: 0x255, offset: 0x2CF65, size: 0x8, addend: 0x0, symName: '_getSysctlEntry:.entryValue', symObjAddr: 0x43A0, symBinAddr: 0x1B518, symSize: 0x0 }
+  - { offsetInCU: 0x32A, offset: 0x2D03A, size: 0x8, addend: 0x0, symName: '+[GULAppEnvironmentUtil deviceModel]', symObjAddr: 0x398, symBinAddr: 0x4A3F, symSize: 0x30 }
+  - { offsetInCU: 0x353, offset: 0x2D063, size: 0x8, addend: 0x0, symName: _deviceModel.once, symObjAddr: 0x43A8, symBinAddr: 0x1B520, symSize: 0x0 }
+  - { offsetInCU: 0x368, offset: 0x2D078, size: 0x8, addend: 0x0, symName: _deviceModel.deviceModel, symObjAddr: 0x43B0, symBinAddr: 0x1B528, symSize: 0x0 }
+  - { offsetInCU: 0x39D, offset: 0x2D0AD, size: 0x8, addend: 0x0, symName: '+[GULAppEnvironmentUtil deviceSimulatorModel]', symObjAddr: 0x446, symBinAddr: 0x4AED, symSize: 0x30 }
+  - { offsetInCU: 0x3C6, offset: 0x2D0D6, size: 0x8, addend: 0x0, symName: _deviceSimulatorModel.once, symObjAddr: 0x43B8, symBinAddr: 0x1B530, symSize: 0x0 }
+  - { offsetInCU: 0x3DB, offset: 0x2D0EB, size: 0x8, addend: 0x0, symName: _deviceSimulatorModel.model, symObjAddr: 0x43C0, symBinAddr: 0x1B538, symSize: 0x0 }
+  - { offsetInCU: 0x4B8, offset: 0x2D1C8, size: 0x8, addend: 0x0, symName: '___39+[GULAppEnvironmentUtil isFromAppStore]_block_invoke', symObjAddr: 0x1A6, symBinAddr: 0x484D, symSize: 0x11 }
+  - { offsetInCU: 0x4F6, offset: 0x2D206, size: 0x8, addend: 0x0, symName: '+[GULAppEnvironmentUtil isAppStoreReceiptSandbox]', symObjAddr: 0x1B7, symBinAddr: 0x485E, symSize: 0x12E }
+  - { offsetInCU: 0x605, offset: 0x2D315, size: 0x8, addend: 0x0, symName: '+[GULAppEnvironmentUtil isSimulator]', symObjAddr: 0x2E5, symBinAddr: 0x498C, symSize: 0x8 }
+  - { offsetInCU: 0x673, offset: 0x2D383, size: 0x8, addend: 0x0, symName: '___36+[GULAppEnvironmentUtil deviceModel]_block_invoke', symObjAddr: 0x3C8, symBinAddr: 0x4A6F, symSize: 0x7E }
+  - { offsetInCU: 0x6FB, offset: 0x2D40B, size: 0x8, addend: 0x0, symName: '___45+[GULAppEnvironmentUtil deviceSimulatorModel]_block_invoke', symObjAddr: 0x476, symBinAddr: 0x4B1D, symSize: 0x8B }
+  - { offsetInCU: 0x755, offset: 0x2D465, size: 0x8, addend: 0x0, symName: '+[GULAppEnvironmentUtil systemVersion]', symObjAddr: 0x501, symBinAddr: 0x4BA8, symSize: 0x57 }
+  - { offsetInCU: 0x7AF, offset: 0x2D4BF, size: 0x8, addend: 0x0, symName: '+[GULAppEnvironmentUtil isAppExtension]', symObjAddr: 0x558, symBinAddr: 0x4BFF, symSize: 0x7C }
+  - { offsetInCU: 0x835, offset: 0x2D545, size: 0x8, addend: 0x0, symName: '+[GULAppEnvironmentUtil applePlatform]', symObjAddr: 0x5D4, symBinAddr: 0x4C7B, symSize: 0xE0 }
+  - { offsetInCU: 0x8D2, offset: 0x2D5E2, size: 0x8, addend: 0x0, symName: '+[GULAppEnvironmentUtil appleDevicePlatform]', symObjAddr: 0x6B4, symBinAddr: 0x4D5B, symSize: 0x158 }
+  - { offsetInCU: 0xA1E, offset: 0x2D72E, size: 0x8, addend: 0x0, symName: '+[GULAppEnvironmentUtil deploymentType]', symObjAddr: 0x80C, symBinAddr: 0x4EB3, symSize: 0xD }
+  - { offsetInCU: 0x27, offset: 0x2D8FC, size: 0x8, addend: 0x0, symName: '-[GULKeychainStorage initWithService:]', symObjAddr: 0x0, symBinAddr: 0x4EC0, symSize: 0x7A }
+  - { offsetInCU: 0x144, offset: 0x2DA19, size: 0x8, addend: 0x0, symName: '-[GULKeychainStorage initWithService:]', symObjAddr: 0x0, symBinAddr: 0x4EC0, symSize: 0x7A }
+  - { offsetInCU: 0x20A, offset: 0x2DADF, size: 0x8, addend: 0x0, symName: '-[GULKeychainStorage initWithService:cache:]', symObjAddr: 0x7A, symBinAddr: 0x4F3A, symSize: 0xE4 }
+  - { offsetInCU: 0x330, offset: 0x2DC05, size: 0x8, addend: 0x0, symName: '-[GULKeychainStorage getObjectForKey:objectClass:accessGroup:completionHandler:]', symObjAddr: 0x15E, symBinAddr: 0x501E, symSize: 0x11C }
+  - { offsetInCU: 0x4DD, offset: 0x2DDB2, size: 0x8, addend: 0x0, symName: '___80-[GULKeychainStorage getObjectForKey:objectClass:accessGroup:completionHandler:]_block_invoke', symObjAddr: 0x27A, symBinAddr: 0x513A, symSize: 0x97 }
+  - { offsetInCU: 0x5DA, offset: 0x2DEAF, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56b, symObjAddr: 0x311, symBinAddr: 0x51D1, symSize: 0x4B }
+  - { offsetInCU: 0x624, offset: 0x2DEF9, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x35C, symBinAddr: 0x521C, symSize: 0x33 }
+  - { offsetInCU: 0x66F, offset: 0x2DF44, size: 0x8, addend: 0x0, symName: '-[GULKeychainStorage setObject:forKey:accessGroup:completionHandler:]', symObjAddr: 0x38F, symBinAddr: 0x524F, symSize: 0x147 }
+  - { offsetInCU: 0x83E, offset: 0x2E113, size: 0x8, addend: 0x0, symName: '___69-[GULKeychainStorage setObject:forKey:accessGroup:completionHandler:]_block_invoke', symObjAddr: 0x4D6, symBinAddr: 0x5396, symSize: 0x12E }
+  - { offsetInCU: 0x9AA, offset: 0x2E27F, size: 0x8, addend: 0x0, symName: '___69-[GULKeychainStorage setObject:forKey:accessGroup:completionHandler:]_block_invoke_2', symObjAddr: 0x604, symBinAddr: 0x54C4, symSize: 0x113 }
+  - { offsetInCU: 0xB23, offset: 0x2E3F8, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64b, symObjAddr: 0x717, symBinAddr: 0x55D7, symSize: 0x52 }
+  - { offsetInCU: 0xB78, offset: 0x2E44D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s, symObjAddr: 0x769, symBinAddr: 0x5629, symSize: 0x3A }
+  - { offsetInCU: 0xBCE, offset: 0x2E4A3, size: 0x8, addend: 0x0, symName: '-[GULKeychainStorage removeObjectForKey:accessGroup:completionHandler:]', symObjAddr: 0x7A3, symBinAddr: 0x5663, symSize: 0x10B }
+  - { offsetInCU: 0xD42, offset: 0x2E617, size: 0x8, addend: 0x0, symName: '___71-[GULKeychainStorage removeObjectForKey:accessGroup:completionHandler:]_block_invoke', symObjAddr: 0x8AE, symBinAddr: 0x576E, symSize: 0xFD }
+  - { offsetInCU: 0xE59, offset: 0x2E72E, size: 0x8, addend: 0x0, symName: '___71-[GULKeychainStorage removeObjectForKey:accessGroup:completionHandler:]_block_invoke_2', symObjAddr: 0x9AB, symBinAddr: 0x586B, symSize: 0x9E }
+  - { offsetInCU: 0xF59, offset: 0x2E82E, size: 0x8, addend: 0x0, symName: '-[GULKeychainStorage getObjectFromKeychainForKey:objectClass:accessGroup:completionHandler:]', symObjAddr: 0xA49, symBinAddr: 0x5909, symSize: 0x11C }
+  - { offsetInCU: 0x10DF, offset: 0x2E9B4, size: 0x8, addend: 0x0, symName: '___92-[GULKeychainStorage getObjectFromKeychainForKey:objectClass:accessGroup:completionHandler:]_block_invoke', symObjAddr: 0xB65, symBinAddr: 0x5A25, symSize: 0x1FB }
+  - { offsetInCU: 0x1305, offset: 0x2EBDA, size: 0x8, addend: 0x0, symName: '___92-[GULKeychainStorage getObjectFromKeychainForKey:objectClass:accessGroup:completionHandler:]_block_invoke_2', symObjAddr: 0xD60, symBinAddr: 0x5C20, symSize: 0x95 }
+  - { offsetInCU: 0x13E0, offset: 0x2ECB5, size: 0x8, addend: 0x0, symName: '-[GULKeychainStorage resetInMemoryCache]', symObjAddr: 0xDF5, symBinAddr: 0x5CB5, symSize: 0x3D }
+  - { offsetInCU: 0x143A, offset: 0x2ED0F, size: 0x8, addend: 0x0, symName: '-[GULKeychainStorage keychainQueryWithKey:accessGroup:]', symObjAddr: 0xE32, symBinAddr: 0x5CF2, symSize: 0x130 }
+  - { offsetInCU: 0x15B1, offset: 0x2EE86, size: 0x8, addend: 0x0, symName: '-[GULKeychainStorage keychainQueue]', symObjAddr: 0xF62, symBinAddr: 0x5E22, symSize: 0xA }
+  - { offsetInCU: 0x15E5, offset: 0x2EEBA, size: 0x8, addend: 0x0, symName: '-[GULKeychainStorage inMemoryCacheQueue]', symObjAddr: 0xF6C, symBinAddr: 0x5E2C, symSize: 0xA }
+  - { offsetInCU: 0x1619, offset: 0x2EEEE, size: 0x8, addend: 0x0, symName: '-[GULKeychainStorage service]', symObjAddr: 0xF76, symBinAddr: 0x5E36, symSize: 0xA }
+  - { offsetInCU: 0x164C, offset: 0x2EF21, size: 0x8, addend: 0x0, symName: '-[GULKeychainStorage inMemoryCache]', symObjAddr: 0xF80, symBinAddr: 0x5E40, symSize: 0xA }
+  - { offsetInCU: 0x167F, offset: 0x2EF54, size: 0x8, addend: 0x0, symName: '-[GULKeychainStorage .cxx_destruct]', symObjAddr: 0xF8A, symBinAddr: 0x5E4A, symSize: 0x3E }
+  - { offsetInCU: 0x27, offset: 0x2F4B0, size: 0x8, addend: 0x0, symName: '+[GULKeychainUtils getItemWithQuery:error:]', symObjAddr: 0x0, symBinAddr: 0x5E88, symSize: 0x175 }
+  - { offsetInCU: 0x40, offset: 0x2F4C9, size: 0x8, addend: 0x0, symName: _kGULKeychainUtilsErrorDomain, symObjAddr: 0x6A8, symBinAddr: 0x15468, symSize: 0x0 }
+  - { offsetInCU: 0x98, offset: 0x2F521, size: 0x8, addend: 0x0, symName: '+[GULKeychainUtils getItemWithQuery:error:]', symObjAddr: 0x0, symBinAddr: 0x5E88, symSize: 0x175 }
+  - { offsetInCU: 0x22F, offset: 0x2F6B8, size: 0x8, addend: 0x0, symName: '+[GULKeychainUtils setItem:withQuery:error:]', symObjAddr: 0x175, symBinAddr: 0x5FFD, symSize: 0x1F9 }
+  - { offsetInCU: 0x461, offset: 0x2F8EA, size: 0x8, addend: 0x0, symName: '+[GULKeychainUtils removeItemWithQuery:error:]', symObjAddr: 0x36E, symBinAddr: 0x61F6, symSize: 0xC5 }
+  - { offsetInCU: 0x54E, offset: 0x2F9D7, size: 0x8, addend: 0x0, symName: '+[GULKeychainUtils multiplatformQueryWithQuery:]', symObjAddr: 0x433, symBinAddr: 0x62BB, symSize: 0x64 }
+  - { offsetInCU: 0x5EF, offset: 0x2FA78, size: 0x8, addend: 0x0, symName: '+[GULKeychainUtils keychainErrorWithFunction:status:]', symObjAddr: 0x497, symBinAddr: 0x631F, symSize: 0xF0 }
+  - { offsetInCU: 0x27, offset: 0x2FB9B, size: 0x8, addend: 0x0, symName: _GULLoggerInitialize, symObjAddr: 0x0, symBinAddr: 0x640F, symSize: 0x24 }
+  - { offsetInCU: 0x40, offset: 0x2FBB4, size: 0x8, addend: 0x0, symName: _sVersion, symObjAddr: 0xAC8, symBinAddr: 0x1B218, symSize: 0x0 }
+  - { offsetInCU: 0x5A, offset: 0x2FBCE, size: 0x8, addend: 0x0, symName: _kGULLogSubsystem, symObjAddr: 0xAD0, symBinAddr: 0x15470, symSize: 0x0 }
+  - { offsetInCU: 0x81, offset: 0x2FBF5, size: 0x8, addend: 0x0, symName: ___GULOSLogBasic_block_invoke, symObjAddr: 0x497, symBinAddr: 0x68A6, symSize: 0x1B2 }
+  - { offsetInCU: 0x2CE, offset: 0x2FE42, size: 0x8, addend: 0x0, symName: _sGULLoggerOnceToken, symObjAddr: 0x59C8, symBinAddr: 0x1B540, symSize: 0x0 }
+  - { offsetInCU: 0x397, offset: 0x2FF0B, size: 0x8, addend: 0x0, symName: _sGULClientQueue, symObjAddr: 0x59D8, symBinAddr: 0x1B550, symSize: 0x0 }
+  - { offsetInCU: 0x3B1, offset: 0x2FF25, size: 0x8, addend: 0x0, symName: _sGULLoggerDebugMode, symObjAddr: 0x59E8, symBinAddr: 0x1B560, symSize: 0x0 }
+  - { offsetInCU: 0x3D4, offset: 0x2FF48, size: 0x8, addend: 0x0, symName: _sGULLoggerMaximumLevel, symObjAddr: 0x59D0, symBinAddr: 0x1B548, symSize: 0x0 }
+  - { offsetInCU: 0x42B, offset: 0x2FF9F, size: 0x8, addend: 0x0, symName: _sGULServiceLogs, symObjAddr: 0x59E0, symBinAddr: 0x1B558, symSize: 0x0 }
+  - { offsetInCU: 0x48E, offset: 0x30002, size: 0x8, addend: 0x0, symName: _GULLoggerInitialize, symObjAddr: 0x0, symBinAddr: 0x640F, symSize: 0x24 }
+  - { offsetInCU: 0x4CF, offset: 0x30043, size: 0x8, addend: 0x0, symName: ___GULLoggerInitialize_block_invoke, symObjAddr: 0x24, symBinAddr: 0x6433, symSize: 0xA5 }
+  - { offsetInCU: 0x5AA, offset: 0x3011E, size: 0x8, addend: 0x0, symName: _GULLoggerForceDebug, symObjAddr: 0xC9, symBinAddr: 0x64D8, symSize: 0x30 }
+  - { offsetInCU: 0x5E1, offset: 0x30155, size: 0x8, addend: 0x0, symName: _GULSetLoggerLevel, symObjAddr: 0xF9, symBinAddr: 0x6508, symSize: 0x8F }
+  - { offsetInCU: 0x65F, offset: 0x301D3, size: 0x8, addend: 0x0, symName: _GULOSLogError, symObjAddr: 0x195, symBinAddr: 0x65A4, symSize: 0xA8 }
+  - { offsetInCU: 0x6EC, offset: 0x30260, size: 0x8, addend: 0x0, symName: _GULGetLoggerLevel, symObjAddr: 0x188, symBinAddr: 0x6597, symSize: 0xD }
+  - { offsetInCU: 0x706, offset: 0x3027A, size: 0x8, addend: 0x0, symName: _GULOSLogBasic, symObjAddr: 0x2BB, symBinAddr: 0x66CA, symSize: 0x1DC }
+  - { offsetInCU: 0x946, offset: 0x304BA, size: 0x8, addend: 0x0, symName: _GULIsLoggableLevel, symObjAddr: 0x23D, symBinAddr: 0x664C, symSize: 0x41 }
+  - { offsetInCU: 0x998, offset: 0x3050C, size: 0x8, addend: 0x0, symName: _GULLoggerRegisterVersion, symObjAddr: 0x27E, symBinAddr: 0x668D, symSize: 0x14 }
+  - { offsetInCU: 0x9BF, offset: 0x30533, size: 0x8, addend: 0x0, symName: _GULLoggerLevelToOSLogType, symObjAddr: 0x292, symBinAddr: 0x66A1, symSize: 0x29 }
+  - { offsetInCU: 0xA50, offset: 0x305C4, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x649, symBinAddr: 0x6A58, symSize: 0x2C }
+  - { offsetInCU: 0xA9A, offset: 0x3060E, size: 0x8, addend: 0x0, symName: _GULOSLogWarning, symObjAddr: 0x6A1, symBinAddr: 0x6A84, symSize: 0xA8 }
+  - { offsetInCU: 0xB27, offset: 0x3069B, size: 0x8, addend: 0x0, symName: _GULOSLogNotice, symObjAddr: 0x749, symBinAddr: 0x6B2C, symSize: 0xA8 }
+  - { offsetInCU: 0xBB4, offset: 0x30728, size: 0x8, addend: 0x0, symName: _GULOSLogInfo, symObjAddr: 0x7F1, symBinAddr: 0x6BD4, symSize: 0xA8 }
+  - { offsetInCU: 0xC41, offset: 0x307B5, size: 0x8, addend: 0x0, symName: _GULOSLogDebug, symObjAddr: 0x899, symBinAddr: 0x6C7C, symSize: 0xA8 }
+  - { offsetInCU: 0xCCE, offset: 0x30842, size: 0x8, addend: 0x0, symName: '+[GULLoggerWrapper logWithLevel:subsystem:category:messageCode:message:arguments:]', symObjAddr: 0x941, symBinAddr: 0x6D24, symSize: 0x30 }
+  - { offsetInCU: 0xD8D, offset: 0x30901, size: 0x8, addend: 0x0, symName: '+[GULLoggerWrapper logWithLevel:withService:withCode:withMessage:withArgs:]', symObjAddr: 0x971, symBinAddr: 0x6D54, symSize: 0x19 }
+  - { offsetInCU: 0x27, offset: 0x30B93, size: 0x8, addend: 0x0, symName: '-[GULMutableDictionary init]', symObjAddr: 0x0, symBinAddr: 0x6D6D, symSize: 0x77 }
+  - { offsetInCU: 0x78, offset: 0x30BE4, size: 0x8, addend: 0x0, symName: '-[GULMutableDictionary init]', symObjAddr: 0x0, symBinAddr: 0x6D6D, symSize: 0x77 }
+  - { offsetInCU: 0xF9, offset: 0x30C65, size: 0x8, addend: 0x0, symName: '-[GULMutableDictionary description]', symObjAddr: 0x77, symBinAddr: 0x6DE4, symSize: 0xB9 }
+  - { offsetInCU: 0x197, offset: 0x30D03, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x130, symBinAddr: 0x6E9D, symSize: 0x16 }
+  - { offsetInCU: 0x1BC, offset: 0x30D28, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x146, symBinAddr: 0x6EB3, symSize: 0xF }
+  - { offsetInCU: 0x1E6, offset: 0x30D52, size: 0x8, addend: 0x0, symName: '___35-[GULMutableDictionary description]_block_invoke', symObjAddr: 0x155, symBinAddr: 0x6EC2, symSize: 0x42 }
+  - { offsetInCU: 0x24B, offset: 0x30DB7, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40r, symObjAddr: 0x197, symBinAddr: 0x6F04, symSize: 0x30 }
+  - { offsetInCU: 0x27F, offset: 0x30DEB, size: 0x8, addend: 0x0, symName: '-[GULMutableDictionary objectForKey:]', symObjAddr: 0x1EE, symBinAddr: 0x6F34, symSize: 0xFE }
+  - { offsetInCU: 0x34A, offset: 0x30EB6, size: 0x8, addend: 0x0, symName: '___37-[GULMutableDictionary objectForKey:]_block_invoke', symObjAddr: 0x2EC, symBinAddr: 0x7032, symSize: 0x46 }
+  - { offsetInCU: 0x3BF, offset: 0x30F2B, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48r, symObjAddr: 0x332, symBinAddr: 0x7078, symSize: 0x44 }
+  - { offsetInCU: 0x3FE, offset: 0x30F6A, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48r, symObjAddr: 0x376, symBinAddr: 0x70BC, symSize: 0x33 }
+  - { offsetInCU: 0x433, offset: 0x30F9F, size: 0x8, addend: 0x0, symName: '-[GULMutableDictionary setObject:forKey:]', symObjAddr: 0x3A9, symBinAddr: 0x70EF, symSize: 0xB7 }
+  - { offsetInCU: 0x538, offset: 0x310A4, size: 0x8, addend: 0x0, symName: '___41-[GULMutableDictionary setObject:forKey:]_block_invoke', symObjAddr: 0x460, symBinAddr: 0x71A6, symSize: 0x25 }
+  - { offsetInCU: 0x5A2, offset: 0x3110E, size: 0x8, addend: 0x0, symName: '-[GULMutableDictionary removeObjectForKey:]', symObjAddr: 0x4DD, symBinAddr: 0x71CB, symSize: 0x8D }
+  - { offsetInCU: 0x63E, offset: 0x311AA, size: 0x8, addend: 0x0, symName: '___43-[GULMutableDictionary removeObjectForKey:]_block_invoke', symObjAddr: 0x56A, symBinAddr: 0x7258, symSize: 0x1E }
+  - { offsetInCU: 0x698, offset: 0x31204, size: 0x8, addend: 0x0, symName: '-[GULMutableDictionary removeAllObjects]', symObjAddr: 0x5D2, symBinAddr: 0x7276, symSize: 0x4B }
+  - { offsetInCU: 0x6DE, offset: 0x3124A, size: 0x8, addend: 0x0, symName: '___40-[GULMutableDictionary removeAllObjects]_block_invoke', symObjAddr: 0x61D, symBinAddr: 0x72C1, symSize: 0x1A }
+  - { offsetInCU: 0x728, offset: 0x31294, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x637, symBinAddr: 0x72DB, symSize: 0xF }
+  - { offsetInCU: 0x75A, offset: 0x312C6, size: 0x8, addend: 0x0, symName: '-[GULMutableDictionary count]', symObjAddr: 0x655, symBinAddr: 0x72EA, symSize: 0x8A }
+  - { offsetInCU: 0x7BA, offset: 0x31326, size: 0x8, addend: 0x0, symName: '___29-[GULMutableDictionary count]_block_invoke', symObjAddr: 0x6DF, symBinAddr: 0x7374, symSize: 0x31 }
+  - { offsetInCU: 0x814, offset: 0x31380, size: 0x8, addend: 0x0, symName: '-[GULMutableDictionary objectForKeyedSubscript:]', symObjAddr: 0x710, symBinAddr: 0x73A5, symSize: 0xFE }
+  - { offsetInCU: 0x8DF, offset: 0x3144B, size: 0x8, addend: 0x0, symName: '___48-[GULMutableDictionary objectForKeyedSubscript:]_block_invoke', symObjAddr: 0x80E, symBinAddr: 0x74A3, symSize: 0x46 }
+  - { offsetInCU: 0x954, offset: 0x314C0, size: 0x8, addend: 0x0, symName: '-[GULMutableDictionary setObject:forKeyedSubscript:]', symObjAddr: 0x854, symBinAddr: 0x74E9, symSize: 0xBF }
+  - { offsetInCU: 0xA52, offset: 0x315BE, size: 0x8, addend: 0x0, symName: '___52-[GULMutableDictionary setObject:forKeyedSubscript:]_block_invoke', symObjAddr: 0x913, symBinAddr: 0x75A8, symSize: 0x22 }
+  - { offsetInCU: 0xABC, offset: 0x31628, size: 0x8, addend: 0x0, symName: '-[GULMutableDictionary dictionary]', symObjAddr: 0x935, symBinAddr: 0x75CA, symSize: 0xB9 }
+  - { offsetInCU: 0xB31, offset: 0x3169D, size: 0x8, addend: 0x0, symName: '___34-[GULMutableDictionary dictionary]_block_invoke', symObjAddr: 0x9EE, symBinAddr: 0x7683, symSize: 0x3A }
+  - { offsetInCU: 0xB96, offset: 0x31702, size: 0x8, addend: 0x0, symName: '-[GULMutableDictionary .cxx_destruct]', symObjAddr: 0xA28, symBinAddr: 0x76BD, symSize: 0x28 }
+  - { offsetInCU: 0x27, offset: 0x31CEF, size: 0x8, addend: 0x0, symName: '-[GULNetwork init]', symObjAddr: 0x0, symBinAddr: 0x76E5, symSize: 0x1C }
+  - { offsetInCU: 0x373, offset: 0x3203B, size: 0x8, addend: 0x0, symName: '-[GULNetwork init]', symObjAddr: 0x0, symBinAddr: 0x76E5, symSize: 0x1C }
+  - { offsetInCU: 0x3BC, offset: 0x32084, size: 0x8, addend: 0x0, symName: '-[GULNetwork initWithReachabilityHost:]', symObjAddr: 0x1C, symBinAddr: 0x7701, symSize: 0xE9 }
+  - { offsetInCU: 0x48D, offset: 0x32155, size: 0x8, addend: 0x0, symName: '-[GULNetwork dealloc]', symObjAddr: 0x105, symBinAddr: 0x77EA, symSize: 0x5A }
+  - { offsetInCU: 0x4DB, offset: 0x321A3, size: 0x8, addend: 0x0, symName: '+[GULNetwork handleEventsForBackgroundURLSessionID:completionHandler:]', symObjAddr: 0x15F, symBinAddr: 0x7844, symSize: 0x19 }
+  - { offsetInCU: 0x540, offset: 0x32208, size: 0x8, addend: 0x0, symName: '-[GULNetwork postURL:payload:queue:usingBackgroundSession:completionHandler:]', symObjAddr: 0x178, symBinAddr: 0x785D, symSize: 0x26 }
+  - { offsetInCU: 0x5F6, offset: 0x322BE, size: 0x8, addend: 0x0, symName: '-[GULNetwork postURL:headers:payload:queue:usingBackgroundSession:completionHandler:]', symObjAddr: 0x19E, symBinAddr: 0x7883, symSize: 0x522 }
+  - { offsetInCU: 0xB51, offset: 0x32819, size: 0x8, addend: 0x0, symName: '___85-[GULNetwork postURL:headers:payload:queue:usingBackgroundSession:completionHandler:]_block_invoke', symObjAddr: 0x6C0, symBinAddr: 0x7DA5, symSize: 0x182 }
+  - { offsetInCU: 0xE5B, offset: 0x32B23, size: 0x8, addend: 0x0, symName: '___85-[GULNetwork postURL:headers:payload:queue:usingBackgroundSession:completionHandler:]_block_invoke_2', symObjAddr: 0x842, symBinAddr: 0x7F27, symSize: 0x60 }
+  - { offsetInCU: 0xF06, offset: 0x32BCE, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72b, symObjAddr: 0x8A2, symBinAddr: 0x7F87, symSize: 0x59 }
+  - { offsetInCU: 0xF66, offset: 0x32C2E, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72s, symObjAddr: 0x8FB, symBinAddr: 0x7FE0, symSize: 0x41 }
+  - { offsetInCU: 0xFC7, offset: 0x32C8F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b48w, symObjAddr: 0x93C, symBinAddr: 0x8021, symSize: 0x40 }
+  - { offsetInCU: 0xFFB, offset: 0x32CC3, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48w, symObjAddr: 0x97C, symBinAddr: 0x8061, symSize: 0x2E }
+  - { offsetInCU: 0x1030, offset: 0x32CF8, size: 0x8, addend: 0x0, symName: '-[GULNetwork getURL:headers:queue:usingBackgroundSession:completionHandler:]', symObjAddr: 0x9AA, symBinAddr: 0x808F, symSize: 0x36F }
+  - { offsetInCU: 0x13B6, offset: 0x3307E, size: 0x8, addend: 0x0, symName: '___76-[GULNetwork getURL:headers:queue:usingBackgroundSession:completionHandler:]_block_invoke', symObjAddr: 0xD19, symBinAddr: 0x83FE, symSize: 0x182 }
+  - { offsetInCU: 0x163E, offset: 0x33306, size: 0x8, addend: 0x0, symName: '___76-[GULNetwork getURL:headers:queue:usingBackgroundSession:completionHandler:]_block_invoke_2', symObjAddr: 0xE9B, symBinAddr: 0x8580, symSize: 0x60 }
+  - { offsetInCU: 0x16E9, offset: 0x333B1, size: 0x8, addend: 0x0, symName: '-[GULNetwork hasUploadInProgress]', symObjAddr: 0xEFB, symBinAddr: 0x85E0, symSize: 0x1D }
+  - { offsetInCU: 0x172A, offset: 0x333F2, size: 0x8, addend: 0x0, symName: '-[GULNetwork reachability:statusChanged:]', symObjAddr: 0xF18, symBinAddr: 0x85FD, symSize: 0x3B }
+  - { offsetInCU: 0x1799, offset: 0x33461, size: 0x8, addend: 0x0, symName: '-[GULNetwork setLoggerDelegate:]', symObjAddr: 0xF53, symBinAddr: 0x8638, symSize: 0xDD }
+  - { offsetInCU: 0x1875, offset: 0x3353D, size: 0x8, addend: 0x0, symName: '-[GULNetwork handleErrorWithCode:queue:withHandler:]', symObjAddr: 0x1030, symBinAddr: 0x8715, symSize: 0x225 }
+  - { offsetInCU: 0x1ABB, offset: 0x33783, size: 0x8, addend: 0x0, symName: '___52-[GULNetwork handleErrorWithCode:queue:withHandler:]_block_invoke', symObjAddr: 0x1255, symBinAddr: 0x893A, symSize: 0x17 }
+  - { offsetInCU: 0x1B23, offset: 0x337EB, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x126C, symBinAddr: 0x8951, symSize: 0x30 }
+  - { offsetInCU: 0x1C16, offset: 0x338DE, size: 0x8, addend: 0x0, symName: '-[GULNetwork GULNetwork_logWithLevel:messageCode:message:contexts:]', symObjAddr: 0x12C1, symBinAddr: 0x8981, symSize: 0x4E2 }
+  - { offsetInCU: 0x208A, offset: 0x33D52, size: 0x8, addend: 0x0, symName: '-[GULNetwork GULNetwork_logWithLevel:messageCode:message:context:]', symObjAddr: 0x17A3, symBinAddr: 0x8E63, symSize: 0x133 }
+  - { offsetInCU: 0x219E, offset: 0x33E66, size: 0x8, addend: 0x0, symName: '-[GULNetwork GULNetwork_logWithLevel:messageCode:message:]', symObjAddr: 0x18D6, symBinAddr: 0x8F96, symSize: 0xAD }
+  - { offsetInCU: 0x229A, offset: 0x33F62, size: 0x8, addend: 0x0, symName: '-[GULNetwork isNetworkConnected]', symObjAddr: 0x1983, symBinAddr: 0x9043, symSize: 0x9 }
+  - { offsetInCU: 0x22CE, offset: 0x33F96, size: 0x8, addend: 0x0, symName: '-[GULNetwork reachabilityDelegate]', symObjAddr: 0x198C, symBinAddr: 0x904C, symSize: 0x16 }
+  - { offsetInCU: 0x2302, offset: 0x33FCA, size: 0x8, addend: 0x0, symName: '-[GULNetwork setReachabilityDelegate:]', symObjAddr: 0x19A2, symBinAddr: 0x9062, symSize: 0x11 }
+  - { offsetInCU: 0x233D, offset: 0x34005, size: 0x8, addend: 0x0, symName: '-[GULNetwork loggerDelegate]', symObjAddr: 0x19B3, symBinAddr: 0x9073, symSize: 0x16 }
+  - { offsetInCU: 0x2371, offset: 0x34039, size: 0x8, addend: 0x0, symName: '-[GULNetwork isDebugModeEnabled]', symObjAddr: 0x19C9, symBinAddr: 0x9089, symSize: 0x9 }
+  - { offsetInCU: 0x23A5, offset: 0x3406D, size: 0x8, addend: 0x0, symName: '-[GULNetwork setIsDebugModeEnabled:]', symObjAddr: 0x19D2, symBinAddr: 0x9092, symSize: 0x9 }
+  - { offsetInCU: 0x23E0, offset: 0x340A8, size: 0x8, addend: 0x0, symName: '-[GULNetwork timeoutInterval]', symObjAddr: 0x19DB, symBinAddr: 0x909B, symSize: 0xB }
+  - { offsetInCU: 0x2414, offset: 0x340DC, size: 0x8, addend: 0x0, symName: '-[GULNetwork setTimeoutInterval:]', symObjAddr: 0x19E6, symBinAddr: 0x90A6, symSize: 0xB }
+  - { offsetInCU: 0x244F, offset: 0x34117, size: 0x8, addend: 0x0, symName: '-[GULNetwork .cxx_destruct]', symObjAddr: 0x19F1, symBinAddr: 0x90B1, symSize: 0x3A }
+  - { offsetInCU: 0x247F, offset: 0x34147, size: 0x8, addend: 0x0, symName: ___GULLogLevelDescriptionFromLogLevel_block_invoke, symObjAddr: 0x1A2B, symBinAddr: 0x90EB, symSize: 0x169 }
+  - { offsetInCU: 0x35, offset: 0x3469A, size: 0x8, addend: 0x0, symName: _kGULNetworkBackgroundSessionConfigIDPrefix, symObjAddr: 0x170, symBinAddr: 0x15668, symSize: 0x0 }
+  - { offsetInCU: 0x54, offset: 0x346B9, size: 0x8, addend: 0x0, symName: _kGULNetworkApplicationSupportSubdirectory, symObjAddr: 0x178, symBinAddr: 0x15670, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x346CE, size: 0x8, addend: 0x0, symName: _kGULNetworkTempDirectoryName, symObjAddr: 0x180, symBinAddr: 0x15678, symSize: 0x0 }
+  - { offsetInCU: 0x7E, offset: 0x346E3, size: 0x8, addend: 0x0, symName: _kGULNetworkTempFolderExpireTime, symObjAddr: 0x1A8, symBinAddr: 0xEC38, symSize: 0x0 }
+  - { offsetInCU: 0x9F, offset: 0x34704, size: 0x8, addend: 0x0, symName: _kGULNetworkTimeOutInterval, symObjAddr: 0x1B0, symBinAddr: 0xEC40, symSize: 0x0 }
+  - { offsetInCU: 0xB4, offset: 0x34719, size: 0x8, addend: 0x0, symName: _kGULNetworkReachabilityHost, symObjAddr: 0x188, symBinAddr: 0x15680, symSize: 0x0 }
+  - { offsetInCU: 0xC9, offset: 0x3472E, size: 0x8, addend: 0x0, symName: _kGULNetworkErrorContext, symObjAddr: 0x190, symBinAddr: 0x15688, symSize: 0x0 }
+  - { offsetInCU: 0xDE, offset: 0x34743, size: 0x8, addend: 0x0, symName: _kGULNetworkHTTPStatusOK, symObjAddr: 0x1B8, symBinAddr: 0xEC48, symSize: 0x0 }
+  - { offsetInCU: 0xFF, offset: 0x34764, size: 0x8, addend: 0x0, symName: _kGULNetworkHTTPStatusNoContent, symObjAddr: 0x1BC, symBinAddr: 0xEC4C, symSize: 0x0 }
+  - { offsetInCU: 0x114, offset: 0x34779, size: 0x8, addend: 0x0, symName: _kGULNetworkHTTPStatusCodeMultipleChoices, symObjAddr: 0x1C0, symBinAddr: 0xEC50, symSize: 0x0 }
+  - { offsetInCU: 0x129, offset: 0x3478E, size: 0x8, addend: 0x0, symName: _kGULNetworkHTTPStatusCodeMovedPermanently, symObjAddr: 0x1C4, symBinAddr: 0xEC54, symSize: 0x0 }
+  - { offsetInCU: 0x13E, offset: 0x347A3, size: 0x8, addend: 0x0, symName: _kGULNetworkHTTPStatusCodeFound, symObjAddr: 0x1C8, symBinAddr: 0xEC58, symSize: 0x0 }
+  - { offsetInCU: 0x153, offset: 0x347B8, size: 0x8, addend: 0x0, symName: _kGULNetworkHTTPStatusCodeNotModified, symObjAddr: 0x1CC, symBinAddr: 0xEC5C, symSize: 0x0 }
+  - { offsetInCU: 0x168, offset: 0x347CD, size: 0x8, addend: 0x0, symName: _kGULNetworkHTTPStatusCodeMovedTemporarily, symObjAddr: 0x1D0, symBinAddr: 0xEC60, symSize: 0x0 }
+  - { offsetInCU: 0x17D, offset: 0x347E2, size: 0x8, addend: 0x0, symName: _kGULNetworkHTTPStatusCodeNotFound, symObjAddr: 0x1D4, symBinAddr: 0xEC64, symSize: 0x0 }
+  - { offsetInCU: 0x192, offset: 0x347F7, size: 0x8, addend: 0x0, symName: _kGULNetworkHTTPStatusCodeCannotAcceptTraffic, symObjAddr: 0x1D8, symBinAddr: 0xEC68, symSize: 0x0 }
+  - { offsetInCU: 0x1A7, offset: 0x3480C, size: 0x8, addend: 0x0, symName: _kGULNetworkHTTPStatusCodeUnavailable, symObjAddr: 0x1DC, symBinAddr: 0xEC6C, symSize: 0x0 }
+  - { offsetInCU: 0x1BC, offset: 0x34821, size: 0x8, addend: 0x0, symName: _kGULNetworkErrorDomain, symObjAddr: 0x198, symBinAddr: 0x15690, symSize: 0x0 }
+  - { offsetInCU: 0x1D1, offset: 0x34836, size: 0x8, addend: 0x0, symName: _kGULLoggerNetwork, symObjAddr: 0x1A0, symBinAddr: 0x15698, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x34878, size: 0x8, addend: 0x0, symName: '+[GULNetworkInfo getNetworkInfo]', symObjAddr: 0x0, symBinAddr: 0x9254, symSize: 0x30 }
+  - { offsetInCU: 0x34, offset: 0x34885, size: 0x8, addend: 0x0, symName: '+[GULNetworkInfo getNetworkInfo]', symObjAddr: 0x0, symBinAddr: 0x9254, symSize: 0x30 }
+  - { offsetInCU: 0x5D, offset: 0x348AE, size: 0x8, addend: 0x0, symName: _getNetworkInfo.networkInfo, symObjAddr: 0x2B70, symBinAddr: 0x1B578, symSize: 0x0 }
+  - { offsetInCU: 0x72, offset: 0x348C3, size: 0x8, addend: 0x0, symName: _getNetworkInfo.onceToken, symObjAddr: 0x2B78, symBinAddr: 0x1B580, symSize: 0x0 }
+  - { offsetInCU: 0xB3, offset: 0x34904, size: 0x8, addend: 0x0, symName: '+[GULNetworkInfo getNetworkType]', symObjAddr: 0x55, symBinAddr: 0x92A9, symSize: 0x6E }
+  - { offsetInCU: 0xDC, offset: 0x3492D, size: 0x8, addend: 0x0, symName: _getNetworkType.reachabilityRef, symObjAddr: 0x2B80, symBinAddr: 0x1B588, symSize: 0x0 }
+  - { offsetInCU: 0xF1, offset: 0x34942, size: 0x8, addend: 0x0, symName: _getNetworkType.onceToken, symObjAddr: 0x2B88, symBinAddr: 0x1B590, symSize: 0x0 }
+  - { offsetInCU: 0x1F0, offset: 0x34A41, size: 0x8, addend: 0x0, symName: '___32+[GULNetworkInfo getNetworkInfo]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x9284, symSize: 0x25 }
+  - { offsetInCU: 0x244, offset: 0x34A95, size: 0x8, addend: 0x0, symName: '___32+[GULNetworkInfo getNetworkType]_block_invoke', symObjAddr: 0xC3, symBinAddr: 0x9317, symSize: 0x23 }
+  - { offsetInCU: 0x2CA, offset: 0x34B1B, size: 0x8, addend: 0x0, symName: '+[GULNetworkInfo getNetworkRadioType]', symObjAddr: 0xE6, symBinAddr: 0x933A, symSize: 0x10A }
+  - { offsetInCU: 0x27, offset: 0x34D2E, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession initWithNetworkLoggerDelegate:]', symObjAddr: 0x0, symBinAddr: 0x9444, symSize: 0x1E8 }
+  - { offsetInCU: 0x34, offset: 0x34D3B, size: 0x8, addend: 0x0, symName: '+[GULNetworkURLSession sessionIDToFetcherMap]', symObjAddr: 0x200C, symBinAddr: 0xB365, symSize: 0x30 }
+  - { offsetInCU: 0x5F, offset: 0x34D66, size: 0x8, addend: 0x0, symName: _sessionIDToFetcherMap.sessionIDToFetcherMap, symObjAddr: 0x11938, symBinAddr: 0x1B598, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x34D7C, size: 0x8, addend: 0x0, symName: _sessionIDToFetcherMap.sessionMapOnceToken, symObjAddr: 0x11940, symBinAddr: 0x1B5A0, symSize: 0x0 }
+  - { offsetInCU: 0x19E, offset: 0x34EA5, size: 0x8, addend: 0x0, symName: '+[GULNetworkURLSession sessionIDToFetcherMapReadWriteLock]', symObjAddr: 0x2071, symBinAddr: 0xB3CA, symSize: 0x30 }
+  - { offsetInCU: 0x1C9, offset: 0x34ED0, size: 0x8, addend: 0x0, symName: _sessionIDToFetcherMapReadWriteLock.lock, symObjAddr: 0x11948, symBinAddr: 0x1B5A8, symSize: 0x0 }
+  - { offsetInCU: 0x1DF, offset: 0x34EE6, size: 0x8, addend: 0x0, symName: _sessionIDToFetcherMapReadWriteLock.onceToken, symObjAddr: 0x11950, symBinAddr: 0x1B5B0, symSize: 0x0 }
+  - { offsetInCU: 0x21A, offset: 0x34F21, size: 0x8, addend: 0x0, symName: '+[GULNetworkURLSession sessionIDToSystemCompletionHandlerDictionary]', symObjAddr: 0x20C6, symBinAddr: 0xB41F, symSize: 0x30 }
+  - { offsetInCU: 0x245, offset: 0x34F4C, size: 0x8, addend: 0x0, symName: _sessionIDToSystemCompletionHandlerDictionary.systemCompletionHandlers, symObjAddr: 0x11958, symBinAddr: 0x1B5B8, symSize: 0x0 }
+  - { offsetInCU: 0x25B, offset: 0x34F62, size: 0x8, addend: 0x0, symName: _sessionIDToSystemCompletionHandlerDictionary.systemCompletionHandlerOnceToken, symObjAddr: 0x11960, symBinAddr: 0x1B5C0, symSize: 0x0 }
+  - { offsetInCU: 0x445, offset: 0x3514C, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession initWithNetworkLoggerDelegate:]', symObjAddr: 0x0, symBinAddr: 0x9444, symSize: 0x1E8 }
+  - { offsetInCU: 0x5D8, offset: 0x352DF, size: 0x8, addend: 0x0, symName: '+[GULNetworkURLSession handleEventsForBackgroundURLSessionID:completionHandler:]', symObjAddr: 0x1E8, symBinAddr: 0x962C, symSize: 0x121 }
+  - { offsetInCU: 0x758, offset: 0x3545F, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession sessionIDFromAsyncPOSTRequest:completionHandler:]', symObjAddr: 0x309, symBinAddr: 0x974D, symSize: 0x4E7 }
+  - { offsetInCU: 0xBA8, offset: 0x358AF, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession sessionIDFromAsyncGETRequest:completionHandler:]', symObjAddr: 0x7F0, symBinAddr: 0x9C34, symSize: 0x2DC }
+  - { offsetInCU: 0xE2F, offset: 0x35B36, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession URLSession:dataTask:didReceiveData:]', symObjAddr: 0xACC, symBinAddr: 0x9F10, symSize: 0xE7 }
+  - { offsetInCU: 0xF8E, offset: 0x35C95, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession URLSession:downloadTask:didFinishDownloadingToURL:]', symObjAddr: 0xBB3, symBinAddr: 0x9FF7, symSize: 0x177 }
+  - { offsetInCU: 0x110C, offset: 0x35E13, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession URLSessionDidFinishEventsForBackgroundURLSession:]', symObjAddr: 0xD2A, symBinAddr: 0xA16E, symSize: 0x100 }
+  - { offsetInCU: 0x1241, offset: 0x35F48, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession URLSession:task:didCompleteWithError:]', symObjAddr: 0xE2A, symBinAddr: 0xA26E, symSize: 0x253 }
+  - { offsetInCU: 0x14B0, offset: 0x361B7, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession URLSession:task:didReceiveChallenge:completionHandler:]', symObjAddr: 0x107D, symBinAddr: 0xA4C1, symSize: 0x38D }
+  - { offsetInCU: 0x191E, offset: 0x36625, size: 0x8, addend: 0x0, symName: '___78-[GULNetworkURLSession URLSession:task:didReceiveChallenge:completionHandler:]_block_invoke', symObjAddr: 0x140A, symBinAddr: 0xA84E, symSize: 0xA3 }
+  - { offsetInCU: 0x19F4, offset: 0x366FB, size: 0x8, addend: 0x0, symName: '___78-[GULNetworkURLSession URLSession:task:didReceiveChallenge:completionHandler:]_block_invoke.135', symObjAddr: 0x151D, symBinAddr: 0xA8F1, symSize: 0x1A7 }
+  - { offsetInCU: 0x1BE9, offset: 0x368F0, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession addSystemCompletionHandler:forSession:]', symObjAddr: 0x1719, symBinAddr: 0xAA98, symSize: 0x189 }
+  - { offsetInCU: 0x1D55, offset: 0x36A5C, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession callSystemCompletionHandler:]', symObjAddr: 0x18A2, symBinAddr: 0xAC21, symSize: 0xF7 }
+  - { offsetInCU: 0x1E69, offset: 0x36B70, size: 0x8, addend: 0x0, symName: '___52-[GULNetworkURLSession callSystemCompletionHandler:]_block_invoke', symObjAddr: 0x1999, symBinAddr: 0xAD18, symSize: 0xC }
+  - { offsetInCU: 0x1EB2, offset: 0x36BB9, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession setSessionID:]', symObjAddr: 0x19CB, symBinAddr: 0xAD24, symSize: 0x2D }
+  - { offsetInCU: 0x1F15, offset: 0x36C1C, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession backgroundSessionConfigWithSessionID:]', symObjAddr: 0x19F8, symBinAddr: 0xAD51, symSize: 0x19 }
+  - { offsetInCU: 0x1F6A, offset: 0x36C71, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession maybeRemoveTempFilesAtURL:expiringTime:]', symObjAddr: 0x1A11, symBinAddr: 0xAD6A, symSize: 0x3E6 }
+  - { offsetInCU: 0x2224, offset: 0x36F2B, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession removeTempItemAtURL:]', symObjAddr: 0x1DF7, symBinAddr: 0xB150, symSize: 0x154 }
+  - { offsetInCU: 0x239D, offset: 0x370A4, size: 0x8, addend: 0x0, symName: '+[GULNetworkURLSession fetcherWithSessionIdentifier:]', symObjAddr: 0x1F4B, symBinAddr: 0xB2A4, symSize: 0xC1 }
+  - { offsetInCU: 0x24BB, offset: 0x371C2, size: 0x8, addend: 0x0, symName: '___45+[GULNetworkURLSession sessionIDToFetcherMap]_block_invoke', symObjAddr: 0x203C, symBinAddr: 0xB395, symSize: 0x35 }
+  - { offsetInCU: 0x24FA, offset: 0x37201, size: 0x8, addend: 0x0, symName: '___58+[GULNetworkURLSession sessionIDToFetcherMapReadWriteLock]_block_invoke', symObjAddr: 0x20A1, symBinAddr: 0xB3FA, symSize: 0x25 }
+  - { offsetInCU: 0x252E, offset: 0x37235, size: 0x8, addend: 0x0, symName: '___68+[GULNetworkURLSession sessionIDToSystemCompletionHandlerDictionary]_block_invoke', symObjAddr: 0x20F6, symBinAddr: 0xB44F, symSize: 0x25 }
+  - { offsetInCU: 0x2562, offset: 0x37269, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession temporaryFilePathWithSessionID:]', symObjAddr: 0x211B, symBinAddr: 0xB474, symSize: 0x73 }
+  - { offsetInCU: 0x25DF, offset: 0x372E6, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession ensureTemporaryDirectoryExists]', symObjAddr: 0x218E, symBinAddr: 0xB4E7, symSize: 0x185 }
+  - { offsetInCU: 0x2772, offset: 0x37479, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession excludeFromBackupForURL:]', symObjAddr: 0x2313, symBinAddr: 0xB66C, symSize: 0x10E }
+  - { offsetInCU: 0x2895, offset: 0x3759C, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]', symObjAddr: 0x2421, symBinAddr: 0xB77A, symSize: 0x22E }
+  - { offsetInCU: 0x2B00, offset: 0x37807, size: 0x8, addend: 0x0, symName: '+[GULNetworkURLSession setSessionInFetcherMap:forSessionID:]', symObjAddr: 0x264F, symBinAddr: 0xB9A8, symSize: 0x211 }
+  - { offsetInCU: 0x2D34, offset: 0x37A3B, size: 0x8, addend: 0x0, symName: '+[GULNetworkURLSession sessionFromFetcherMapForSessionID:]', symObjAddr: 0x2860, symBinAddr: 0xBBB9, symSize: 0xE4 }
+  - { offsetInCU: 0x2E2E, offset: 0x37B35, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession callCompletionHandler:withResponse:data:error:]', symObjAddr: 0x2944, symBinAddr: 0xBC9D, symSize: 0x20A }
+  - { offsetInCU: 0x3069, offset: 0x37D70, size: 0x8, addend: 0x0, symName: '___70-[GULNetworkURLSession callCompletionHandler:withResponse:data:error:]_block_invoke', symObjAddr: 0x2B4E, symBinAddr: 0xBEA7, symSize: 0x27 }
+  - { offsetInCU: 0x30FA, offset: 0x37E01, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession populateSessionConfig:withRequest:]', symObjAddr: 0x2C01, symBinAddr: 0xBECE, symSize: 0xD8 }
+  - { offsetInCU: 0x325B, offset: 0x37F62, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession isBackgroundNetworkEnabled]', symObjAddr: 0x2CD9, symBinAddr: 0xBFA6, symSize: 0x9 }
+  - { offsetInCU: 0x328F, offset: 0x37F96, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession setBackgroundNetworkEnabled:]', symObjAddr: 0x2CE2, symBinAddr: 0xBFAF, symSize: 0x9 }
+  - { offsetInCU: 0x32CA, offset: 0x37FD1, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession loggerDelegate]', symObjAddr: 0x2CEB, symBinAddr: 0xBFB8, symSize: 0x16 }
+  - { offsetInCU: 0x32FE, offset: 0x38005, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession setLoggerDelegate:]', symObjAddr: 0x2D01, symBinAddr: 0xBFCE, symSize: 0x11 }
+  - { offsetInCU: 0x3339, offset: 0x38040, size: 0x8, addend: 0x0, symName: '-[GULNetworkURLSession .cxx_destruct]', symObjAddr: 0x2D12, symBinAddr: 0xBFDF, symSize: 0x71 }
+  - { offsetInCU: 0x27, offset: 0x38559, size: 0x8, addend: 0x0, symName: '+[NSData(GULGzip) gul_dataByInflatingGzippedData:error:]', symObjAddr: 0x0, symBinAddr: 0xC050, symSize: 0x44E }
+  - { offsetInCU: 0x40, offset: 0x38572, size: 0x8, addend: 0x0, symName: _GULNSDataZlibErrorDomain, symObjAddr: 0x8A0, symBinAddr: 0x157D0, symSize: 0x0 }
+  - { offsetInCU: 0x7C, offset: 0x385AE, size: 0x8, addend: 0x0, symName: _GULNSDataZlibErrorKey, symObjAddr: 0x8A8, symBinAddr: 0x157D8, symSize: 0x0 }
+  - { offsetInCU: 0x91, offset: 0x385C3, size: 0x8, addend: 0x0, symName: _GULNSDataZlibRemainingBytesKey, symObjAddr: 0x8B0, symBinAddr: 0x157E0, symSize: 0x0 }
+  - { offsetInCU: 0xD2, offset: 0x38604, size: 0x8, addend: 0x0, symName: '+[NSData(GULGzip) gul_dataByInflatingGzippedData:error:]', symObjAddr: 0x0, symBinAddr: 0xC050, symSize: 0x44E }
+  - { offsetInCU: 0x476, offset: 0x389A8, size: 0x8, addend: 0x0, symName: '+[NSData(GULGzip) gul_dataByGzippingData:error:]', symObjAddr: 0x44E, symBinAddr: 0xC49E, symSize: 0x38B }
+  - { offsetInCU: 0x27, offset: 0x38D4C, size: 0x8, addend: 0x0, symName: '-[GULReachabilityChecker reachabilityApi]', symObjAddr: 0x0, symBinAddr: 0xC829, symSize: 0xA }
+  - { offsetInCU: 0x55, offset: 0x38D7A, size: 0x8, addend: 0x0, symName: _kGULDefaultReachabilityApi, symObjAddr: 0x14B8, symBinAddr: 0x157E8, symSize: 0x0 }
+  - { offsetInCU: 0x2A0, offset: 0x38FC5, size: 0x8, addend: 0x0, symName: '-[GULReachabilityChecker reachabilityApi]', symObjAddr: 0x0, symBinAddr: 0xC829, symSize: 0xA }
+  - { offsetInCU: 0x2D3, offset: 0x38FF8, size: 0x8, addend: 0x0, symName: '-[GULReachabilityChecker setReachabilityApi:]', symObjAddr: 0xA, symBinAddr: 0xC833, symSize: 0x78 }
+  - { offsetInCU: 0x371, offset: 0x39096, size: 0x8, addend: 0x0, symName: '-[GULReachabilityChecker isActive]', symObjAddr: 0x82, symBinAddr: 0xC8AB, symSize: 0xE }
+  - { offsetInCU: 0x3A5, offset: 0x390CA, size: 0x8, addend: 0x0, symName: '-[GULReachabilityChecker setReachabilityDelegate:]', symObjAddr: 0x90, symBinAddr: 0xC8B9, symSize: 0xBA }
+  - { offsetInCU: 0x45D, offset: 0x39182, size: 0x8, addend: 0x0, symName: '-[GULReachabilityChecker initWithReachabilityDelegate:withHost:]', symObjAddr: 0x14A, symBinAddr: 0xC973, symSize: 0x157 }
+  - { offsetInCU: 0x5B3, offset: 0x392D8, size: 0x8, addend: 0x0, symName: '-[GULReachabilityChecker dealloc]', symObjAddr: 0x2A1, symBinAddr: 0xCACA, symSize: 0x4C }
+  - { offsetInCU: 0x5F7, offset: 0x3931C, size: 0x8, addend: 0x0, symName: '-[GULReachabilityChecker start]', symObjAddr: 0x2ED, symBinAddr: 0xCB16, symSize: 0x194 }
+  - { offsetInCU: 0x74E, offset: 0x39473, size: 0x8, addend: 0x0, symName: _ReachabilityCallback, symObjAddr: 0x481, symBinAddr: 0xCCAA, symSize: 0x17 }
+  - { offsetInCU: 0x7BD, offset: 0x394E2, size: 0x8, addend: 0x0, symName: '-[GULReachabilityChecker stop]', symObjAddr: 0x498, symBinAddr: 0xCCC1, symSize: 0x5B }
+  - { offsetInCU: 0x819, offset: 0x3953E, size: 0x8, addend: 0x0, symName: '-[GULReachabilityChecker statusForFlags:]', symObjAddr: 0x4F3, symBinAddr: 0xCD1C, symSize: 0x2D }
+  - { offsetInCU: 0x867, offset: 0x3958C, size: 0x8, addend: 0x0, symName: '-[GULReachabilityChecker reachabilityFlagsChanged:]', symObjAddr: 0x520, symBinAddr: 0xCD49, symSize: 0x141 }
+  - { offsetInCU: 0x99F, offset: 0x396C4, size: 0x8, addend: 0x0, symName: '-[GULReachabilityChecker reachability]', symObjAddr: 0x661, symBinAddr: 0xCE8A, symSize: 0xA }
+  - { offsetInCU: 0x9D3, offset: 0x396F8, size: 0x8, addend: 0x0, symName: '-[GULReachabilityChecker setReachability:]', symObjAddr: 0x66B, symBinAddr: 0xCE94, symSize: 0xA }
+  - { offsetInCU: 0xA0E, offset: 0x39733, size: 0x8, addend: 0x0, symName: '-[GULReachabilityChecker reachabilityStatus]', symObjAddr: 0x675, symBinAddr: 0xCE9E, symSize: 0x9 }
+  - { offsetInCU: 0xA41, offset: 0x39766, size: 0x8, addend: 0x0, symName: '-[GULReachabilityChecker setReachabilityStatus:]', symObjAddr: 0x67E, symBinAddr: 0xCEA7, symSize: 0x9 }
+  - { offsetInCU: 0xA7B, offset: 0x397A0, size: 0x8, addend: 0x0, symName: '-[GULReachabilityChecker host]', symObjAddr: 0x687, symBinAddr: 0xCEB0, symSize: 0xA }
+  - { offsetInCU: 0xAAE, offset: 0x397D3, size: 0x8, addend: 0x0, symName: '-[GULReachabilityChecker setHost:]', symObjAddr: 0x691, symBinAddr: 0xCEBA, symSize: 0xF }
+  - { offsetInCU: 0xAEB, offset: 0x39810, size: 0x8, addend: 0x0, symName: '-[GULReachabilityChecker reachabilityDelegate]', symObjAddr: 0x6A0, symBinAddr: 0xCEC9, symSize: 0x16 }
+  - { offsetInCU: 0xB1F, offset: 0x39844, size: 0x8, addend: 0x0, symName: '-[GULReachabilityChecker .cxx_destruct]', symObjAddr: 0x6B6, symBinAddr: 0xCEDF, symSize: 0x26 }
+  - { offsetInCU: 0xB4F, offset: 0x39874, size: 0x8, addend: 0x0, symName: _GULReachabilityStatusString, symObjAddr: 0x6DC, symBinAddr: 0xCF05, symSize: 0x49 }
+  - { offsetInCU: 0x27, offset: 0x39901, size: 0x8, addend: 0x0, symName: '-[GULSceneZeroingWeakContainer object]', symObjAddr: 0x0, symBinAddr: 0xCF4E, symSize: 0x16 }
+  - { offsetInCU: 0x75, offset: 0x3994F, size: 0x8, addend: 0x0, symName: '+[GULSceneDelegateSwizzler proxyOriginalSceneDelegate]', symObjAddr: 0x4E, symBinAddr: 0xCF9C, symSize: 0x75 }
+  - { offsetInCU: 0x9A, offset: 0x39974, size: 0x8, addend: 0x0, symName: _proxyOriginalSceneDelegate.onceToken, symObjAddr: 0x9D70, symBinAddr: 0x1B5C8, symSize: 0x0 }
+  - { offsetInCU: 0xFA, offset: 0x399D4, size: 0x8, addend: 0x0, symName: '+[GULSceneDelegateSwizzler interceptors]', symObjAddr: 0x50E, symBinAddr: 0xD45C, symSize: 0x30 }
+  - { offsetInCU: 0x123, offset: 0x399FD, size: 0x8, addend: 0x0, symName: _interceptors.onceToken, symObjAddr: 0x9D78, symBinAddr: 0x1B5D0, symSize: 0x0 }
+  - { offsetInCU: 0x138, offset: 0x39A12, size: 0x8, addend: 0x0, symName: _interceptors.sInterceptors, symObjAddr: 0x9D80, symBinAddr: 0x1B5D8, symSize: 0x0 }
+  - { offsetInCU: 0x1D1, offset: 0x39AAB, size: 0x8, addend: 0x0, symName: _kGULRealIMPBySelectorKey, symObjAddr: 0x2CB8, symBinAddr: 0x15850, symSize: 0x0 }
+  - { offsetInCU: 0x1F5, offset: 0x39ACF, size: 0x8, addend: 0x0, symName: _kGULRealClassKey, symObjAddr: 0x2D20, symBinAddr: 0x15888, symSize: 0x0 }
+  - { offsetInCU: 0x27E, offset: 0x39B58, size: 0x8, addend: 0x0, symName: '-[GULSceneZeroingWeakContainer object]', symObjAddr: 0x0, symBinAddr: 0xCF4E, symSize: 0x16 }
+  - { offsetInCU: 0x2B2, offset: 0x39B8C, size: 0x8, addend: 0x0, symName: '-[GULSceneZeroingWeakContainer setObject:]', symObjAddr: 0x16, symBinAddr: 0xCF64, symSize: 0x11 }
+  - { offsetInCU: 0x2ED, offset: 0x39BC7, size: 0x8, addend: 0x0, symName: '-[GULSceneZeroingWeakContainer .cxx_destruct]', symObjAddr: 0x27, symBinAddr: 0xCF75, symSize: 0xE }
+  - { offsetInCU: 0x31D, offset: 0x39BF7, size: 0x8, addend: 0x0, symName: '+[GULSceneDelegateSwizzler isSceneDelegateProxyEnabled]', symObjAddr: 0x35, symBinAddr: 0xCF83, symSize: 0x19 }
+  - { offsetInCU: 0x3A3, offset: 0x39C7D, size: 0x8, addend: 0x0, symName: '___54+[GULSceneDelegateSwizzler proxyOriginalSceneDelegate]_block_invoke', symObjAddr: 0xC3, symBinAddr: 0xD011, symSize: 0x8B }
+  - { offsetInCU: 0x426, offset: 0x39D00, size: 0x8, addend: 0x0, symName: '+[GULSceneDelegateSwizzler registerSceneDelegateInterceptor:]', symObjAddr: 0x14E, symBinAddr: 0xD09C, symSize: 0x221 }
+  - { offsetInCU: 0x5E2, offset: 0x39EBC, size: 0x8, addend: 0x0, symName: '+[GULSceneDelegateSwizzler unregisterSceneDelegateInterceptorWithID:]', symObjAddr: 0x36F, symBinAddr: 0xD2BD, symSize: 0x19F }
+  - { offsetInCU: 0x72F, offset: 0x3A009, size: 0x8, addend: 0x0, symName: '___40+[GULSceneDelegateSwizzler interceptors]_block_invoke', symObjAddr: 0x53E, symBinAddr: 0xD48C, symSize: 0x25 }
+  - { offsetInCU: 0x75F, offset: 0x3A039, size: 0x8, addend: 0x0, symName: '+[GULSceneDelegateSwizzler clearInterceptors]', symObjAddr: 0x563, symBinAddr: 0xD4B1, symSize: 0x3D }
+  - { offsetInCU: 0x7B9, offset: 0x3A093, size: 0x8, addend: 0x0, symName: '+[GULSceneDelegateSwizzler originalImplementationForSelector:object:]', symObjAddr: 0x5A0, symBinAddr: 0xD4EE, symSize: 0x7C }
+  - { offsetInCU: 0x8A6, offset: 0x3A180, size: 0x8, addend: 0x0, symName: '+[GULSceneDelegateSwizzler proxyDestinationSelector:implementationsFromSourceSelector:fromClass:toClass:realClass:storeDestinationImplementationTo:]', symObjAddr: 0x61C, symBinAddr: 0xD56A, symSize: 0xE5 }
+  - { offsetInCU: 0xA25, offset: 0x3A2FF, size: 0x8, addend: 0x0, symName: '+[GULSceneDelegateSwizzler addInstanceMethodWithSelector:fromClass:toClass:]', symObjAddr: 0x701, symBinAddr: 0xD64F, symSize: 0x1B }
+  - { offsetInCU: 0xAB7, offset: 0x3A391, size: 0x8, addend: 0x0, symName: '+[GULSceneDelegateSwizzler addInstanceMethodWithDestinationSelector:withImplementationFromSourceSelector:fromClass:toClass:]', symObjAddr: 0x71C, symBinAddr: 0xD66A, symSize: 0xD7 }
+  - { offsetInCU: 0xCB2, offset: 0x3A58C, size: 0x8, addend: 0x0, symName: '+[GULSceneDelegateSwizzler implementationOfMethodSelector:fromClass:]', symObjAddr: 0x7F3, symBinAddr: 0xD741, symSize: 0x18 }
+  - { offsetInCU: 0xD44, offset: 0x3A61E, size: 0x8, addend: 0x0, symName: '+[GULSceneDelegateSwizzler notifyInterceptorsWithMethodSelector:callback:]', symObjAddr: 0x80B, symBinAddr: 0xD759, symSize: 0xED }
+  - { offsetInCU: 0xE42, offset: 0x3A71C, size: 0x8, addend: 0x0, symName: '___74+[GULSceneDelegateSwizzler notifyInterceptorsWithMethodSelector:callback:]_block_invoke', symObjAddr: 0x8F8, symBinAddr: 0xD846, symSize: 0x127 }
+  - { offsetInCU: 0xFBE, offset: 0x3A898, size: 0x8, addend: 0x0, symName: '+[GULSceneDelegateSwizzler handleSceneWillConnectToNotification:]', symObjAddr: 0xA45, symBinAddr: 0xD96D, symSize: 0xA7 }
+  - { offsetInCU: 0x108B, offset: 0x3A965, size: 0x8, addend: 0x0, symName: '-[GULSceneDelegateSwizzler scene:openURLContexts:]', symObjAddr: 0xAEC, symBinAddr: 0xDA14, symSize: 0x126 }
+  - { offsetInCU: 0x1227, offset: 0x3AB01, size: 0x8, addend: 0x0, symName: '___50-[GULSceneDelegateSwizzler scene:openURLContexts:]_block_invoke', symObjAddr: 0xC12, symBinAddr: 0xDB3A, symSize: 0x56 }
+  - { offsetInCU: 0x12EB, offset: 0x3ABC5, size: 0x8, addend: 0x0, symName: '+[GULSceneDelegateSwizzler proxySceneDelegateIfNeeded:]', symObjAddr: 0xCB2, symBinAddr: 0xDB90, symSize: 0x4D8 }
+  - { offsetInCU: 0x17CB, offset: 0x3B0A5, size: 0x8, addend: 0x0, symName: '+[GULSceneDelegateSwizzler correctSceneDelegateProxyKey]', symObjAddr: 0x118A, symBinAddr: 0xE068, symSize: 0x2B }
+  - { offsetInCU: 0x27, offset: 0x3B3FA, size: 0x8, addend: 0x0, symName: _IsAppEncrypted, symObjAddr: 0x0, symBinAddr: 0xE093, symSize: 0x8A }
+  - { offsetInCU: 0x49, offset: 0x3B41C, size: 0x8, addend: 0x0, symName: _IsAppEncrypted, symObjAddr: 0x0, symBinAddr: 0xE093, symSize: 0x8A }
+...

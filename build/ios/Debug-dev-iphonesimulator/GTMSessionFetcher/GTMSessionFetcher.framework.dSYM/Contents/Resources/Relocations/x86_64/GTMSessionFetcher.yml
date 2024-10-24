@@ -1,0 +1,694 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/peekaboo/Documents/Work/ATI/bloc_cubit_base/build/ios/Debug-dev-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/GTMSessionFetcher'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x55541, size: 0x8, addend: 0x0, symName: _GTMSessionFetcherVersionString, symObjAddr: 0x0, symBinAddr: 0x1ADA0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x55576, size: 0x8, addend: 0x0, symName: _GTMSessionFetcherVersionNumber, symObjAddr: 0x30, symBinAddr: 0x1ADD0, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x555B3, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher load]', symObjAddr: 0x0, symBinAddr: 0x1172, symSize: 0x67 }
+  - { offsetInCU: 0x41, offset: 0x555CD, size: 0x8, addend: 0x0, symName: _kGTMSessionFetcherStartedNotification, symObjAddr: 0x10078, symBinAddr: 0x230C0, symSize: 0x0 }
+  - { offsetInCU: 0x8F, offset: 0x5561B, size: 0x8, addend: 0x0, symName: _kGTMSessionFetcherStoppedNotification, symObjAddr: 0x10080, symBinAddr: 0x230C8, symSize: 0x0 }
+  - { offsetInCU: 0xA5, offset: 0x55631, size: 0x8, addend: 0x0, symName: _kGTMSessionFetcherRetryDelayStartedNotification, symObjAddr: 0x10088, symBinAddr: 0x230D0, symSize: 0x0 }
+  - { offsetInCU: 0xBB, offset: 0x55647, size: 0x8, addend: 0x0, symName: _kGTMSessionFetcherRetryDelayStoppedNotification, symObjAddr: 0x10090, symBinAddr: 0x230D8, symSize: 0x0 }
+  - { offsetInCU: 0xD1, offset: 0x5565D, size: 0x8, addend: 0x0, symName: _kGTMSessionFetcherCompletionInvokedNotification, symObjAddr: 0x10098, symBinAddr: 0x230E0, symSize: 0x0 }
+  - { offsetInCU: 0xE7, offset: 0x55673, size: 0x8, addend: 0x0, symName: _kGTMSessionFetcherCompletionDataKey, symObjAddr: 0x100A0, symBinAddr: 0x230E8, symSize: 0x0 }
+  - { offsetInCU: 0xFD, offset: 0x55689, size: 0x8, addend: 0x0, symName: _kGTMSessionFetcherCompletionErrorKey, symObjAddr: 0x100A8, symBinAddr: 0x230F0, symSize: 0x0 }
+  - { offsetInCU: 0x113, offset: 0x5569F, size: 0x8, addend: 0x0, symName: _kGTMSessionFetcherErrorDomain, symObjAddr: 0x100B0, symBinAddr: 0x230F8, symSize: 0x0 }
+  - { offsetInCU: 0x129, offset: 0x556B5, size: 0x8, addend: 0x0, symName: _kGTMSessionFetcherStatusDomain, symObjAddr: 0x100B8, symBinAddr: 0x23100, symSize: 0x0 }
+  - { offsetInCU: 0x13F, offset: 0x556CB, size: 0x8, addend: 0x0, symName: _kGTMSessionFetcherStatusDataKey, symObjAddr: 0x100C0, symBinAddr: 0x23108, symSize: 0x0 }
+  - { offsetInCU: 0x155, offset: 0x556E1, size: 0x8, addend: 0x0, symName: _kGTMSessionFetcherStatusDataContentTypeKey, symObjAddr: 0x100C8, symBinAddr: 0x23110, symSize: 0x0 }
+  - { offsetInCU: 0x16B, offset: 0x556F7, size: 0x8, addend: 0x0, symName: _kGTMSessionFetcherNumberOfRetriesDoneKey, symObjAddr: 0x100D0, symBinAddr: 0x23118, symSize: 0x0 }
+  - { offsetInCU: 0x181, offset: 0x5570D, size: 0x8, addend: 0x0, symName: _kGTMSessionFetcherElapsedIntervalWithRetriesKey, symObjAddr: 0x100D8, symBinAddr: 0x23120, symSize: 0x0 }
+  - { offsetInCU: 0x18B, offset: 0x55717, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher sessionIdentifierToFetcherMap]', symObjAddr: 0x376, symBinAddr: 0x14E8, symSize: 0x30 }
+  - { offsetInCU: 0x1B7, offset: 0x55743, size: 0x8, addend: 0x0, symName: _sessionIdentifierToFetcherMap.gSessionIdentifierToFetcherMap, symObjAddr: 0x57C18, symBinAddr: 0x2C540, symSize: 0x0 }
+  - { offsetInCU: 0x1CE, offset: 0x5575A, size: 0x8, addend: 0x0, symName: _sessionIdentifierToFetcherMap.onceToken, symObjAddr: 0x57C20, symBinAddr: 0x2C548, symSize: 0x0 }
+  - { offsetInCU: 0x215, offset: 0x557A1, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher appAllowsInsecureRequests]', symObjAddr: 0x3DB, symBinAddr: 0x154D, symSize: 0x2B }
+  - { offsetInCU: 0x241, offset: 0x557CD, size: 0x8, addend: 0x0, symName: _appAllowsInsecureRequests.allowsInsecureRequests, symObjAddr: 0x57C28, symBinAddr: 0x2C550, symSize: 0x0 }
+  - { offsetInCU: 0x258, offset: 0x557E4, size: 0x8, addend: 0x0, symName: _appAllowsInsecureRequests.onceToken, symObjAddr: 0x57C30, symBinAddr: 0x2C558, symSize: 0x0 }
+  - { offsetInCU: 0x2BC, offset: 0x55848, size: 0x8, addend: 0x0, symName: '___65-[GTMSessionFetcher beginFetchMayDelay:mayAuthorize:mayDecorate:]_block_invoke.222', symObjAddr: 0x23D9, symBinAddr: 0x354B, symSize: 0x106 }
+  - { offsetInCU: 0x4B4, offset: 0x55A40, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher fetcherUserDefaults]', symObjAddr: 0x4168, symBinAddr: 0x52DA, symSize: 0x30 }
+  - { offsetInCU: 0x4E0, offset: 0x55A6C, size: 0x8, addend: 0x0, symName: _fetcherUserDefaults.gFetcherUserDefaults, symObjAddr: 0x57C40, symBinAddr: 0x2C568, symSize: 0x0 }
+  - { offsetInCU: 0x4F7, offset: 0x55A83, size: 0x8, addend: 0x0, symName: _fetcherUserDefaults.onceToken, symObjAddr: 0x57C48, symBinAddr: 0x2C570, symSize: 0x0 }
+  - { offsetInCU: 0x53C, offset: 0x55AC8, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher staticCookieStorage]', symObjAddr: 0x54F4, symBinAddr: 0x6666, symSize: 0x30 }
+  - { offsetInCU: 0x568, offset: 0x55AF4, size: 0x8, addend: 0x0, symName: _staticCookieStorage.gCookieStorage, symObjAddr: 0x57C50, symBinAddr: 0x2C578, symSize: 0x0 }
+  - { offsetInCU: 0x57F, offset: 0x55B0B, size: 0x8, addend: 0x0, symName: _staticCookieStorage.onceToken, symObjAddr: 0x57C58, symBinAddr: 0x2C580, symSize: 0x0 }
+  - { offsetInCU: 0x5F4, offset: 0x55B80, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher waitForCompletionWithTimeout:]', symObjAddr: 0x6881, symBinAddr: 0x79F3, symSize: 0x21C }
+  - { offsetInCU: 0x827, offset: 0x55DB3, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher fetcherUIApplication]', symObjAddr: 0x6AEB, symBinAddr: 0x7C5D, symSize: 0x7F }
+  - { offsetInCU: 0x853, offset: 0x55DDF, size: 0x8, addend: 0x0, symName: _fetcherUIApplication.applicationClass, symObjAddr: 0x57C68, symBinAddr: 0x2C590, symSize: 0x0 }
+  - { offsetInCU: 0x86A, offset: 0x55DF6, size: 0x8, addend: 0x0, symName: _fetcherUIApplication.onceToken, symObjAddr: 0x57C70, symBinAddr: 0x2C598, symSize: 0x0 }
+  - { offsetInCU: 0x921, offset: 0x55EAD, size: 0x8, addend: 0x0, symName: _gSystemCompletionHandlers, symObjAddr: 0x57C78, symBinAddr: 0x2C5A0, symSize: 0x0 }
+  - { offsetInCU: 0x93E, offset: 0x55ECA, size: 0x8, addend: 0x0, symName: _GTMFetcherCleanedUserAgentString, symObjAddr: 0xDBE4, symBinAddr: 0xED56, symSize: 0x14F }
+  - { offsetInCU: 0x966, offset: 0x55EF2, size: 0x8, addend: 0x0, symName: _GTMFetcherCleanedUserAgentString.charsToDelete, symObjAddr: 0x57C80, symBinAddr: 0x2C5A8, symSize: 0x0 }
+  - { offsetInCU: 0x97D, offset: 0x55F09, size: 0x8, addend: 0x0, symName: _GTMFetcherCleanedUserAgentString.onceToken, symObjAddr: 0x57C88, symBinAddr: 0x2C5B0, symSize: 0x0 }
+  - { offsetInCU: 0xAB5, offset: 0x56041, size: 0x8, addend: 0x0, symName: ___GTMFetcherCleanedUserAgentString_block_invoke, symObjAddr: 0xDD33, symBinAddr: 0xEEA5, symSize: 0x8D }
+  - { offsetInCU: 0xB90, offset: 0x5611C, size: 0x8, addend: 0x0, symName: _GTMFetcherSystemVersionString, symObjAddr: 0xDDC0, symBinAddr: 0xEF32, symSize: 0x30 }
+  - { offsetInCU: 0xBB8, offset: 0x56144, size: 0x8, addend: 0x0, symName: _GTMFetcherSystemVersionString.sSavedSystemString, symObjAddr: 0x57C90, symBinAddr: 0x2C5B8, symSize: 0x0 }
+  - { offsetInCU: 0xBCF, offset: 0x5615B, size: 0x8, addend: 0x0, symName: _GTMFetcherSystemVersionString.onceToken, symObjAddr: 0x57C98, symBinAddr: 0x2C5C0, symSize: 0x0 }
+  - { offsetInCU: 0xBF6, offset: 0x56182, size: 0x8, addend: 0x0, symName: _GTMFetcherApplicationIdentifier, symObjAddr: 0xE101, symBinAddr: 0xF273, symSize: 0x382 }
+  - { offsetInCU: 0xC1E, offset: 0x561AA, size: 0x8, addend: 0x0, symName: _GTMFetcherApplicationIdentifier.sAppIDMap, symObjAddr: 0x57CA0, symBinAddr: 0x2C5C8, symSize: 0x0 }
+  - { offsetInCU: 0xEFC, offset: 0x56488, size: 0x8, addend: 0x0, symName: _gGlobalTestBlock, symObjAddr: 0x57C38, symBinAddr: 0x2C560, symSize: 0x0 }
+  - { offsetInCU: 0x2109, offset: 0x57695, size: 0x8, addend: 0x0, symName: _gSubstituteUIApp, symObjAddr: 0x57C60, symBinAddr: 0x2C588, symSize: 0x0 }
+  - { offsetInCU: 0x21CE, offset: 0x5775A, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher load]', symObjAddr: 0x0, symBinAddr: 0x1172, symSize: 0x67 }
+  - { offsetInCU: 0x2250, offset: 0x577DC, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher reconnectFetchersForBackgroundSessionsOnAppLaunch:]', symObjAddr: 0x67, symBinAddr: 0x11D9, symSize: 0x4B }
+  - { offsetInCU: 0x231B, offset: 0x578A7, size: 0x8, addend: 0x0, symName: '___71+[GTMSessionFetcher reconnectFetchersForBackgroundSessionsOnAppLaunch:]_block_invoke', symObjAddr: 0xB2, symBinAddr: 0x1224, symSize: 0x1F }
+  - { offsetInCU: 0x2369, offset: 0x578F5, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher fetcherWithRequest:]', symObjAddr: 0xD1, symBinAddr: 0x1243, symSize: 0x4B }
+  - { offsetInCU: 0x23F5, offset: 0x57981, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher fetcherWithURL:]', symObjAddr: 0x11C, symBinAddr: 0x128E, symSize: 0x66 }
+  - { offsetInCU: 0x246A, offset: 0x579F6, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher fetcherWithURLString:]', symObjAddr: 0x182, symBinAddr: 0x12F4, symSize: 0x66 }
+  - { offsetInCU: 0x24DF, offset: 0x57A6B, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher fetcherWithDownloadResumeData:]', symObjAddr: 0x1E8, symBinAddr: 0x135A, symSize: 0x7B }
+  - { offsetInCU: 0x2591, offset: 0x57B1D, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher fetcherWithSessionIdentifier:]', symObjAddr: 0x263, symBinAddr: 0x13D5, symSize: 0x113 }
+  - { offsetInCU: 0x26F1, offset: 0x57C7D, size: 0x8, addend: 0x0, symName: '___50+[GTMSessionFetcher sessionIdentifierToFetcherMap]_block_invoke', symObjAddr: 0x3A6, symBinAddr: 0x1518, symSize: 0x35 }
+  - { offsetInCU: 0x2732, offset: 0x57CBE, size: 0x8, addend: 0x0, symName: '___46+[GTMSessionFetcher appAllowsInsecureRequests]_block_invoke', symObjAddr: 0x406, symBinAddr: 0x1578, symSize: 0xA2 }
+  - { offsetInCU: 0x27F0, offset: 0x57D7C, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher init]', symObjAddr: 0x4A8, symBinAddr: 0x161A, symSize: 0x16 }
+  - { offsetInCU: 0x2846, offset: 0x57DD2, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher initWithRequest:]', symObjAddr: 0x4BE, symBinAddr: 0x1630, symSize: 0x14 }
+  - { offsetInCU: 0x28BA, offset: 0x57E46, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher initWithRequest:configuration:]', symObjAddr: 0x4D2, symBinAddr: 0x1644, symSize: 0x1B2 }
+  - { offsetInCU: 0x2A5B, offset: 0x57FE7, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher copyWithZone:]', symObjAddr: 0x684, symBinAddr: 0x17F6, symSize: 0x18 }
+  - { offsetInCU: 0x2AC1, offset: 0x5804D, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher description]', symObjAddr: 0x69C, symBinAddr: 0x180E, symSize: 0x151 }
+  - { offsetInCU: 0x2BED, offset: 0x58179, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher dealloc]', symObjAddr: 0x7ED, symBinAddr: 0x195F, symSize: 0x3E }
+  - { offsetInCU: 0x2C36, offset: 0x581C2, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher beginFetchWithCompletionHandler:]', symObjAddr: 0x82B, symBinAddr: 0x199D, symSize: 0x55 }
+  - { offsetInCU: 0x2CC2, offset: 0x5824E, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher beginFetchForRetry]', symObjAddr: 0x880, symBinAddr: 0x19F2, symSize: 0x22 }
+  - { offsetInCU: 0x2D1B, offset: 0x582A7, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher completionHandlerWithTarget:didFinishSelector:]', symObjAddr: 0x8A2, symBinAddr: 0x1A14, symSize: 0xAC }
+  - { offsetInCU: 0x2DDB, offset: 0x58367, size: 0x8, addend: 0x0, symName: _GTMSessionFetcherAssertValidSelector, symObjAddr: 0x94E, symBinAddr: 0x1AC0, symSize: 0x6 }
+  - { offsetInCU: 0x2E12, offset: 0x5839E, size: 0x8, addend: 0x0, symName: '___67-[GTMSessionFetcher completionHandlerWithTarget:didFinishSelector:]_block_invoke', symObjAddr: 0x954, symBinAddr: 0x1AC6, symSize: 0x142 }
+  - { offsetInCU: 0x3017, offset: 0x585A3, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0xA96, symBinAddr: 0x1C08, symSize: 0x25 }
+  - { offsetInCU: 0x3058, offset: 0x585E4, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0xABB, symBinAddr: 0x1C2D, symSize: 0x25 }
+  - { offsetInCU: 0x308F, offset: 0x5861B, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher beginFetchWithDelegate:didFinishSelector:]', symObjAddr: 0xAE0, symBinAddr: 0x1C52, symSize: 0x4C }
+  - { offsetInCU: 0x3126, offset: 0x586B2, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher beginFetchMayDelay:mayAuthorize:mayDecorate:]', symObjAddr: 0xB2C, symBinAddr: 0x1C9E, symSize: 0x1463 }
+  - { offsetInCU: 0x3EE8, offset: 0x59474, size: 0x8, addend: 0x0, symName: _IsLocalhost, symObjAddr: 0x209A, symBinAddr: 0x320C, symSize: 0x87 }
+  - { offsetInCU: 0x3F86, offset: 0x59512, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher createSessionWithDelegate:sessionIdentifier:]', symObjAddr: 0x2136, symBinAddr: 0x32A8, symSize: 0x2A3 }
+  - { offsetInCU: 0x4252, offset: 0x597DE, size: 0x8, addend: 0x0, symName: '___65-[GTMSessionFetcher beginFetchMayDelay:mayAuthorize:mayDecorate:]_block_invoke', symObjAddr: 0x1F8F, symBinAddr: 0x3101, symSize: 0xED }
+  - { offsetInCU: 0x431A, offset: 0x598A6, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x207C, symBinAddr: 0x31EE, symSize: 0xF }
+  - { offsetInCU: 0x434D, offset: 0x598D9, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x208B, symBinAddr: 0x31FD, symSize: 0xF }
+  - { offsetInCU: 0x4378, offset: 0x59904, size: 0x8, addend: 0x0, symName: '___65-[GTMSessionFetcher beginFetchMayDelay:mayAuthorize:mayDecorate:]_block_invoke.216', symObjAddr: 0x2121, symBinAddr: 0x3293, symSize: 0x15 }
+  - { offsetInCU: 0x442C, offset: 0x599B8, size: 0x8, addend: 0x0, symName: '___65-[GTMSessionFetcher beginFetchMayDelay:mayAuthorize:mayDecorate:]_block_invoke_2', symObjAddr: 0x24DF, symBinAddr: 0x3651, symSize: 0xA8 }
+  - { offsetInCU: 0x44D7, offset: 0x59A63, size: 0x8, addend: 0x0, symName: '___65-[GTMSessionFetcher beginFetchMayDelay:mayAuthorize:mayDecorate:]_block_invoke.321', symObjAddr: 0x2587, symBinAddr: 0x36F9, symSize: 0xD7 }
+  - { offsetInCU: 0x45C7, offset: 0x59B53, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48r, symObjAddr: 0x265E, symBinAddr: 0x37D0, symSize: 0x44 }
+  - { offsetInCU: 0x4608, offset: 0x59B94, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48r, symObjAddr: 0x26A2, symBinAddr: 0x3814, symSize: 0x33 }
+  - { offsetInCU: 0x463F, offset: 0x59BCB, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher updateUserAgentAsynchronouslyForRequest:userAgentProvider:mayDelay:mayAuthorize:mayDecorate:]', symObjAddr: 0x26D5, symBinAddr: 0x3847, symSize: 0xEF }
+  - { offsetInCU: 0x476F, offset: 0x59CFB, size: 0x8, addend: 0x0, symName: '___113-[GTMSessionFetcher updateUserAgentAsynchronouslyForRequest:userAgentProvider:mayDelay:mayAuthorize:mayDecorate:]_block_invoke', symObjAddr: 0x27C4, symBinAddr: 0x3936, symSize: 0x13F }
+  - { offsetInCU: 0x4909, offset: 0x59E95, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40w, symObjAddr: 0x2903, symBinAddr: 0x3A75, symSize: 0x2E }
+  - { offsetInCU: 0x493E, offset: 0x59ECA, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40w, symObjAddr: 0x2931, symBinAddr: 0x3AA3, symSize: 0x22 }
+  - { offsetInCU: 0x4969, offset: 0x59EF5, size: 0x8, addend: 0x0, symName: _GTMDataFromInputStream, symObjAddr: 0x2953, symBinAddr: 0x3AC5, symSize: 0x14A }
+  - { offsetInCU: 0x4ADD, offset: 0x5A069, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher simulateFetchForTestBlock]', symObjAddr: 0x2A9D, symBinAddr: 0x3C0F, symSize: 0x4C }
+  - { offsetInCU: 0x4B2D, offset: 0x5A0B9, size: 0x8, addend: 0x0, symName: '___46-[GTMSessionFetcher simulateFetchForTestBlock]_block_invoke', symObjAddr: 0x2AE9, symBinAddr: 0x3C5B, symSize: 0x29A }
+  - { offsetInCU: 0x4DFC, offset: 0x5A388, size: 0x8, addend: 0x0, symName: '___46-[GTMSessionFetcher simulateFetchForTestBlock]_block_invoke_2', symObjAddr: 0x2D83, symBinAddr: 0x3EF5, symSize: 0x100 }
+  - { offsetInCU: 0x4F66, offset: 0x5A4F2, size: 0x8, addend: 0x0, symName: '___46-[GTMSessionFetcher simulateFetchForTestBlock]_block_invoke_3', symObjAddr: 0x2E83, symBinAddr: 0x3FF5, symSize: 0x10A }
+  - { offsetInCU: 0x50F9, offset: 0x5A685, size: 0x8, addend: 0x0, symName: '___46-[GTMSessionFetcher simulateFetchForTestBlock]_block_invoke_4', symObjAddr: 0x2F8D, symBinAddr: 0x40FF, symSize: 0x32 }
+  - { offsetInCU: 0x519C, offset: 0x5A728, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72s, symObjAddr: 0x2FBF, symBinAddr: 0x4131, symSize: 0x41 }
+  - { offsetInCU: 0x520D, offset: 0x5A799, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72s, symObjAddr: 0x3000, symBinAddr: 0x4172, symSize: 0x41 }
+  - { offsetInCU: 0x5274, offset: 0x5A800, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s, symObjAddr: 0x3041, symBinAddr: 0x41B3, symSize: 0x3A }
+  - { offsetInCU: 0x52D9, offset: 0x5A865, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s, symObjAddr: 0x307B, symBinAddr: 0x41ED, symSize: 0x3A }
+  - { offsetInCU: 0x5334, offset: 0x5A8C0, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s, symObjAddr: 0x30B5, symBinAddr: 0x4227, symSize: 0x33 }
+  - { offsetInCU: 0x538D, offset: 0x5A919, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x30E8, symBinAddr: 0x425A, symSize: 0x33 }
+  - { offsetInCU: 0x53DC, offset: 0x5A968, size: 0x8, addend: 0x0, symName: '___46-[GTMSessionFetcher simulateFetchForTestBlock]_block_invoke.384', symObjAddr: 0x311B, symBinAddr: 0x428D, symSize: 0x2C }
+  - { offsetInCU: 0x545D, offset: 0x5A9E9, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher simulateByteTransferReportWithDataLength:block:]', symObjAddr: 0x3147, symBinAddr: 0x42B9, symSize: 0xDB }
+  - { offsetInCU: 0x556F, offset: 0x5AAFB, size: 0x8, addend: 0x0, symName: '___68-[GTMSessionFetcher simulateByteTransferReportWithDataLength:block:]_block_invoke', symObjAddr: 0x3222, symBinAddr: 0x4394, symSize: 0x1F }
+  - { offsetInCU: 0x55EC, offset: 0x5AB78, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x3241, symBinAddr: 0x43B3, symSize: 0x17 }
+  - { offsetInCU: 0x5615, offset: 0x5ABA1, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]', symObjAddr: 0x3258, symBinAddr: 0x43CA, symSize: 0x7C5 }
+  - { offsetInCU: 0x5E49, offset: 0x5B3D5, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x3A1D, symBinAddr: 0x4B8F, symSize: 0x16 }
+  - { offsetInCU: 0x5E6E, offset: 0x5B3FA, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x3A33, symBinAddr: 0x4BA5, symSize: 0xF }
+  - { offsetInCU: 0x5E99, offset: 0x5B425, size: 0x8, addend: 0x0, symName: '___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke', symObjAddr: 0x3A42, symBinAddr: 0x4BB4, symSize: 0x26 }
+  - { offsetInCU: 0x5F09, offset: 0x5B495, size: 0x8, addend: 0x0, symName: '___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke_2', symObjAddr: 0x3A68, symBinAddr: 0x4BDA, symSize: 0x6 }
+  - { offsetInCU: 0x5F3F, offset: 0x5B4CB, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b, symObjAddr: 0x3A6E, symBinAddr: 0x4BE0, symSize: 0x44 }
+  - { offsetInCU: 0x5F80, offset: 0x5B50C, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x3AB2, symBinAddr: 0x4C24, symSize: 0x2C }
+  - { offsetInCU: 0x5FC3, offset: 0x5B54F, size: 0x8, addend: 0x0, symName: '___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke.392', symObjAddr: 0x3ADE, symBinAddr: 0x4C50, symSize: 0x179 }
+  - { offsetInCU: 0x61B1, offset: 0x5B73D, size: 0x8, addend: 0x0, symName: '___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke_2.406', symObjAddr: 0x3C57, symBinAddr: 0x4DC9, symSize: 0x6 }
+  - { offsetInCU: 0x61F4, offset: 0x5B780, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x3C5D, symBinAddr: 0x4DCF, symSize: 0x30 }
+  - { offsetInCU: 0x6229, offset: 0x5B7B5, size: 0x8, addend: 0x0, symName: '___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke.409', symObjAddr: 0x3C8D, symBinAddr: 0x4DFF, symSize: 0x1A }
+  - { offsetInCU: 0x6284, offset: 0x5B810, size: 0x8, addend: 0x0, symName: '___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke_2.410', symObjAddr: 0x3CA7, symBinAddr: 0x4E19, symSize: 0x6 }
+  - { offsetInCU: 0x62BA, offset: 0x5B846, size: 0x8, addend: 0x0, symName: '___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke_3', symObjAddr: 0x3CAD, symBinAddr: 0x4E1F, symSize: 0xF }
+  - { offsetInCU: 0x634A, offset: 0x5B8D6, size: 0x8, addend: 0x0, symName: '___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke.416', symObjAddr: 0x3CBC, symBinAddr: 0x4E2E, symSize: 0xF }
+  - { offsetInCU: 0x63DA, offset: 0x5B966, size: 0x8, addend: 0x0, symName: '___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke_2.419', symObjAddr: 0x3CCB, symBinAddr: 0x4E3D, symSize: 0x54 }
+  - { offsetInCU: 0x64C1, offset: 0x5BA4D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40b, symObjAddr: 0x3D1F, symBinAddr: 0x4E91, symSize: 0x38 }
+  - { offsetInCU: 0x64EA, offset: 0x5BA76, size: 0x8, addend: 0x0, symName: '___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke.426', symObjAddr: 0x3D57, symBinAddr: 0x4EC9, symSize: 0x1A }
+  - { offsetInCU: 0x6545, offset: 0x5BAD1, size: 0x8, addend: 0x0, symName: '___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke_2.427', symObjAddr: 0x3D71, symBinAddr: 0x4EE3, symSize: 0x6 }
+  - { offsetInCU: 0x657B, offset: 0x5BB07, size: 0x8, addend: 0x0, symName: '___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke_3.430', symObjAddr: 0x3D77, symBinAddr: 0x4EE9, symSize: 0xB4 }
+  - { offsetInCU: 0x662D, offset: 0x5BBB9, size: 0x8, addend: 0x0, symName: '___95-[GTMSessionFetcher simulateDataCallbacksForTestBlockWithBodyData:response:responseData:error:]_block_invoke_4', symObjAddr: 0x3E2B, symBinAddr: 0x4F9D, symSize: 0x27 }
+  - { offsetInCU: 0x66A6, offset: 0x5BC32, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40r, symObjAddr: 0x3E52, symBinAddr: 0x4FC4, symSize: 0x30 }
+  - { offsetInCU: 0x66DB, offset: 0x5BC67, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0x3E82, symBinAddr: 0x4FF4, symSize: 0x27 }
+  - { offsetInCU: 0x6706, offset: 0x5BC92, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher simulateByteTransferWithData:block:]', symObjAddr: 0x3EA9, symBinAddr: 0x501B, symSize: 0x187 }
+  - { offsetInCU: 0x6928, offset: 0x5BEB4, size: 0x8, addend: 0x0, symName: '___56-[GTMSessionFetcher simulateByteTransferWithData:block:]_block_invoke', symObjAddr: 0x4030, symBinAddr: 0x51A2, symSize: 0x23 }
+  - { offsetInCU: 0x69B6, offset: 0x5BF42, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setSessionTask:]', symObjAddr: 0x4053, symBinAddr: 0x51C5, symSize: 0xD2 }
+  - { offsetInCU: 0x6A84, offset: 0x5C010, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher sessionTask]', symObjAddr: 0x4125, symBinAddr: 0x5297, symSize: 0x43 }
+  - { offsetInCU: 0x6AF1, offset: 0x5C07D, size: 0x8, addend: 0x0, symName: '___40+[GTMSessionFetcher fetcherUserDefaults]_block_invoke', symObjAddr: 0x4198, symBinAddr: 0x530A, symSize: 0x52 }
+  - { offsetInCU: 0x6B73, offset: 0x5C0FF, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher addPersistedBackgroundSessionToDefaults]', symObjAddr: 0x41EA, symBinAddr: 0x535C, symSize: 0x118 }
+  - { offsetInCU: 0x6CA3, offset: 0x5C22F, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher removePersistedBackgroundSessionFromDefaults]', symObjAddr: 0x4302, symBinAddr: 0x5474, symSize: 0x15E }
+  - { offsetInCU: 0x6E1B, offset: 0x5C3A7, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher activePersistedBackgroundSessions]', symObjAddr: 0x4460, symBinAddr: 0x55D2, symSize: 0x262 }
+  - { offsetInCU: 0x6FAB, offset: 0x5C537, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher fetchersForBackgroundSessions]', symObjAddr: 0x46C2, symBinAddr: 0x5834, symSize: 0x2B3 }
+  - { offsetInCU: 0x7166, offset: 0x5C6F2, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher application:handleEventsForBackgroundURLSession:completionHandler:]', symObjAddr: 0x4975, symBinAddr: 0x5AE7, symSize: 0x71 }
+  - { offsetInCU: 0x723A, offset: 0x5C7C6, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher sessionIdentifier]', symObjAddr: 0x49E6, symBinAddr: 0x5B58, symSize: 0x43 }
+  - { offsetInCU: 0x72A7, offset: 0x5C833, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setSessionIdentifier:]', symObjAddr: 0x4A29, symBinAddr: 0x5B9B, symSize: 0xA6 }
+  - { offsetInCU: 0x7371, offset: 0x5C8FD, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setSessionIdentifierInternal:]', symObjAddr: 0x4ACF, symBinAddr: 0x5C41, symSize: 0x83 }
+  - { offsetInCU: 0x7427, offset: 0x5C9B3, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher sessionUserInfo]', symObjAddr: 0x4B52, symBinAddr: 0x5CC4, symSize: 0x144 }
+  - { offsetInCU: 0x7561, offset: 0x5CAED, size: 0x8, addend: 0x0, symName: '___36-[GTMSessionFetcher sessionUserInfo]_block_invoke', symObjAddr: 0x4C96, symBinAddr: 0x5E08, symSize: 0x1C }
+  - { offsetInCU: 0x75CE, offset: 0x5CB5A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setSessionUserInfo:]', symObjAddr: 0x4CB2, symBinAddr: 0x5E24, symSize: 0x60 }
+  - { offsetInCU: 0x765C, offset: 0x5CBE8, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher sessionIdentifierDefaultMetadata]', symObjAddr: 0x4D12, symBinAddr: 0x5E84, symSize: 0x106 }
+  - { offsetInCU: 0x7749, offset: 0x5CCD5, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher restoreDefaultStateForSessionIdentifierMetadata]', symObjAddr: 0x4E18, symBinAddr: 0x5F8A, symSize: 0x13D }
+  - { offsetInCU: 0x7875, offset: 0x5CE01, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher sessionIdentifierMetadata]', symObjAddr: 0x4F55, symBinAddr: 0x60C7, symSize: 0x63 }
+  - { offsetInCU: 0x78E2, offset: 0x5CE6E, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher sessionIdentifierMetadataUnsynchronized]', symObjAddr: 0x4FB8, symBinAddr: 0x612A, symSize: 0x1F8 }
+  - { offsetInCU: 0x7AAE, offset: 0x5D03A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher createSessionIdentifierWithMetadata:]', symObjAddr: 0x51B0, symBinAddr: 0x6322, symSize: 0x26E }
+  - { offsetInCU: 0x7D0E, offset: 0x5D29A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher failToBeginFetchWithError:]', symObjAddr: 0x541E, symBinAddr: 0x6590, symSize: 0xD6 }
+  - { offsetInCU: 0x7E0B, offset: 0x5D397, size: 0x8, addend: 0x0, symName: '___40+[GTMSessionFetcher staticCookieStorage]_block_invoke', symObjAddr: 0x5524, symBinAddr: 0x6696, symSize: 0x25 }
+  - { offsetInCU: 0x7E40, offset: 0x5D3CC, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher endBackgroundTask]', symObjAddr: 0x5549, symBinAddr: 0x66BB, symSize: 0xC5 }
+  - { offsetInCU: 0x7F26, offset: 0x5D4B2, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher authorizeRequest]', symObjAddr: 0x560E, symBinAddr: 0x6780, symSize: 0x1D7 }
+  - { offsetInCU: 0x80E8, offset: 0x5D674, size: 0x8, addend: 0x0, symName: '___37-[GTMSessionFetcher authorizeRequest]_block_invoke', symObjAddr: 0x57E5, symBinAddr: 0x6957, symSize: 0x5F }
+  - { offsetInCU: 0x819F, offset: 0x5D72B, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher authorizer:request:finishedWithError:]', symObjAddr: 0x5844, symBinAddr: 0x69B6, symSize: 0x96 }
+  - { offsetInCU: 0x8294, offset: 0x5D820, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher applyDecoratorsAtRequestWillStart:startingAtIndex:]', symObjAddr: 0x58DA, symBinAddr: 0x6A4C, symSize: 0x143 }
+  - { offsetInCU: 0x83C6, offset: 0x5D952, size: 0x8, addend: 0x0, symName: '___71-[GTMSessionFetcher applyDecoratorsAtRequestWillStart:startingAtIndex:]_block_invoke', symObjAddr: 0x5A1D, symBinAddr: 0x6B8F, symSize: 0xD8 }
+  - { offsetInCU: 0x8546, offset: 0x5DAD2, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48w, symObjAddr: 0x5AF5, symBinAddr: 0x6C67, symSize: 0x42 }
+  - { offsetInCU: 0x8587, offset: 0x5DB13, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48w, symObjAddr: 0x5B37, symBinAddr: 0x6CA9, symSize: 0x2E }
+  - { offsetInCU: 0x85BE, offset: 0x5DB4A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher applyDecoratorsAtRequestDidFinish:withData:error:startingAtIndex:shouldReleaseCallbacks:]', symObjAddr: 0x5B65, symBinAddr: 0x6CD7, symSize: 0x1BE }
+  - { offsetInCU: 0x87BE, offset: 0x5DD4A, size: 0x8, addend: 0x0, symName: '___109-[GTMSessionFetcher applyDecoratorsAtRequestDidFinish:withData:error:startingAtIndex:shouldReleaseCallbacks:]_block_invoke', symObjAddr: 0x5D23, symBinAddr: 0x6E95, symSize: 0x5B }
+  - { offsetInCU: 0x8899, offset: 0x5DE25, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56w, symObjAddr: 0x5D7E, symBinAddr: 0x6EF0, symSize: 0x49 }
+  - { offsetInCU: 0x88E6, offset: 0x5DE72, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56w, symObjAddr: 0x5DC7, symBinAddr: 0x6F39, symSize: 0x35 }
+  - { offsetInCU: 0x8929, offset: 0x5DEB5, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher canFetchWithBackgroundSession]', symObjAddr: 0x5DFC, symBinAddr: 0x6F6E, symSize: 0x8 }
+  - { offsetInCU: 0x895D, offset: 0x5DEE9, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher isFetching]', symObjAddr: 0x5E04, symBinAddr: 0x6F76, symSize: 0x57 }
+  - { offsetInCU: 0x89D2, offset: 0x5DF5E, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher isFetchingUnsynchronized]', symObjAddr: 0x5E5B, symBinAddr: 0x6FCD, symSize: 0x1E }
+  - { offsetInCU: 0x8A15, offset: 0x5DFA1, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher response]', symObjAddr: 0x5E79, symBinAddr: 0x6FEB, symSize: 0x63 }
+  - { offsetInCU: 0x8A96, offset: 0x5E022, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher responseUnsynchronized]', symObjAddr: 0x5EDC, symBinAddr: 0x704E, symSize: 0x3F }
+  - { offsetInCU: 0x8AF7, offset: 0x5E083, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher statusCode]', symObjAddr: 0x5F1B, symBinAddr: 0x708D, symSize: 0x57 }
+  - { offsetInCU: 0x8B8C, offset: 0x5E118, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher statusCodeUnsynchronized]', symObjAddr: 0x5F72, symBinAddr: 0x70E4, symSize: 0x5A }
+  - { offsetInCU: 0x8C1D, offset: 0x5E1A9, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher responseHeaders]', symObjAddr: 0x5FCC, symBinAddr: 0x713E, symSize: 0x66 }
+  - { offsetInCU: 0x8CAA, offset: 0x5E236, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher responseHeadersUnsynchronized]', symObjAddr: 0x6032, symBinAddr: 0x71A4, symSize: 0x66 }
+  - { offsetInCU: 0x8D37, offset: 0x5E2C3, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher releaseCallbacks]', symObjAddr: 0x6098, symBinAddr: 0x720A, symSize: 0x162 }
+  - { offsetInCU: 0x8F54, offset: 0x5E4E0, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher forgetSessionIdentifierForFetcher]', symObjAddr: 0x61FA, symBinAddr: 0x736C, symSize: 0x12 }
+  - { offsetInCU: 0x8F9B, offset: 0x5E527, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher forgetSessionIdentifierForFetcherWithoutSyncCheck]', symObjAddr: 0x620C, symBinAddr: 0x737E, symSize: 0x80 }
+  - { offsetInCU: 0x9023, offset: 0x5E5AF, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher stopFetching]', symObjAddr: 0x628C, symBinAddr: 0x73FE, symSize: 0x5C }
+  - { offsetInCU: 0x90A8, offset: 0x5E634, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher stopFetchReleasingCallbacks:]', symObjAddr: 0x62E8, symBinAddr: 0x745A, symSize: 0x34F }
+  - { offsetInCU: 0x9446, offset: 0x5E9D2, size: 0x8, addend: 0x0, symName: '___49-[GTMSessionFetcher stopFetchReleasingCallbacks:]_block_invoke', symObjAddr: 0x6637, symBinAddr: 0x77A9, symSize: 0xCA }
+  - { offsetInCU: 0x954D, offset: 0x5EAD9, size: 0x8, addend: 0x0, symName: '___49-[GTMSessionFetcher stopFetchReleasingCallbacks:]_block_invoke_2', symObjAddr: 0x6701, symBinAddr: 0x7873, symSize: 0x2A }
+  - { offsetInCU: 0x95DA, offset: 0x5EB66, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setStopNotificationNeeded:]', symObjAddr: 0x672B, symBinAddr: 0x789D, symSize: 0x36 }
+  - { offsetInCU: 0x9648, offset: 0x5EBD4, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher sendStopNotificationIfNeeded]', symObjAddr: 0x6761, symBinAddr: 0x78D3, symSize: 0x71 }
+  - { offsetInCU: 0x96EA, offset: 0x5EC76, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher retryFetch]', symObjAddr: 0x67D2, symBinAddr: 0x7944, symSize: 0xAF }
+  - { offsetInCU: 0x97B8, offset: 0x5ED44, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher setGlobalTestBlock:]', symObjAddr: 0x6A9D, symBinAddr: 0x7C0F, symSize: 0x29 }
+  - { offsetInCU: 0x981A, offset: 0x5EDA6, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher setSubstituteUIApplication:]', symObjAddr: 0x6AC6, symBinAddr: 0x7C38, symSize: 0x14 }
+  - { offsetInCU: 0x9859, offset: 0x5EDE5, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher substituteUIApplication]', symObjAddr: 0x6ADA, symBinAddr: 0x7C4C, symSize: 0x11 }
+  - { offsetInCU: 0x988D, offset: 0x5EE19, size: 0x8, addend: 0x0, symName: '___41+[GTMSessionFetcher fetcherUIApplication]_block_invoke', symObjAddr: 0x6B6A, symBinAddr: 0x7CDC, symSize: 0xB4 }
+  - { offsetInCU: 0x9971, offset: 0x5EEFD, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]', symObjAddr: 0x6C1E, symBinAddr: 0x7D90, symSize: 0x575 }
+  - { offsetInCU: 0x9E9E, offset: 0x5F42A, size: 0x8, addend: 0x0, symName: '___93-[GTMSessionFetcher URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]_block_invoke', symObjAddr: 0x7193, symBinAddr: 0x8305, symSize: 0x8B }
+  - { offsetInCU: 0x9F65, offset: 0x5F4F1, size: 0x8, addend: 0x0, symName: '___93-[GTMSessionFetcher URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]_block_invoke_2', symObjAddr: 0x721E, symBinAddr: 0x8390, symSize: 0x78 }
+  - { offsetInCU: 0xA042, offset: 0x5F5CE, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56b64b, symObjAddr: 0x7296, symBinAddr: 0x8408, symSize: 0x5D }
+  - { offsetInCU: 0xA08F, offset: 0x5F61B, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher URLSession:dataTask:didReceiveResponse:completionHandler:]', symObjAddr: 0x72F3, symBinAddr: 0x8465, symSize: 0x1F7 }
+  - { offsetInCU: 0xA33C, offset: 0x5F8C8, size: 0x8, addend: 0x0, symName: '___78-[GTMSessionFetcher URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke', symObjAddr: 0x74EA, symBinAddr: 0x865C, symSize: 0x12F }
+  - { offsetInCU: 0xA46C, offset: 0x5F9F8, size: 0x8, addend: 0x0, symName: '___78-[GTMSessionFetcher URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke_2', symObjAddr: 0x7619, symBinAddr: 0x878B, symSize: 0x11 }
+  - { offsetInCU: 0xA4BD, offset: 0x5FA49, size: 0x8, addend: 0x0, symName: '___78-[GTMSessionFetcher URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke.680', symObjAddr: 0x762A, symBinAddr: 0x879C, symSize: 0x72 }
+  - { offsetInCU: 0xA557, offset: 0x5FAE3, size: 0x8, addend: 0x0, symName: '___78-[GTMSessionFetcher URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke_2.681', symObjAddr: 0x769C, symBinAddr: 0x880E, symSize: 0xF }
+  - { offsetInCU: 0xA5B9, offset: 0x5FB45, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b48b, symObjAddr: 0x76AB, symBinAddr: 0x881D, symSize: 0x42 }
+  - { offsetInCU: 0xA5EE, offset: 0x5FB7A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher URLSession:dataTask:didBecomeDownloadTask:]', symObjAddr: 0x76ED, symBinAddr: 0x885F, symSize: 0x15 }
+  - { offsetInCU: 0xA666, offset: 0x5FBF2, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher URLSession:task:didReceiveChallenge:completionHandler:]', symObjAddr: 0x7702, symBinAddr: 0x8874, symSize: 0x19C }
+  - { offsetInCU: 0xA89A, offset: 0x5FE26, size: 0x8, addend: 0x0, symName: '___75-[GTMSessionFetcher URLSession:task:didReceiveChallenge:completionHandler:]_block_invoke', symObjAddr: 0x789E, symBinAddr: 0x8A10, symSize: 0x1F }
+  - { offsetInCU: 0xA91B, offset: 0x5FEA7, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b56b, symObjAddr: 0x78BD, symBinAddr: 0x8A2F, symSize: 0x56 }
+  - { offsetInCU: 0xA95C, offset: 0x5FEE8, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher respondToChallenge:completionHandler:]', symObjAddr: 0x7913, symBinAddr: 0x8A85, symSize: 0x2BF }
+  - { offsetInCU: 0xAC9A, offset: 0x60226, size: 0x8, addend: 0x0, symName: '___58-[GTMSessionFetcher respondToChallenge:completionHandler:]_block_invoke', symObjAddr: 0x7BD2, symBinAddr: 0x8D44, symSize: 0x61 }
+  - { offsetInCU: 0xAD62, offset: 0x602EE, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher redirectURLWithOriginalRequestURL:redirectRequestURL:]', symObjAddr: 0x7C33, symBinAddr: 0x8DA5, symSize: 0x1E1 }
+  - { offsetInCU: 0xAF8F, offset: 0x6051B, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher evaluateServerTrust:forRequest:completionHandler:]', symObjAddr: 0x7E14, symBinAddr: 0x8F86, symSize: 0xB9 }
+  - { offsetInCU: 0xB0AC, offset: 0x60638, size: 0x8, addend: 0x0, symName: '___70+[GTMSessionFetcher evaluateServerTrust:forRequest:completionHandler:]_block_invoke', symObjAddr: 0x7ECD, symBinAddr: 0x903F, symSize: 0x9B }
+  - { offsetInCU: 0xB1A2, offset: 0x6072E, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher invokeOnCallbackQueueUnlessStopped:]', symObjAddr: 0x7F68, symBinAddr: 0x90DA, symSize: 0x17 }
+  - { offsetInCU: 0xB208, offset: 0x60794, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher invokeOnCallbackQueueAfterUserStopped:block:]', symObjAddr: 0x7F7F, symBinAddr: 0x90F1, symSize: 0x12 }
+  - { offsetInCU: 0xB289, offset: 0x60815, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher invokeOnCallbackUnsynchronizedQueueAfterUserStopped:block:]', symObjAddr: 0x7F91, symBinAddr: 0x9103, symSize: 0x1E }
+  - { offsetInCU: 0xB302, offset: 0x6088E, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher invokeOnCallbackQueue:afterUserStopped:block:]', symObjAddr: 0x7FAF, symBinAddr: 0x9121, symSize: 0xAB }
+  - { offsetInCU: 0xB3F0, offset: 0x6097C, size: 0x8, addend: 0x0, symName: '___66-[GTMSessionFetcher invokeOnCallbackQueue:afterUserStopped:block:]_block_invoke', symObjAddr: 0x805A, symBinAddr: 0x91CC, symSize: 0xEA }
+  - { offsetInCU: 0xB4F0, offset: 0x60A7C, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher invokeFetchCallbacksOnCallbackQueueWithData:error:mayDecorate:shouldReleaseCallbacks:]', symObjAddr: 0x8144, symBinAddr: 0x92B6, symSize: 0x1D9 }
+  - { offsetInCU: 0xB76A, offset: 0x60CF6, size: 0x8, addend: 0x0, symName: '___106-[GTMSessionFetcher invokeFetchCallbacksOnCallbackQueueWithData:error:mayDecorate:shouldReleaseCallbacks:]_block_invoke', symObjAddr: 0x831D, symBinAddr: 0x948F, symSize: 0xA3 }
+  - { offsetInCU: 0xB869, offset: 0x60DF5, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56b, symObjAddr: 0x83C0, symBinAddr: 0x9532, symSize: 0x4B }
+  - { offsetInCU: 0xB8B6, offset: 0x60E42, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher postNotificationOnMainThreadWithName:userInfo:requireAsync:]', symObjAddr: 0x840B, symBinAddr: 0x957D, symSize: 0xFC }
+  - { offsetInCU: 0xBA09, offset: 0x60F95, size: 0x8, addend: 0x0, symName: '___80-[GTMSessionFetcher postNotificationOnMainThreadWithName:userInfo:requireAsync:]_block_invoke', symObjAddr: 0x8507, symBinAddr: 0x9679, symSize: 0x5C }
+  - { offsetInCU: 0xBA99, offset: 0x61025, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x8563, symBinAddr: 0x96D5, symSize: 0x2C }
+  - { offsetInCU: 0xBAE6, offset: 0x61072, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher URLSession:task:needNewBodyStream:]', symObjAddr: 0x858F, symBinAddr: 0x9701, symSize: 0x132 }
+  - { offsetInCU: 0xBCAC, offset: 0x61238, size: 0x8, addend: 0x0, symName: '___55-[GTMSessionFetcher URLSession:task:needNewBodyStream:]_block_invoke', symObjAddr: 0x86C1, symBinAddr: 0x9833, symSize: 0x16 }
+  - { offsetInCU: 0xBD07, offset: 0x61293, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]', symObjAddr: 0x86D7, symBinAddr: 0x9849, symSize: 0xF5 }
+  - { offsetInCU: 0xBE3A, offset: 0x613C6, size: 0x8, addend: 0x0, symName: '___93-[GTMSessionFetcher URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]_block_invoke', symObjAddr: 0x87CC, symBinAddr: 0x993E, symSize: 0x71 }
+  - { offsetInCU: 0xBF17, offset: 0x614A3, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher URLSession:dataTask:didReceiveData:]', symObjAddr: 0x883D, symBinAddr: 0x99AF, symSize: 0x228 }
+  - { offsetInCU: 0xC130, offset: 0x616BC, size: 0x8, addend: 0x0, symName: '___56-[GTMSessionFetcher URLSession:dataTask:didReceiveData:]_block_invoke', symObjAddr: 0x8A65, symBinAddr: 0x9BD7, symSize: 0x13 }
+  - { offsetInCU: 0xC18B, offset: 0x61717, size: 0x8, addend: 0x0, symName: '___56-[GTMSessionFetcher URLSession:dataTask:didReceiveData:]_block_invoke_2', symObjAddr: 0x8A78, symBinAddr: 0x9BEA, symSize: 0x76 }
+  - { offsetInCU: 0xC25E, offset: 0x617EA, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher URLSession:dataTask:willCacheResponse:completionHandler:]', symObjAddr: 0x8AEE, symBinAddr: 0x9C60, symSize: 0x174 }
+  - { offsetInCU: 0xC479, offset: 0x61A05, size: 0x8, addend: 0x0, symName: '___77-[GTMSessionFetcher URLSession:dataTask:willCacheResponse:completionHandler:]_block_invoke', symObjAddr: 0x8C62, symBinAddr: 0x9DD4, symSize: 0x1A }
+  - { offsetInCU: 0xC4E5, offset: 0x61A71, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:]', symObjAddr: 0x8C7C, symBinAddr: 0x9DEE, symSize: 0x14D }
+  - { offsetInCU: 0xC664, offset: 0x61BF0, size: 0x8, addend: 0x0, symName: '___102-[GTMSessionFetcher URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:]_block_invoke', symObjAddr: 0x8DC9, symBinAddr: 0x9F3B, symSize: 0x1F }
+  - { offsetInCU: 0xC6E1, offset: 0x61C6D, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher URLSession:downloadTask:didResumeAtOffset:expectedTotalBytes:]', symObjAddr: 0x8DE8, symBinAddr: 0x9F5A, symSize: 0x15 }
+  - { offsetInCU: 0xC766, offset: 0x61CF2, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher URLSession:downloadTask:didFinishDownloadingToURL:]', symObjAddr: 0x8DFD, symBinAddr: 0x9F6F, symSize: 0x2D3 }
+  - { offsetInCU: 0xCAE2, offset: 0x6206E, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher URLSession:task:didCompleteWithError:]', symObjAddr: 0x90D0, symBinAddr: 0xA242, symSize: 0x48B }
+  - { offsetInCU: 0xD011, offset: 0x6259D, size: 0x8, addend: 0x0, symName: '___58-[GTMSessionFetcher URLSession:task:didCompleteWithError:]_block_invoke', symObjAddr: 0x955B, symBinAddr: 0xA6CD, symSize: 0x1F }
+  - { offsetInCU: 0xD08A, offset: 0x62616, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher URLSession:task:didFinishCollectingMetrics:]', symObjAddr: 0x957A, symBinAddr: 0xA6EC, symSize: 0x11C }
+  - { offsetInCU: 0xD21B, offset: 0x627A7, size: 0x8, addend: 0x0, symName: '___64-[GTMSessionFetcher URLSession:task:didFinishCollectingMetrics:]_block_invoke', symObjAddr: 0x9696, symBinAddr: 0xA808, symSize: 0x13 }
+  - { offsetInCU: 0xD276, offset: 0x62802, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher URLSessionDidFinishEventsForBackgroundURLSession:]', symObjAddr: 0x96A9, symBinAddr: 0xA81B, symSize: 0x124 }
+  - { offsetInCU: 0xD3FB, offset: 0x62987, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher URLSession:didBecomeInvalidWithError:]', symObjAddr: 0x97CD, symBinAddr: 0xA93F, symSize: 0x73 }
+  - { offsetInCU: 0xD4B0, offset: 0x62A3C, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher finishWithError:shouldRetry:]', symObjAddr: 0x9840, symBinAddr: 0xA9B2, symSize: 0x64D }
+  - { offsetInCU: 0xDAF9, offset: 0x63085, size: 0x8, addend: 0x0, symName: _GTMErrorUserInfoForData, symObjAddr: 0x9E8D, symBinAddr: 0xAFFF, symSize: 0x106 }
+  - { offsetInCU: 0xDC58, offset: 0x631E4, size: 0x8, addend: 0x0, symName: '___49-[GTMSessionFetcher finishWithError:shouldRetry:]_block_invoke', symObjAddr: 0x9F93, symBinAddr: 0xB105, symSize: 0x13 }
+  - { offsetInCU: 0xDCB3, offset: 0x6323F, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher shouldReleaseCallbacksUponCompletion]', symObjAddr: 0x9FA6, symBinAddr: 0xB118, symSize: 0x8 }
+  - { offsetInCU: 0xDCE7, offset: 0x63273, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher logNowWithError:]', symObjAddr: 0x9FAE, symBinAddr: 0xB120, symSize: 0x58 }
+  - { offsetInCU: 0xDD77, offset: 0x63303, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher isRetryError:]', symObjAddr: 0xA006, symBinAddr: 0xB178, symSize: 0x13D }
+  - { offsetInCU: 0xDE9B, offset: 0x63427, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher shouldRetryNowForStatus:error:forceAssumeRetry:response:]', symObjAddr: 0xA143, symBinAddr: 0xB2B5, symSize: 0x35E }
+  - { offsetInCU: 0xE26D, offset: 0x637F9, size: 0x8, addend: 0x0, symName: '___77-[GTMSessionFetcher shouldRetryNowForStatus:error:forceAssumeRetry:response:]_block_invoke', symObjAddr: 0xA4A1, symBinAddr: 0xB613, symSize: 0x1F }
+  - { offsetInCU: 0xE2EA, offset: 0x63876, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher hasRetryAfterInterval]', symObjAddr: 0xA4C0, symBinAddr: 0xB632, symSize: 0x6A }
+  - { offsetInCU: 0xE374, offset: 0x63900, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher retryAfterInterval]', symObjAddr: 0xA52A, symBinAddr: 0xB69C, symSize: 0x18D }
+  - { offsetInCU: 0xE53B, offset: 0x63AC7, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher beginRetryTimer]', symObjAddr: 0xA6B7, symBinAddr: 0xB829, symSize: 0x20F }
+  - { offsetInCU: 0xE6EE, offset: 0x63C7A, size: 0x8, addend: 0x0, symName: '___36-[GTMSessionFetcher beginRetryTimer]_block_invoke', symObjAddr: 0xA8C6, symBinAddr: 0xBA38, symSize: 0x16 }
+  - { offsetInCU: 0xE73C, offset: 0x63CC8, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher retryTimerFired:]', symObjAddr: 0xA8DC, symBinAddr: 0xBA4E, symSize: 0xBC }
+  - { offsetInCU: 0xE803, offset: 0x63D8F, size: 0x8, addend: 0x0, symName: '___37-[GTMSessionFetcher retryTimerFired:]_block_invoke', symObjAddr: 0xA998, symBinAddr: 0xBB0A, symSize: 0x16 }
+  - { offsetInCU: 0xE851, offset: 0x63DDD, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher destroyRetryTimer]', symObjAddr: 0xA9AE, symBinAddr: 0xBB20, symSize: 0xA3 }
+  - { offsetInCU: 0xE90B, offset: 0x63E97, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher retryCount]', symObjAddr: 0xAA51, symBinAddr: 0xBBC3, symSize: 0x38 }
+  - { offsetInCU: 0xE96C, offset: 0x63EF8, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher nextRetryInterval]', symObjAddr: 0xAA89, symBinAddr: 0xBBFB, symSize: 0x63 }
+  - { offsetInCU: 0xEA01, offset: 0x63F8D, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher nextRetryIntervalUnsynchronized]', symObjAddr: 0xAAEC, symBinAddr: 0xBC5E, symSize: 0x90 }
+  - { offsetInCU: 0xEADD, offset: 0x64069, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher retryTimer]', symObjAddr: 0xAB7C, symBinAddr: 0xBCEE, symSize: 0x46 }
+  - { offsetInCU: 0xEB4A, offset: 0x640D6, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher isRetryEnabled]', symObjAddr: 0xABC2, symBinAddr: 0xBD34, symSize: 0x38 }
+  - { offsetInCU: 0xEBAB, offset: 0x64137, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher isRetryEnabledUnsynchronized]', symObjAddr: 0xABFA, symBinAddr: 0xBD6C, symSize: 0xC }
+  - { offsetInCU: 0xEBE1, offset: 0x6416D, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setRetryEnabled:]', symObjAddr: 0xAC06, symBinAddr: 0xBD78, symSize: 0xA1 }
+  - { offsetInCU: 0xEC7D, offset: 0x64209, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher maxRetryInterval]', symObjAddr: 0xACA7, symBinAddr: 0xBE19, symSize: 0x41 }
+  - { offsetInCU: 0xECDE, offset: 0x6426A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setMaxRetryInterval:]', symObjAddr: 0xACE8, symBinAddr: 0xBE5A, symSize: 0x64 }
+  - { offsetInCU: 0xED4C, offset: 0x642D8, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher minRetryInterval]', symObjAddr: 0xAD4C, symBinAddr: 0xBEBE, symSize: 0x41 }
+  - { offsetInCU: 0xEDAD, offset: 0x64339, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setMinRetryInterval:]', symObjAddr: 0xAD8D, symBinAddr: 0xBEFF, symSize: 0x8C }
+  - { offsetInCU: 0xEE49, offset: 0x643D5, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher systemCompletionHandler]', symObjAddr: 0xAE19, symBinAddr: 0xBF8B, symSize: 0x28 }
+  - { offsetInCU: 0xEE8D, offset: 0x64419, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setSystemCompletionHandler:]', symObjAddr: 0xAE41, symBinAddr: 0xBFB3, symSize: 0x42 }
+  - { offsetInCU: 0xEF0F, offset: 0x6449B, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher setSystemCompletionHandler:forSessionIdentifier:]', symObjAddr: 0xAE83, symBinAddr: 0xBFF5, symSize: 0x113 }
+  - { offsetInCU: 0xF001, offset: 0x6458D, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher systemCompletionHandlerForSessionIdentifier:]', symObjAddr: 0xAF96, symBinAddr: 0xC108, symSize: 0xA0 }
+  - { offsetInCU: 0xF08F, offset: 0x6461B, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher request]', symObjAddr: 0xB036, symBinAddr: 0xC1A8, symSize: 0x5C }
+  - { offsetInCU: 0xF0FC, offset: 0x64688, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setRequest:]', symObjAddr: 0xB092, symBinAddr: 0xC204, symSize: 0x9A }
+  - { offsetInCU: 0xF1C6, offset: 0x64752, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher mutableRequestForTesting]', symObjAddr: 0xB12C, symBinAddr: 0xC29E, symSize: 0xE }
+  - { offsetInCU: 0xF1FE, offset: 0x6478A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher updateMutableRequest:]', symObjAddr: 0xB13A, symBinAddr: 0xC2AC, symSize: 0x5A }
+  - { offsetInCU: 0xF28C, offset: 0x64818, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setRequestValue:forHTTPHeaderField:]', symObjAddr: 0xB194, symBinAddr: 0xC306, symSize: 0x71 }
+  - { offsetInCU: 0xF369, offset: 0x648F5, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher updateRequestValue:forHTTPHeaderField:]', symObjAddr: 0xB205, symBinAddr: 0xC377, symSize: 0x90 }
+  - { offsetInCU: 0xF453, offset: 0x649DF, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setResponse:]', symObjAddr: 0xB295, symBinAddr: 0xC407, symSize: 0x5A }
+  - { offsetInCU: 0xF4E1, offset: 0x64A6D, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher bodyLength]', symObjAddr: 0xB2EF, symBinAddr: 0xC461, symSize: 0x119 }
+  - { offsetInCU: 0xF5EE, offset: 0x64B7A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher useUploadTask]', symObjAddr: 0xB408, symBinAddr: 0xC57A, symSize: 0x35 }
+  - { offsetInCU: 0xF64F, offset: 0x64BDB, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setUseUploadTask:]', symObjAddr: 0xB43D, symBinAddr: 0xC5AF, symSize: 0x39 }
+  - { offsetInCU: 0xF6BD, offset: 0x64C49, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher bodyFileURL]', symObjAddr: 0xB476, symBinAddr: 0xC5E8, symSize: 0x43 }
+  - { offsetInCU: 0xF72A, offset: 0x64CB6, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setBodyFileURL:]', symObjAddr: 0xB4B9, symBinAddr: 0xC62B, symSize: 0x6C }
+  - { offsetInCU: 0xF7C0, offset: 0x64D4C, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher bodyStreamProvider]', symObjAddr: 0xB525, symBinAddr: 0xC697, symSize: 0x41 }
+  - { offsetInCU: 0xF821, offset: 0x64DAD, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setBodyStreamProvider:]', symObjAddr: 0xB566, symBinAddr: 0xC6D8, symSize: 0x83 }
+  - { offsetInCU: 0xF8D7, offset: 0x64E63, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher authorizer]', symObjAddr: 0xB5E9, symBinAddr: 0xC75B, symSize: 0x46 }
+  - { offsetInCU: 0xF944, offset: 0x64ED0, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setAuthorizer:]', symObjAddr: 0xB62F, symBinAddr: 0xC7A1, symSize: 0x99 }
+  - { offsetInCU: 0xF9EE, offset: 0x64F7A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher downloadedData]', symObjAddr: 0xB6C8, symBinAddr: 0xC83A, symSize: 0x46 }
+  - { offsetInCU: 0xFA5B, offset: 0x64FE7, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setDownloadedData:]', symObjAddr: 0xB70E, symBinAddr: 0xC880, symSize: 0x89 }
+  - { offsetInCU: 0xFB11, offset: 0x6509D, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher downloadedLength]', symObjAddr: 0xB797, symBinAddr: 0xC909, symSize: 0x38 }
+  - { offsetInCU: 0xFB72, offset: 0x650FE, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setDownloadedLength:]', symObjAddr: 0xB7CF, symBinAddr: 0xC941, symSize: 0x37 }
+  - { offsetInCU: 0xFBE0, offset: 0x6516C, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher callbackQueue]', symObjAddr: 0xB806, symBinAddr: 0xC978, symSize: 0x46 }
+  - { offsetInCU: 0xFC5B, offset: 0x651E7, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setCallbackQueue:]', symObjAddr: 0xB84C, symBinAddr: 0xC9BE, symSize: 0x94 }
+  - { offsetInCU: 0xFD3B, offset: 0x652C7, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher session]', symObjAddr: 0xB8E0, symBinAddr: 0xCA52, symSize: 0x43 }
+  - { offsetInCU: 0xFDA8, offset: 0x65334, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher servicePriority]', symObjAddr: 0xB923, symBinAddr: 0xCA95, symSize: 0x38 }
+  - { offsetInCU: 0xFE09, offset: 0x65395, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setServicePriority:]', symObjAddr: 0xB95B, symBinAddr: 0xCACD, symSize: 0x40 }
+  - { offsetInCU: 0xFE77, offset: 0x65403, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setSession:]', symObjAddr: 0xB99B, symBinAddr: 0xCB0D, symSize: 0x5A }
+  - { offsetInCU: 0xFF05, offset: 0x65491, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher canShareSession]', symObjAddr: 0xB9F5, symBinAddr: 0xCB67, symSize: 0x38 }
+  - { offsetInCU: 0xFF66, offset: 0x654F2, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setCanShareSession:]', symObjAddr: 0xBA2D, symBinAddr: 0xCB9F, symSize: 0x36 }
+  - { offsetInCU: 0xFFD4, offset: 0x65560, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher useBackgroundSession]', symObjAddr: 0xBA63, symBinAddr: 0xCBD5, symSize: 0x38 }
+  - { offsetInCU: 0x10035, offset: 0x655C1, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setUseBackgroundSession:]', symObjAddr: 0xBA9B, symBinAddr: 0xCC0D, symSize: 0x3F }
+  - { offsetInCU: 0x100A3, offset: 0x6562F, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher isUsingBackgroundSession]', symObjAddr: 0xBADA, symBinAddr: 0xCC4C, symSize: 0x38 }
+  - { offsetInCU: 0x10104, offset: 0x65690, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setUsingBackgroundSession:]', symObjAddr: 0xBB12, symBinAddr: 0xCC84, symSize: 0x36 }
+  - { offsetInCU: 0x10172, offset: 0x656FE, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher stopFetchingTriggersCompletionHandler]', symObjAddr: 0xBB48, symBinAddr: 0xCCBA, symSize: 0xC }
+  - { offsetInCU: 0x101A8, offset: 0x65734, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setStopFetchingTriggersCompletionHandler:]', symObjAddr: 0xBB54, symBinAddr: 0xCCC6, symSize: 0x16 }
+  - { offsetInCU: 0x101EB, offset: 0x65777, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher sessionNeedingInvalidation]', symObjAddr: 0xBB6A, symBinAddr: 0xCCDC, symSize: 0x43 }
+  - { offsetInCU: 0x10258, offset: 0x657E4, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setSessionNeedingInvalidation:]', symObjAddr: 0xBBAD, symBinAddr: 0xCD1F, symSize: 0x5A }
+  - { offsetInCU: 0x102E6, offset: 0x65872, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher sessionDelegateQueue]', symObjAddr: 0xBC07, symBinAddr: 0xCD79, symSize: 0x46 }
+  - { offsetInCU: 0x10353, offset: 0x658DF, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setSessionDelegateQueue:]', symObjAddr: 0xBC4D, symBinAddr: 0xCDBF, symSize: 0xC5 }
+  - { offsetInCU: 0x10429, offset: 0x659B5, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher userStoppedFetching]', symObjAddr: 0xBD12, symBinAddr: 0xCE84, symSize: 0x38 }
+  - { offsetInCU: 0x1048A, offset: 0x65A16, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher userData]', symObjAddr: 0xBD4A, symBinAddr: 0xCEBC, symSize: 0x46 }
+  - { offsetInCU: 0x104F7, offset: 0x65A83, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setUserData:]', symObjAddr: 0xBD90, symBinAddr: 0xCF02, symSize: 0x60 }
+  - { offsetInCU: 0x10585, offset: 0x65B11, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher destinationFileURL]', symObjAddr: 0xBDF0, symBinAddr: 0xCF62, symSize: 0x46 }
+  - { offsetInCU: 0x105F2, offset: 0x65B7E, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setDestinationFileURL:]', symObjAddr: 0xBE36, symBinAddr: 0xCFA8, symSize: 0xCA }
+  - { offsetInCU: 0x1069C, offset: 0x65C28, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setProperties:]', symObjAddr: 0xBF00, symBinAddr: 0xD072, symSize: 0x89 }
+  - { offsetInCU: 0x10752, offset: 0x65CDE, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher properties]', symObjAddr: 0xBF89, symBinAddr: 0xD0FB, symSize: 0x46 }
+  - { offsetInCU: 0x107BF, offset: 0x65D4B, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setProperty:forKey:]', symObjAddr: 0xBFCF, symBinAddr: 0xD141, symSize: 0xC4 }
+  - { offsetInCU: 0x108B5, offset: 0x65E41, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher propertyForKey:]', symObjAddr: 0xC093, symBinAddr: 0xD205, symSize: 0x8F }
+  - { offsetInCU: 0x1095B, offset: 0x65EE7, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher addPropertiesFromDictionary:]', symObjAddr: 0xC122, symBinAddr: 0xD294, symSize: 0xBA }
+  - { offsetInCU: 0x10A41, offset: 0x65FCD, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setCommentWithFormat:]', symObjAddr: 0xC1DC, symBinAddr: 0xD34E, symSize: 0x6 }
+  - { offsetInCU: 0x10A7F, offset: 0x6600B, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher setLoggingEnabled:]', symObjAddr: 0xC1E2, symBinAddr: 0xD354, symSize: 0x6 }
+  - { offsetInCU: 0x10ABC, offset: 0x66048, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcher isLoggingEnabled]', symObjAddr: 0xC1E8, symBinAddr: 0xD35A, symSize: 0x8 }
+  - { offsetInCU: 0x10AF0, offset: 0x6607C, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher downloadResumeData]', symObjAddr: 0xC1F0, symBinAddr: 0xD362, symSize: 0x14 }
+  - { offsetInCU: 0x10B28, offset: 0x660B4, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setDownloadResumeData:]', symObjAddr: 0xC204, symBinAddr: 0xD376, symSize: 0xF }
+  - { offsetInCU: 0x10B68, offset: 0x660F4, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher configuration]', symObjAddr: 0xC213, symBinAddr: 0xD385, symSize: 0x14 }
+  - { offsetInCU: 0x10BA0, offset: 0x6612C, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setConfiguration:]', symObjAddr: 0xC227, symBinAddr: 0xD399, symSize: 0xF }
+  - { offsetInCU: 0x10BE0, offset: 0x6616C, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher configurationBlock]', symObjAddr: 0xC236, symBinAddr: 0xD3A8, symSize: 0x14 }
+  - { offsetInCU: 0x10C18, offset: 0x661A4, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setConfigurationBlock:]', symObjAddr: 0xC24A, symBinAddr: 0xD3BC, symSize: 0xF }
+  - { offsetInCU: 0x10C58, offset: 0x661E4, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher wasCreatedFromBackgroundSession]', symObjAddr: 0xC259, symBinAddr: 0xD3CB, symSize: 0xB }
+  - { offsetInCU: 0x10C8E, offset: 0x6621A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher clientWillReconnectBackgroundSession]', symObjAddr: 0xC264, symBinAddr: 0xD3D6, symSize: 0xB }
+  - { offsetInCU: 0x10CC4, offset: 0x66250, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setClientWillReconnectBackgroundSession:]', symObjAddr: 0xC26F, symBinAddr: 0xD3E1, symSize: 0x9 }
+  - { offsetInCU: 0x10D02, offset: 0x6628E, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher taskDescription]', symObjAddr: 0xC278, symBinAddr: 0xD3EA, symSize: 0x14 }
+  - { offsetInCU: 0x10D3A, offset: 0x662C6, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setTaskDescription:]', symObjAddr: 0xC28C, symBinAddr: 0xD3FE, symSize: 0xF }
+  - { offsetInCU: 0x10D7A, offset: 0x66306, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher taskPriority]', symObjAddr: 0xC29B, symBinAddr: 0xD40D, symSize: 0xB }
+  - { offsetInCU: 0x10DB0, offset: 0x6633C, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setTaskPriority:]', symObjAddr: 0xC2A6, symBinAddr: 0xD418, symSize: 0xB }
+  - { offsetInCU: 0x10DEE, offset: 0x6637A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher completionHandler]', symObjAddr: 0xC2B1, symBinAddr: 0xD423, symSize: 0x14 }
+  - { offsetInCU: 0x10E26, offset: 0x663B2, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setCompletionHandler:]', symObjAddr: 0xC2C5, symBinAddr: 0xD437, symSize: 0xF }
+  - { offsetInCU: 0x10E66, offset: 0x663F2, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher credential]', symObjAddr: 0xC2D4, symBinAddr: 0xD446, symSize: 0x14 }
+  - { offsetInCU: 0x10E9E, offset: 0x6642A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setCredential:]', symObjAddr: 0xC2E8, symBinAddr: 0xD45A, symSize: 0xF }
+  - { offsetInCU: 0x10EDE, offset: 0x6646A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher proxyCredential]', symObjAddr: 0xC2F7, symBinAddr: 0xD469, symSize: 0x14 }
+  - { offsetInCU: 0x10F16, offset: 0x664A2, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setProxyCredential:]', symObjAddr: 0xC30B, symBinAddr: 0xD47D, symSize: 0xF }
+  - { offsetInCU: 0x10F56, offset: 0x664E2, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher bodyData]', symObjAddr: 0xC31A, symBinAddr: 0xD48C, symSize: 0x14 }
+  - { offsetInCU: 0x10F8E, offset: 0x6651A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setBodyData:]', symObjAddr: 0xC32E, symBinAddr: 0xD4A0, symSize: 0xF }
+  - { offsetInCU: 0x10FCE, offset: 0x6655A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher service]', symObjAddr: 0xC33D, symBinAddr: 0xD4AF, symSize: 0x14 }
+  - { offsetInCU: 0x11006, offset: 0x66592, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setService:]', symObjAddr: 0xC351, symBinAddr: 0xD4C3, symSize: 0xF }
+  - { offsetInCU: 0x11046, offset: 0x665D2, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher serviceHost]', symObjAddr: 0xC360, symBinAddr: 0xD4D2, symSize: 0x14 }
+  - { offsetInCU: 0x1107E, offset: 0x6660A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setServiceHost:]', symObjAddr: 0xC374, symBinAddr: 0xD4E6, symSize: 0xF }
+  - { offsetInCU: 0x110BE, offset: 0x6664A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher accumulateDataBlock]', symObjAddr: 0xC383, symBinAddr: 0xD4F5, symSize: 0x14 }
+  - { offsetInCU: 0x110F6, offset: 0x66682, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setAccumulateDataBlock:]', symObjAddr: 0xC397, symBinAddr: 0xD509, symSize: 0xF }
+  - { offsetInCU: 0x11136, offset: 0x666C2, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher receivedProgressBlock]', symObjAddr: 0xC3A6, symBinAddr: 0xD518, symSize: 0x14 }
+  - { offsetInCU: 0x1116E, offset: 0x666FA, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setReceivedProgressBlock:]', symObjAddr: 0xC3BA, symBinAddr: 0xD52C, symSize: 0xF }
+  - { offsetInCU: 0x111AE, offset: 0x6673A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher downloadProgressBlock]', symObjAddr: 0xC3C9, symBinAddr: 0xD53B, symSize: 0x14 }
+  - { offsetInCU: 0x111E6, offset: 0x66772, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setDownloadProgressBlock:]', symObjAddr: 0xC3DD, symBinAddr: 0xD54F, symSize: 0xF }
+  - { offsetInCU: 0x11226, offset: 0x667B2, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher resumeDataBlock]', symObjAddr: 0xC3EC, symBinAddr: 0xD55E, symSize: 0x14 }
+  - { offsetInCU: 0x1125E, offset: 0x667EA, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setResumeDataBlock:]', symObjAddr: 0xC400, symBinAddr: 0xD572, symSize: 0xF }
+  - { offsetInCU: 0x1129E, offset: 0x6682A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher didReceiveResponseBlock]', symObjAddr: 0xC40F, symBinAddr: 0xD581, symSize: 0x14 }
+  - { offsetInCU: 0x112D6, offset: 0x66862, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setDidReceiveResponseBlock:]', symObjAddr: 0xC423, symBinAddr: 0xD595, symSize: 0xF }
+  - { offsetInCU: 0x11316, offset: 0x668A2, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher challengeBlock]', symObjAddr: 0xC432, symBinAddr: 0xD5A4, symSize: 0x14 }
+  - { offsetInCU: 0x1134E, offset: 0x668DA, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setChallengeBlock:]', symObjAddr: 0xC446, symBinAddr: 0xD5B8, symSize: 0xF }
+  - { offsetInCU: 0x1138E, offset: 0x6691A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher willRedirectBlock]', symObjAddr: 0xC455, symBinAddr: 0xD5C7, symSize: 0x14 }
+  - { offsetInCU: 0x113C6, offset: 0x66952, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setWillRedirectBlock:]', symObjAddr: 0xC469, symBinAddr: 0xD5DB, symSize: 0xF }
+  - { offsetInCU: 0x11406, offset: 0x66992, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher sendProgressBlock]', symObjAddr: 0xC478, symBinAddr: 0xD5EA, symSize: 0x14 }
+  - { offsetInCU: 0x1143E, offset: 0x669CA, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setSendProgressBlock:]', symObjAddr: 0xC48C, symBinAddr: 0xD5FE, symSize: 0xF }
+  - { offsetInCU: 0x1147E, offset: 0x66A0A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher willCacheURLResponseBlock]', symObjAddr: 0xC49B, symBinAddr: 0xD60D, symSize: 0x14 }
+  - { offsetInCU: 0x114B6, offset: 0x66A42, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setWillCacheURLResponseBlock:]', symObjAddr: 0xC4AF, symBinAddr: 0xD621, symSize: 0xF }
+  - { offsetInCU: 0x114F6, offset: 0x66A82, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher retryBlock]', symObjAddr: 0xC4BE, symBinAddr: 0xD630, symSize: 0x14 }
+  - { offsetInCU: 0x1152E, offset: 0x66ABA, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setRetryBlock:]', symObjAddr: 0xC4D2, symBinAddr: 0xD644, symSize: 0xF }
+  - { offsetInCU: 0x1156E, offset: 0x66AFA, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher metricsCollectionBlock]', symObjAddr: 0xC4E1, symBinAddr: 0xD653, symSize: 0x14 }
+  - { offsetInCU: 0x115A6, offset: 0x66B32, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setMetricsCollectionBlock:]', symObjAddr: 0xC4F5, symBinAddr: 0xD667, symSize: 0xF }
+  - { offsetInCU: 0x115E6, offset: 0x66B72, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher retryFactor]', symObjAddr: 0xC504, symBinAddr: 0xD676, symSize: 0xE }
+  - { offsetInCU: 0x1161C, offset: 0x66BA8, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setRetryFactor:]', symObjAddr: 0xC512, symBinAddr: 0xD684, symSize: 0xE }
+  - { offsetInCU: 0x1165A, offset: 0x66BE6, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher allowedInsecureSchemes]', symObjAddr: 0xC520, symBinAddr: 0xD692, symSize: 0x14 }
+  - { offsetInCU: 0x11692, offset: 0x66C1E, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setAllowedInsecureSchemes:]', symObjAddr: 0xC534, symBinAddr: 0xD6A6, symSize: 0xF }
+  - { offsetInCU: 0x116D2, offset: 0x66C5E, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher allowLocalhostRequest]', symObjAddr: 0xC543, symBinAddr: 0xD6B5, symSize: 0xE }
+  - { offsetInCU: 0x11708, offset: 0x66C94, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setAllowLocalhostRequest:]', symObjAddr: 0xC551, symBinAddr: 0xD6C3, symSize: 0xC }
+  - { offsetInCU: 0x11746, offset: 0x66CD2, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher allowInvalidServerCertificates]', symObjAddr: 0xC55D, symBinAddr: 0xD6CF, symSize: 0xE }
+  - { offsetInCU: 0x1177C, offset: 0x66D08, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setAllowInvalidServerCertificates:]', symObjAddr: 0xC56B, symBinAddr: 0xD6DD, symSize: 0xC }
+  - { offsetInCU: 0x117BA, offset: 0x66D46, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher cookieStorage]', symObjAddr: 0xC577, symBinAddr: 0xD6E9, symSize: 0x14 }
+  - { offsetInCU: 0x117F2, offset: 0x66D7E, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setCookieStorage:]', symObjAddr: 0xC58B, symBinAddr: 0xD6FD, symSize: 0xF }
+  - { offsetInCU: 0x11832, offset: 0x66DBE, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher initialBeginFetchDate]', symObjAddr: 0xC59A, symBinAddr: 0xD70C, symSize: 0x14 }
+  - { offsetInCU: 0x1186A, offset: 0x66DF6, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher testBlock]', symObjAddr: 0xC5AE, symBinAddr: 0xD720, symSize: 0x14 }
+  - { offsetInCU: 0x118A2, offset: 0x66E2E, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setTestBlock:]', symObjAddr: 0xC5C2, symBinAddr: 0xD734, symSize: 0xF }
+  - { offsetInCU: 0x118E2, offset: 0x66E6E, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher testBlockAccumulateDataChunkCount]', symObjAddr: 0xC5D1, symBinAddr: 0xD743, symSize: 0xD }
+  - { offsetInCU: 0x11918, offset: 0x66EA4, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setTestBlockAccumulateDataChunkCount:]', symObjAddr: 0xC5DE, symBinAddr: 0xD750, symSize: 0xD }
+  - { offsetInCU: 0x11956, offset: 0x66EE2, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher comment]', symObjAddr: 0xC5EB, symBinAddr: 0xD75D, symSize: 0x14 }
+  - { offsetInCU: 0x1198E, offset: 0x66F1A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setComment:]', symObjAddr: 0xC5FF, symBinAddr: 0xD771, symSize: 0xF }
+  - { offsetInCU: 0x119CE, offset: 0x66F5A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher log]', symObjAddr: 0xC60E, symBinAddr: 0xD780, symSize: 0x14 }
+  - { offsetInCU: 0x11A06, offset: 0x66F92, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setLog:]', symObjAddr: 0xC622, symBinAddr: 0xD794, symSize: 0xF }
+  - { offsetInCU: 0x11A46, offset: 0x66FD2, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher userAgentProvider]', symObjAddr: 0xC631, symBinAddr: 0xD7A3, symSize: 0x14 }
+  - { offsetInCU: 0x11A7E, offset: 0x6700A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setUserAgentProvider:]', symObjAddr: 0xC645, symBinAddr: 0xD7B7, symSize: 0xF }
+  - { offsetInCU: 0x11ABE, offset: 0x6704A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher backgroundTaskIdentifier]', symObjAddr: 0xC654, symBinAddr: 0xD7C6, symSize: 0xD }
+  - { offsetInCU: 0x11AF4, offset: 0x67080, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setBackgroundTaskIdentifier:]', symObjAddr: 0xC661, symBinAddr: 0xD7D3, symSize: 0xD }
+  - { offsetInCU: 0x11B32, offset: 0x670BE, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher skipBackgroundTask]', symObjAddr: 0xC66E, symBinAddr: 0xD7E0, symSize: 0xE }
+  - { offsetInCU: 0x11B68, offset: 0x670F4, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher setSkipBackgroundTask:]', symObjAddr: 0xC67C, symBinAddr: 0xD7EE, symSize: 0xC }
+  - { offsetInCU: 0x11BA6, offset: 0x67132, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher .cxx_destruct]', symObjAddr: 0xC688, symBinAddr: 0xD7FA, symSize: 0x2AD }
+  - { offsetInCU: 0x11BD9, offset: 0x67165, size: 0x8, addend: 0x0, symName: '-[GTMSessionCookieStorage init]', symObjAddr: 0xC935, symBinAddr: 0xDAA7, symSize: 0x5D }
+  - { offsetInCU: 0x11C1D, offset: 0x671A9, size: 0x8, addend: 0x0, symName: '-[GTMSessionCookieStorage cookies]', symObjAddr: 0xC992, symBinAddr: 0xDB04, symSize: 0x63 }
+  - { offsetInCU: 0x11C8A, offset: 0x67216, size: 0x8, addend: 0x0, symName: '-[GTMSessionCookieStorage setCookie:]', symObjAddr: 0xC9F5, symBinAddr: 0xDB67, symSize: 0x81 }
+  - { offsetInCU: 0x11D3B, offset: 0x672C7, size: 0x8, addend: 0x0, symName: '-[GTMSessionCookieStorage internalSetCookie:]', symObjAddr: 0xCA76, symBinAddr: 0xDBE8, symSize: 0x18A }
+  - { offsetInCU: 0x11EC8, offset: 0x67454, size: 0x8, addend: 0x0, symName: '-[GTMSessionCookieStorage setCookies:]', symObjAddr: 0xCC00, symBinAddr: 0xDD72, symSize: 0x191 }
+  - { offsetInCU: 0x11FF4, offset: 0x67580, size: 0x8, addend: 0x0, symName: '-[GTMSessionCookieStorage setCookies:forURL:mainDocumentURL:]', symObjAddr: 0xCD91, symBinAddr: 0xDF03, symSize: 0x15A }
+  - { offsetInCU: 0x121D7, offset: 0x67763, size: 0x8, addend: 0x0, symName: '-[GTMSessionCookieStorage deleteCookie:]', symObjAddr: 0xCEEB, symBinAddr: 0xE05D, symSize: 0xB0 }
+  - { offsetInCU: 0x122B5, offset: 0x67841, size: 0x8, addend: 0x0, symName: '-[GTMSessionCookieStorage cookiesForURL:]', symObjAddr: 0xCF9B, symBinAddr: 0xE10D, symSize: 0x570 }
+  - { offsetInCU: 0x12660, offset: 0x67BEC, size: 0x8, addend: 0x0, symName: '-[GTMSessionCookieStorage storeCookies:forTask:]', symObjAddr: 0xD50B, symBinAddr: 0xE67D, symSize: 0x99 }
+  - { offsetInCU: 0x1274D, offset: 0x67CD9, size: 0x8, addend: 0x0, symName: '-[GTMSessionCookieStorage getCookiesForTask:completionHandler:]', symObjAddr: 0xD5A4, symBinAddr: 0xE716, symSize: 0xB8 }
+  - { offsetInCU: 0x1286D, offset: 0x67DF9, size: 0x8, addend: 0x0, symName: '-[GTMSessionCookieStorage cookieMatchingCookie:]', symObjAddr: 0xD65C, symBinAddr: 0xE7CE, symSize: 0x2EE }
+  - { offsetInCU: 0x12AC7, offset: 0x68053, size: 0x8, addend: 0x0, symName: '-[GTMSessionCookieStorage removeExpiredCookies]', symObjAddr: 0xD94A, symBinAddr: 0xEABC, symSize: 0xCE }
+  - { offsetInCU: 0x12B84, offset: 0x68110, size: 0x8, addend: 0x0, symName: '+[GTMSessionCookieStorage hasCookieExpired:]', symObjAddr: 0xDA18, symBinAddr: 0xEB8A, symSize: 0xEA }
+  - { offsetInCU: 0x12C8C, offset: 0x68218, size: 0x8, addend: 0x0, symName: '-[GTMSessionCookieStorage removeAllCookies]', symObjAddr: 0xDB02, symBinAddr: 0xEC74, symSize: 0x58 }
+  - { offsetInCU: 0x12CF5, offset: 0x68281, size: 0x8, addend: 0x0, symName: '-[GTMSessionCookieStorage cookieAcceptPolicy]', symObjAddr: 0xDB5A, symBinAddr: 0xECCC, symSize: 0x3C }
+  - { offsetInCU: 0x12D56, offset: 0x682E2, size: 0x8, addend: 0x0, symName: '-[GTMSessionCookieStorage setCookieAcceptPolicy:]', symObjAddr: 0xDB96, symBinAddr: 0xED08, symSize: 0x3B }
+  - { offsetInCU: 0x12DC4, offset: 0x68350, size: 0x8, addend: 0x0, symName: '-[GTMSessionCookieStorage .cxx_destruct]', symObjAddr: 0xDBD1, symBinAddr: 0xED43, symSize: 0x13 }
+  - { offsetInCU: 0x12DF8, offset: 0x68384, size: 0x8, addend: 0x0, symName: ___GTMFetcherSystemVersionString_block_invoke, symObjAddr: 0xDDF0, symBinAddr: 0xEF62, symSize: 0xE3 }
+  - { offsetInCU: 0x12F1E, offset: 0x684AA, size: 0x8, addend: 0x0, symName: '-[GTMUserAgentStringProvider initWithUserAgentString:]', symObjAddr: 0xDED3, symBinAddr: 0xF045, symSize: 0x73 }
+  - { offsetInCU: 0x12FB0, offset: 0x6853C, size: 0x8, addend: 0x0, symName: '-[GTMUserAgentStringProvider cachedUserAgent]', symObjAddr: 0xDF46, symBinAddr: 0xF0B8, symSize: 0xE }
+  - { offsetInCU: 0x12FE8, offset: 0x68574, size: 0x8, addend: 0x0, symName: '-[GTMUserAgentStringProvider userAgent]', symObjAddr: 0xDF54, symBinAddr: 0xF0C6, symSize: 0xE }
+  - { offsetInCU: 0x13020, offset: 0x685AC, size: 0x8, addend: 0x0, symName: '-[GTMUserAgentStringProvider .cxx_destruct]', symObjAddr: 0xDF62, symBinAddr: 0xF0D4, symSize: 0x10 }
+  - { offsetInCU: 0x13054, offset: 0x685E0, size: 0x8, addend: 0x0, symName: '-[GTMStandardUserAgentProvider initWithBundle:]', symObjAddr: 0xDF72, symBinAddr: 0xF0E4, symSize: 0x6B }
+  - { offsetInCU: 0x130C6, offset: 0x68652, size: 0x8, addend: 0x0, symName: '-[GTMStandardUserAgentProvider userAgent]', symObjAddr: 0xDFDD, symBinAddr: 0xF14F, symSize: 0x5A }
+  - { offsetInCU: 0x1313D, offset: 0x686C9, size: 0x8, addend: 0x0, symName: _GTMFetcherStandardUserAgentString, symObjAddr: 0xE037, symBinAddr: 0xF1A9, symSize: 0x7F }
+  - { offsetInCU: 0x131C7, offset: 0x68753, size: 0x8, addend: 0x0, symName: '-[GTMStandardUserAgentProvider cachedUserAgent]', symObjAddr: 0xE0B6, symBinAddr: 0xF228, symSize: 0x14 }
+  - { offsetInCU: 0x131FF, offset: 0x6878B, size: 0x8, addend: 0x0, symName: '-[GTMStandardUserAgentProvider setCachedUserAgent:]', symObjAddr: 0xE0CA, symBinAddr: 0xF23C, symSize: 0xF }
+  - { offsetInCU: 0x1323F, offset: 0x687CB, size: 0x8, addend: 0x0, symName: '-[GTMStandardUserAgentProvider .cxx_destruct]', symObjAddr: 0xE0D9, symBinAddr: 0xF24B, symSize: 0x28 }
+  - { offsetInCU: 0x27, offset: 0x6AC13, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService init]', symObjAddr: 0x0, symBinAddr: 0xF5F5, symSize: 0x154 }
+  - { offsetInCU: 0x41, offset: 0x6AC2D, size: 0x8, addend: 0x0, symName: _kGTMSessionFetcherServiceSessionBecameInvalidNotification, symObjAddr: 0x5388, symBinAddr: 0x23B68, symSize: 0x0 }
+  - { offsetInCU: 0x8F, offset: 0x6AC7B, size: 0x8, addend: 0x0, symName: _kGTMSessionFetcherServiceSessionKey, symObjAddr: 0x5390, symBinAddr: 0x23B70, symSize: 0x0 }
+  - { offsetInCU: 0xA7, offset: 0x6AC93, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService serialQueueForNewFetcher:]', symObjAddr: 0x1A8, symBinAddr: 0xF79D, symSize: 0x5B }
+  - { offsetInCU: 0x156, offset: 0x6AD42, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService(TestingSupport) waitForCompletionOfAllFetchersWithTimeout:]', symObjAddr: 0x36CE, symBinAddr: 0x12C4D, symSize: 0x210 }
+  - { offsetInCU: 0x13CE, offset: 0x6BFBA, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService init]', symObjAddr: 0x0, symBinAddr: 0xF5F5, symSize: 0x154 }
+  - { offsetInCU: 0x14A4, offset: 0x6C090, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService dealloc]', symObjAddr: 0x154, symBinAddr: 0xF749, symSize: 0x54 }
+  - { offsetInCU: 0x1519, offset: 0x6C105, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService fetcherWithRequest:fetcherClass:]', symObjAddr: 0x203, symBinAddr: 0xF7F8, symSize: 0x3EF }
+  - { offsetInCU: 0x19EF, offset: 0x6C5DB, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService fetcherWithRequest:]', symObjAddr: 0x5F2, symBinAddr: 0xFBE7, symSize: 0x64 }
+  - { offsetInCU: 0x1A6B, offset: 0x6C657, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService fetcherWithURL:]', symObjAddr: 0x656, symBinAddr: 0xFC4B, symSize: 0x66 }
+  - { offsetInCU: 0x1ADE, offset: 0x6C6CA, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService fetcherWithURLString:]', symObjAddr: 0x6BC, symBinAddr: 0xFCB1, symSize: 0x66 }
+  - { offsetInCU: 0x1B5D, offset: 0x6C749, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService addDecorator:]', symObjAddr: 0x722, symBinAddr: 0xFD17, symSize: 0xBB }
+  - { offsetInCU: 0x1C1D, offset: 0x6C809, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService decorators]', symObjAddr: 0x7DD, symBinAddr: 0xFDD2, symSize: 0x67 }
+  - { offsetInCU: 0x1C8A, offset: 0x6C876, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService removeDecorator:]', symObjAddr: 0x844, symBinAddr: 0xFE39, symSize: 0x1DB }
+  - { offsetInCU: 0x1DC2, offset: 0x6C9AE, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService session]', symObjAddr: 0xA1F, symBinAddr: 0x10014, symSize: 0x64 }
+  - { offsetInCU: 0x1E43, offset: 0x6CA2F, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService sessionWithCreationBlock:]', symObjAddr: 0xA83, symBinAddr: 0x10078, symSize: 0x174 }
+  - { offsetInCU: 0x1FCB, offset: 0x6CBB7, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService sessionDelegate]', symObjAddr: 0xBF7, symBinAddr: 0x101EC, symSize: 0x43 }
+  - { offsetInCU: 0x2038, offset: 0x6CC24, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService addRunningFetcher:forHost:]', symObjAddr: 0xC3A, symBinAddr: 0x1022F, symSize: 0xD8 }
+  - { offsetInCU: 0x215F, offset: 0x6CD4B, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService addDelayedFetcher:forHost:]', symObjAddr: 0xD12, symBinAddr: 0x10307, symSize: 0xD8 }
+  - { offsetInCU: 0x2286, offset: 0x6CE72, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService isDelayingFetcher:]', symObjAddr: 0xDEA, symBinAddr: 0x103DF, symSize: 0x13E }
+  - { offsetInCU: 0x23F7, offset: 0x6CFE3, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService fetcherShouldBeginFetching:]', symObjAddr: 0xF28, symBinAddr: 0x1051D, symSize: 0x237 }
+  - { offsetInCU: 0x265A, offset: 0x6D246, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService startFetcher:]', symObjAddr: 0x115F, symBinAddr: 0x10754, symSize: 0x22 }
+  - { offsetInCU: 0x26C2, offset: 0x6D2AE, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService delegateDispatcherForFetcher:]', symObjAddr: 0x1181, symBinAddr: 0x10776, symSize: 0x83 }
+  - { offsetInCU: 0x2781, offset: 0x6D36D, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService fetcherDidBeginFetching:]', symObjAddr: 0x1204, symBinAddr: 0x107F9, symSize: 0xF9 }
+  - { offsetInCU: 0x28E3, offset: 0x6D4CF, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService stopFetcher:]', symObjAddr: 0x12FD, symBinAddr: 0x108F2, symSize: 0x15 }
+  - { offsetInCU: 0x2937, offset: 0x6D523, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService fetcherDidStop:]', symObjAddr: 0x1312, symBinAddr: 0x10907, symSize: 0x14 }
+  - { offsetInCU: 0x299B, offset: 0x6D587, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService fetcherDidStop:callbacksPending:]', symObjAddr: 0x1326, symBinAddr: 0x1091B, symSize: 0x610 }
+  - { offsetInCU: 0x2D9A, offset: 0x6D986, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService numberOfFetchers]', symObjAddr: 0x1936, symBinAddr: 0x10F2B, symSize: 0x3C }
+  - { offsetInCU: 0x2E1D, offset: 0x6DA09, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService numberOfRunningFetchers]', symObjAddr: 0x1972, symBinAddr: 0x10F67, symSize: 0x1D2 }
+  - { offsetInCU: 0x2F47, offset: 0x6DB33, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService numberOfDelayedFetchers]', symObjAddr: 0x1B44, symBinAddr: 0x11139, symSize: 0x1D2 }
+  - { offsetInCU: 0x3071, offset: 0x6DC5D, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService issuedFetchers]', symObjAddr: 0x1D16, symBinAddr: 0x1130B, symSize: 0x123 }
+  - { offsetInCU: 0x3192, offset: 0x6DD7E, size: 0x8, addend: 0x0, symName: '___42-[GTMSessionFetcherService issuedFetchers]_block_invoke', symObjAddr: 0x1E39, symBinAddr: 0x1142E, symSize: 0x16 }
+  - { offsetInCU: 0x320E, offset: 0x6DDFA, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService issuedFetchersWithRequestURL:]', symObjAddr: 0x1E6D, symBinAddr: 0x11444, symSize: 0x165 }
+  - { offsetInCU: 0x338D, offset: 0x6DF79, size: 0x8, addend: 0x0, symName: '___57-[GTMSessionFetcherService issuedFetchersWithRequestURL:]_block_invoke', symObjAddr: 0x1FD2, symBinAddr: 0x115A9, symSize: 0xA1 }
+  - { offsetInCU: 0x348A, offset: 0x6E076, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService stopAllFetchers]', symObjAddr: 0x2073, symBinAddr: 0x1164A, symSize: 0x4BB }
+  - { offsetInCU: 0x372A, offset: 0x6E316, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService stoppedAllFetchersDate]', symObjAddr: 0x252E, symBinAddr: 0x11B05, symSize: 0x43 }
+  - { offsetInCU: 0x3797, offset: 0x6E383, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService reuseSession]', symObjAddr: 0x2571, symBinAddr: 0x11B48, symSize: 0x3A }
+  - { offsetInCU: 0x37F8, offset: 0x6E3E4, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setReuseSession:]', symObjAddr: 0x25AB, symBinAddr: 0x11B82, symSize: 0x9E }
+  - { offsetInCU: 0x38BA, offset: 0x6E4A6, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService resetSession]', symObjAddr: 0x2649, symBinAddr: 0x11C20, symSize: 0x6A }
+  - { offsetInCU: 0x3956, offset: 0x6E542, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService resetSessionInternal]', symObjAddr: 0x26B3, symBinAddr: 0x11C8A, symSize: 0x5D }
+  - { offsetInCU: 0x39B6, offset: 0x6E5A2, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService resetSessionForDispatcherDiscardTimer:]', symObjAddr: 0x2710, symBinAddr: 0x11CE7, symSize: 0xB5 }
+  - { offsetInCU: 0x3AA4, offset: 0x6E690, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService unusedSessionTimeout]', symObjAddr: 0x27C5, symBinAddr: 0x11D9C, symSize: 0x41 }
+  - { offsetInCU: 0x3B05, offset: 0x6E6F1, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setUnusedSessionTimeout:]', symObjAddr: 0x2806, symBinAddr: 0x11DDD, symSize: 0x6B }
+  - { offsetInCU: 0x3B89, offset: 0x6E775, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService abandonDispatcher]', symObjAddr: 0x2871, symBinAddr: 0x11E48, symSize: 0x16 }
+  - { offsetInCU: 0x3BC9, offset: 0x6E7B5, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService runningFetchersByHost]', symObjAddr: 0x2887, symBinAddr: 0x11E5E, symSize: 0x5C }
+  - { offsetInCU: 0x3C36, offset: 0x6E822, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setRunningFetchersByHost:]', symObjAddr: 0x28E3, symBinAddr: 0x11EBA, symSize: 0x83 }
+  - { offsetInCU: 0x3CEC, offset: 0x6E8D8, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService delayedFetchersByHost]', symObjAddr: 0x2966, symBinAddr: 0x11F3D, symSize: 0x5C }
+  - { offsetInCU: 0x3D59, offset: 0x6E945, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setDelayedFetchersByHost:]', symObjAddr: 0x29C2, symBinAddr: 0x11F99, symSize: 0x83 }
+  - { offsetInCU: 0x3E0F, offset: 0x6E9FB, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService authorizer]', symObjAddr: 0x2A45, symBinAddr: 0x1201C, symSize: 0x43 }
+  - { offsetInCU: 0x3E7C, offset: 0x6EA68, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setAuthorizer:]', symObjAddr: 0x2A88, symBinAddr: 0x1205F, symSize: 0xB1 }
+  - { offsetInCU: 0x3F48, offset: 0x6EB34, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService detachAuthorizer]', symObjAddr: 0x2B39, symBinAddr: 0x12110, symSize: 0x63 }
+  - { offsetInCU: 0x3FCB, offset: 0x6EBB7, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService callbackQueue]', symObjAddr: 0x2B9C, symBinAddr: 0x12173, symSize: 0x43 }
+  - { offsetInCU: 0x4038, offset: 0x6EC24, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setCallbackQueue:]', symObjAddr: 0x2BDF, symBinAddr: 0x121B6, symSize: 0x14 }
+  - { offsetInCU: 0x409C, offset: 0x6EC88, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setConcurrentCallbackQueue:]', symObjAddr: 0x2BF3, symBinAddr: 0x121CA, symSize: 0x17 }
+  - { offsetInCU: 0x410E, offset: 0x6ECFA, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setCallbackQueue:isConcurrent:]', symObjAddr: 0x2C0A, symBinAddr: 0x121E1, symSize: 0xA1 }
+  - { offsetInCU: 0x41FF, offset: 0x6EDEB, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService sessionDelegateQueue]', symObjAddr: 0x2CAB, symBinAddr: 0x12282, symSize: 0x43 }
+  - { offsetInCU: 0x426C, offset: 0x6EE58, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setSessionDelegateQueue:]', symObjAddr: 0x2CEE, symBinAddr: 0x122C5, symSize: 0x9F }
+  - { offsetInCU: 0x432E, offset: 0x6EF1A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService userAgent]', symObjAddr: 0x2D8D, symBinAddr: 0x12364, symSize: 0x64 }
+  - { offsetInCU: 0x439B, offset: 0x6EF87, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setUserAgent:]', symObjAddr: 0x2DF1, symBinAddr: 0x123C8, symSize: 0xA5 }
+  - { offsetInCU: 0x4451, offset: 0x6F03D, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService userAgentProvider]', symObjAddr: 0x2E96, symBinAddr: 0x1246D, symSize: 0x43 }
+  - { offsetInCU: 0x44BE, offset: 0x6F0AA, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setUserAgentProvider:]', symObjAddr: 0x2ED9, symBinAddr: 0x124B0, symSize: 0x5A }
+  - { offsetInCU: 0x454C, offset: 0x6F138, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService delegateQueue]', symObjAddr: 0x2F33, symBinAddr: 0x1250A, symSize: 0x8 }
+  - { offsetInCU: 0x4580, offset: 0x6F16C, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcherService numberOfNonBackgroundSessionFetchers:]', symObjAddr: 0x2F3B, symBinAddr: 0x12512, symSize: 0x136 }
+  - { offsetInCU: 0x465D, offset: 0x6F249, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService maxRunningFetchersPerHost]', symObjAddr: 0x3071, symBinAddr: 0x12648, symSize: 0xA }
+  - { offsetInCU: 0x4692, offset: 0x6F27E, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setMaxRunningFetchersPerHost:]', symObjAddr: 0x307B, symBinAddr: 0x12652, symSize: 0xA }
+  - { offsetInCU: 0x46CF, offset: 0x6F2BB, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService configuration]', symObjAddr: 0x3085, symBinAddr: 0x1265C, symSize: 0x14 }
+  - { offsetInCU: 0x4706, offset: 0x6F2F2, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setConfiguration:]', symObjAddr: 0x3099, symBinAddr: 0x12670, symSize: 0xF }
+  - { offsetInCU: 0x4745, offset: 0x6F331, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService configurationBlock]', symObjAddr: 0x30A8, symBinAddr: 0x1267F, symSize: 0x14 }
+  - { offsetInCU: 0x477C, offset: 0x6F368, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setConfigurationBlock:]', symObjAddr: 0x30BC, symBinAddr: 0x12693, symSize: 0xF }
+  - { offsetInCU: 0x47BB, offset: 0x6F3A7, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService cookieStorage]', symObjAddr: 0x30CB, symBinAddr: 0x126A2, symSize: 0x14 }
+  - { offsetInCU: 0x47F2, offset: 0x6F3DE, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setCookieStorage:]', symObjAddr: 0x30DF, symBinAddr: 0x126B6, symSize: 0xF }
+  - { offsetInCU: 0x4831, offset: 0x6F41D, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService challengeBlock]', symObjAddr: 0x30EE, symBinAddr: 0x126C5, symSize: 0x14 }
+  - { offsetInCU: 0x4868, offset: 0x6F454, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setChallengeBlock:]', symObjAddr: 0x3102, symBinAddr: 0x126D9, symSize: 0xF }
+  - { offsetInCU: 0x48A7, offset: 0x6F493, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService credential]', symObjAddr: 0x3111, symBinAddr: 0x126E8, symSize: 0x14 }
+  - { offsetInCU: 0x48DE, offset: 0x6F4CA, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setCredential:]', symObjAddr: 0x3125, symBinAddr: 0x126FC, symSize: 0xF }
+  - { offsetInCU: 0x491D, offset: 0x6F509, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService proxyCredential]', symObjAddr: 0x3134, symBinAddr: 0x1270B, symSize: 0x14 }
+  - { offsetInCU: 0x4954, offset: 0x6F540, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setProxyCredential:]', symObjAddr: 0x3148, symBinAddr: 0x1271F, symSize: 0xF }
+  - { offsetInCU: 0x4993, offset: 0x6F57F, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService allowedInsecureSchemes]', symObjAddr: 0x3157, symBinAddr: 0x1272E, symSize: 0x14 }
+  - { offsetInCU: 0x49CA, offset: 0x6F5B6, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setAllowedInsecureSchemes:]', symObjAddr: 0x316B, symBinAddr: 0x12742, symSize: 0xF }
+  - { offsetInCU: 0x4A09, offset: 0x6F5F5, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService allowLocalhostRequest]', symObjAddr: 0x317A, symBinAddr: 0x12751, symSize: 0xE }
+  - { offsetInCU: 0x4A3E, offset: 0x6F62A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setAllowLocalhostRequest:]', symObjAddr: 0x3188, symBinAddr: 0x1275F, symSize: 0xC }
+  - { offsetInCU: 0x4A7B, offset: 0x6F667, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService allowInvalidServerCertificates]', symObjAddr: 0x3194, symBinAddr: 0x1276B, symSize: 0xE }
+  - { offsetInCU: 0x4AB0, offset: 0x6F69C, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setAllowInvalidServerCertificates:]', symObjAddr: 0x31A2, symBinAddr: 0x12779, symSize: 0xC }
+  - { offsetInCU: 0x4AED, offset: 0x6F6D9, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService isRetryEnabled]', symObjAddr: 0x31AE, symBinAddr: 0x12785, symSize: 0xE }
+  - { offsetInCU: 0x4B22, offset: 0x6F70E, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setRetryEnabled:]', symObjAddr: 0x31BC, symBinAddr: 0x12793, symSize: 0xC }
+  - { offsetInCU: 0x4B5F, offset: 0x6F74B, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService retryBlock]', symObjAddr: 0x31C8, symBinAddr: 0x1279F, symSize: 0x14 }
+  - { offsetInCU: 0x4B96, offset: 0x6F782, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setRetryBlock:]', symObjAddr: 0x31DC, symBinAddr: 0x127B3, symSize: 0xF }
+  - { offsetInCU: 0x4BD5, offset: 0x6F7C1, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService maxRetryInterval]', symObjAddr: 0x31EB, symBinAddr: 0x127C2, symSize: 0xE }
+  - { offsetInCU: 0x4C0A, offset: 0x6F7F6, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setMaxRetryInterval:]', symObjAddr: 0x31F9, symBinAddr: 0x127D0, symSize: 0xE }
+  - { offsetInCU: 0x4C47, offset: 0x6F833, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService minRetryInterval]', symObjAddr: 0x3207, symBinAddr: 0x127DE, symSize: 0xE }
+  - { offsetInCU: 0x4C7C, offset: 0x6F868, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setMinRetryInterval:]', symObjAddr: 0x3215, symBinAddr: 0x127EC, symSize: 0xE }
+  - { offsetInCU: 0x4CB9, offset: 0x6F8A5, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService metricsCollectionBlock]', symObjAddr: 0x3223, symBinAddr: 0x127FA, symSize: 0x14 }
+  - { offsetInCU: 0x4CF0, offset: 0x6F8DC, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setMetricsCollectionBlock:]', symObjAddr: 0x3237, symBinAddr: 0x1280E, symSize: 0xF }
+  - { offsetInCU: 0x4D2F, offset: 0x6F91B, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService properties]', symObjAddr: 0x3246, symBinAddr: 0x1281D, symSize: 0x14 }
+  - { offsetInCU: 0x4D66, offset: 0x6F952, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setProperties:]', symObjAddr: 0x325A, symBinAddr: 0x12831, symSize: 0xF }
+  - { offsetInCU: 0x4DA5, offset: 0x6F991, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService decoratorsPointerArray]', symObjAddr: 0x3269, symBinAddr: 0x12840, symSize: 0x14 }
+  - { offsetInCU: 0x4DDC, offset: 0x6F9C8, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService testBlock]', symObjAddr: 0x327D, symBinAddr: 0x12854, symSize: 0x14 }
+  - { offsetInCU: 0x4E13, offset: 0x6F9FF, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setTestBlock:]', symObjAddr: 0x3291, symBinAddr: 0x12868, symSize: 0xF }
+  - { offsetInCU: 0x4E52, offset: 0x6FA3E, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService stopFetchingTriggersCompletionHandler]', symObjAddr: 0x32A0, symBinAddr: 0x12877, symSize: 0xE }
+  - { offsetInCU: 0x4E87, offset: 0x6FA73, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setStopFetchingTriggersCompletionHandler:]', symObjAddr: 0x32AE, symBinAddr: 0x12885, symSize: 0xC }
+  - { offsetInCU: 0x4EC4, offset: 0x6FAB0, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService skipBackgroundTask]', symObjAddr: 0x32BA, symBinAddr: 0x12891, symSize: 0xE }
+  - { offsetInCU: 0x4EF9, offset: 0x6FAE5, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService setSkipBackgroundTask:]', symObjAddr: 0x32C8, symBinAddr: 0x1289F, symSize: 0xC }
+  - { offsetInCU: 0x4F36, offset: 0x6FB22, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherService .cxx_destruct]', symObjAddr: 0x32D4, symBinAddr: 0x128AB, symSize: 0x114 }
+  - { offsetInCU: 0x4F69, offset: 0x6FB55, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcherService(TestingSupport) mockFetcherServiceWithFakedData:fakedError:]', symObjAddr: 0x33E8, symBinAddr: 0x129BF, symSize: 0xFA }
+  - { offsetInCU: 0x508E, offset: 0x6FC7A, size: 0x8, addend: 0x0, symName: '+[GTMSessionFetcherService(TestingSupport) mockFetcherServiceWithFakedData:fakedResponse:fakedError:]', symObjAddr: 0x34E2, symBinAddr: 0x12AB9, symSize: 0x176 }
+  - { offsetInCU: 0x5234, offset: 0x6FE20, size: 0x8, addend: 0x0, symName: '___101+[GTMSessionFetcherService(TestingSupport) mockFetcherServiceWithFakedData:fakedResponse:fakedError:]_block_invoke', symObjAddr: 0x3658, symBinAddr: 0x12C2F, symSize: 0x1E }
+  - { offsetInCU: 0x52C7, offset: 0x6FEB3, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher init]', symObjAddr: 0x38DE, symBinAddr: 0x12E5D, symSize: 0x2B }
+  - { offsetInCU: 0x5334, offset: 0x6FF20, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher initWithParentService:sessionDiscardInterval:]', symObjAddr: 0x3909, symBinAddr: 0x12E88, symSize: 0x74 }
+  - { offsetInCU: 0x53B7, offset: 0x6FFA3, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher description]', symObjAddr: 0x397D, symBinAddr: 0x12EFC, symSize: 0x86 }
+  - { offsetInCU: 0x541D, offset: 0x70009, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher discardTimer]', symObjAddr: 0x3A03, symBinAddr: 0x12F82, symSize: 0x43 }
+  - { offsetInCU: 0x548A, offset: 0x70076, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher startDiscardTimer]', symObjAddr: 0x3A46, symBinAddr: 0x12FC5, symSize: 0xF1 }
+  - { offsetInCU: 0x552E, offset: 0x7011A, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher destroyDiscardTimer]', symObjAddr: 0x3B37, symBinAddr: 0x130B6, symSize: 0x32 }
+  - { offsetInCU: 0x557A, offset: 0x70166, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher discardTimerFired:]', symObjAddr: 0x3B69, symBinAddr: 0x130E8, symSize: 0xAA }
+  - { offsetInCU: 0x5674, offset: 0x70260, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher abandon]', symObjAddr: 0x3C13, symBinAddr: 0x13192, symSize: 0x50 }
+  - { offsetInCU: 0x56E5, offset: 0x702D1, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher startSessionUsage]', symObjAddr: 0x3C63, symBinAddr: 0x131E2, symSize: 0x50 }
+  - { offsetInCU: 0x5756, offset: 0x70342, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher destroySessionAndTimer]', symObjAddr: 0x3CB3, symBinAddr: 0x13232, symSize: 0x3F }
+  - { offsetInCU: 0x57B7, offset: 0x703A3, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher setFetcher:forTask:]', symObjAddr: 0x3CF2, symBinAddr: 0x13271, symSize: 0xC6 }
+  - { offsetInCU: 0x58C1, offset: 0x704AD, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher removeFetcher:]', symObjAddr: 0x3DB8, symBinAddr: 0x13337, symSize: 0xC6 }
+  - { offsetInCU: 0x59B7, offset: 0x705A3, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher fetcherForTask:]', symObjAddr: 0x3E7E, symBinAddr: 0x133FD, symSize: 0x8C }
+  - { offsetInCU: 0x5A5D, offset: 0x70649, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher removeTaskFromMap:]', symObjAddr: 0x3F0A, symBinAddr: 0x13489, symSize: 0x7C }
+  - { offsetInCU: 0x5B07, offset: 0x706F3, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher setSession:]', symObjAddr: 0x3F86, symBinAddr: 0x13505, symSize: 0x5A }
+  - { offsetInCU: 0x5B95, offset: 0x70781, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher session]', symObjAddr: 0x3FE0, symBinAddr: 0x1355F, symSize: 0x43 }
+  - { offsetInCU: 0x5C02, offset: 0x707EE, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher discardInterval]', symObjAddr: 0x4023, symBinAddr: 0x135A2, symSize: 0x3E }
+  - { offsetInCU: 0x5C63, offset: 0x7084F, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher setDiscardInterval:]', symObjAddr: 0x4061, symBinAddr: 0x135E0, symSize: 0x3D }
+  - { offsetInCU: 0x5CD1, offset: 0x708BD, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher URLSession:didBecomeInvalidWithError:]', symObjAddr: 0x409E, symBinAddr: 0x1361D, symSize: 0x1DE }
+  - { offsetInCU: 0x5EAA, offset: 0x70A96, size: 0x8, addend: 0x0, symName: '___83-[GTMSessionFetcherSessionDelegateDispatcher URLSession:didBecomeInvalidWithError:]_block_invoke', symObjAddr: 0x427C, symBinAddr: 0x137FB, symSize: 0xB3 }
+  - { offsetInCU: 0x5FBD, offset: 0x70BA9, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]', symObjAddr: 0x4379, symBinAddr: 0x138AE, symSize: 0xD9 }
+  - { offsetInCU: 0x615F, offset: 0x70D4B, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher URLSession:task:didReceiveChallenge:completionHandler:]', symObjAddr: 0x4452, symBinAddr: 0x13987, symSize: 0xC4 }
+  - { offsetInCU: 0x62D0, offset: 0x70EBC, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher URLSession:task:needNewBodyStream:]', symObjAddr: 0x4516, symBinAddr: 0x13A4B, symSize: 0xA0 }
+  - { offsetInCU: 0x63FF, offset: 0x70FEB, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]', symObjAddr: 0x45B6, symBinAddr: 0x13AEB, symSize: 0xA4 }
+  - { offsetInCU: 0x6532, offset: 0x7111E, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher URLSession:task:didCompleteWithError:]', symObjAddr: 0x465A, symBinAddr: 0x13B8F, symSize: 0xB5 }
+  - { offsetInCU: 0x6683, offset: 0x7126F, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher URLSession:task:didFinishCollectingMetrics:]', symObjAddr: 0x470F, symBinAddr: 0x13C44, symSize: 0xA0 }
+  - { offsetInCU: 0x67B2, offset: 0x7139E, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher URLSession:dataTask:didReceiveResponse:completionHandler:]', symObjAddr: 0x47AF, symBinAddr: 0x13CE4, symSize: 0xC4 }
+  - { offsetInCU: 0x6923, offset: 0x7150F, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher URLSession:dataTask:didBecomeDownloadTask:]', symObjAddr: 0x4873, symBinAddr: 0x13DA8, symSize: 0xD1 }
+  - { offsetInCU: 0x6A96, offset: 0x71682, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher URLSession:dataTask:didReceiveData:]', symObjAddr: 0x4944, symBinAddr: 0x13E79, symSize: 0xA0 }
+  - { offsetInCU: 0x6BC5, offset: 0x717B1, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher URLSession:dataTask:willCacheResponse:completionHandler:]', symObjAddr: 0x49E4, symBinAddr: 0x13F19, symSize: 0xC4 }
+  - { offsetInCU: 0x6D36, offset: 0x71922, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher URLSession:downloadTask:didFinishDownloadingToURL:]', symObjAddr: 0x4AA8, symBinAddr: 0x13FDD, symSize: 0xA0 }
+  - { offsetInCU: 0x6E65, offset: 0x71A51, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:]', symObjAddr: 0x4B48, symBinAddr: 0x1407D, symSize: 0xA4 }
+  - { offsetInCU: 0x6F98, offset: 0x71B84, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher URLSession:downloadTask:didResumeAtOffset:expectedTotalBytes:]', symObjAddr: 0x4BEC, symBinAddr: 0x14121, symSize: 0x93 }
+  - { offsetInCU: 0x70B9, offset: 0x71CA5, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcherSessionDelegateDispatcher .cxx_destruct]', symObjAddr: 0x4C7F, symBinAddr: 0x141B4, symSize: 0x3C }
+  - { offsetInCU: 0x70ED, offset: 0x71CD9, size: 0x8, addend: 0x0, symName: ___SharedStandardUserAgentProvider_block_invoke, symObjAddr: 0x4CBB, symBinAddr: 0x141F0, symSize: 0x37 }
+  - { offsetInCU: 0x27, offset: 0x7220A, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher nextUploadRetryIntervalUnsynchronized]', symObjAddr: 0x0, symBinAddr: 0x14227, symSize: 0x57 }
+  - { offsetInCU: 0x79, offset: 0x7225C, size: 0x8, addend: 0x0, symName: _kGTMSessionUploadFetcherUnknownFileSize, symObjAddr: 0x75D8, symBinAddr: 0x1AE48, symSize: 0x0 }
+  - { offsetInCU: 0x9B, offset: 0x7227E, size: 0x8, addend: 0x0, symName: _kGTMSessionUploadFetcherStandardChunkSize, symObjAddr: 0x75E0, symBinAddr: 0x1AE50, symSize: 0x0 }
+  - { offsetInCU: 0xB1, offset: 0x72294, size: 0x8, addend: 0x0, symName: _kGTMSessionUploadFetcherMaximumDemandBufferSize, symObjAddr: 0x75E8, symBinAddr: 0x1AE58, symSize: 0x0 }
+  - { offsetInCU: 0xC7, offset: 0x722AA, size: 0x8, addend: 0x0, symName: _kGTMSessionFetcherUploadLocationObtainedNotification, symObjAddr: 0x75F0, symBinAddr: 0x23C58, symSize: 0x0 }
+  - { offsetInCU: 0xDD, offset: 0x722C0, size: 0x8, addend: 0x0, symName: _kGTMSessionFetcherUploadInitialBackoffStartedNotification, symObjAddr: 0x75F8, symBinAddr: 0x23C60, symSize: 0x0 }
+  - { offsetInCU: 0xE7, offset: 0x722CA, size: 0x8, addend: 0x0, symName: '+[GTMSessionUploadFetcher uploadFetcherPointerArrayForBackgroundSessions]', symObjAddr: 0x723, symBinAddr: 0x1494A, symSize: 0x30 }
+  - { offsetInCU: 0x113, offset: 0x722F6, size: 0x8, addend: 0x0, symName: _uploadFetcherPointerArrayForBackgroundSessions.gUploadFetcherPointerArrayForBackgroundSessions, symObjAddr: 0x27938, symBinAddr: 0x2C5E0, symSize: 0x0 }
+  - { offsetInCU: 0x12A, offset: 0x7230D, size: 0x8, addend: 0x0, symName: _uploadFetcherPointerArrayForBackgroundSessions.onceToken, symObjAddr: 0x27940, symBinAddr: 0x2C5E8, symSize: 0x0 }
+  - { offsetInCU: 0x171, offset: 0x72354, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setupRequestHeaders]', symObjAddr: 0x144B, symBinAddr: 0x15672, symSize: 0x262 }
+  - { offsetInCU: 0x1666, offset: 0x73849, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher nextUploadRetryIntervalUnsynchronized]', symObjAddr: 0x0, symBinAddr: 0x14227, symSize: 0x57 }
+  - { offsetInCU: 0x16D8, offset: 0x738BB, size: 0x8, addend: 0x0, symName: '+[GTMSessionUploadFetcher load]', symObjAddr: 0x57, symBinAddr: 0x1427E, symSize: 0x67 }
+  - { offsetInCU: 0x1758, offset: 0x7393B, size: 0x8, addend: 0x0, symName: '+[GTMSessionUploadFetcher reconnectFetchersForBackgroundSessionsOnAppLaunch:]', symObjAddr: 0xBE, symBinAddr: 0x142E5, symSize: 0x4B }
+  - { offsetInCU: 0x17C6, offset: 0x739A9, size: 0x8, addend: 0x0, symName: '___77+[GTMSessionUploadFetcher reconnectFetchersForBackgroundSessionsOnAppLaunch:]_block_invoke', symObjAddr: 0x109, symBinAddr: 0x14330, symSize: 0x1F }
+  - { offsetInCU: 0x1811, offset: 0x739F4, size: 0x8, addend: 0x0, symName: '+[GTMSessionUploadFetcher uploadFetcherWithRequest:uploadMIMEType:chunkSize:fetcherService:]', symObjAddr: 0x128, symBinAddr: 0x1434F, symSize: 0xA9 }
+  - { offsetInCU: 0x192F, offset: 0x73B12, size: 0x8, addend: 0x0, symName: '+[GTMSessionUploadFetcher uploadFetcherWithLocation:uploadMIMEType:chunkSize:fetcherService:]', symObjAddr: 0x1D1, symBinAddr: 0x143F8, symSize: 0x25 }
+  - { offsetInCU: 0x19D9, offset: 0x73BBC, size: 0x8, addend: 0x0, symName: '+[GTMSessionUploadFetcher uploadFetcherWithLocation:uploadMIMEType:chunkSize:allowsCellularAccess:fetcherService:]', symObjAddr: 0x1F6, symBinAddr: 0x1441D, symSize: 0xA4 }
+  - { offsetInCU: 0x1AF5, offset: 0x73CD8, size: 0x8, addend: 0x0, symName: '+[GTMSessionUploadFetcher uploadFetcherForSessionIdentifierMetadata:]', symObjAddr: 0x29A, symBinAddr: 0x144C1, symSize: 0x3C2 }
+  - { offsetInCU: 0x1E5E, offset: 0x74041, size: 0x8, addend: 0x0, symName: '+[GTMSessionUploadFetcher uploadFetcherWithRequest:fetcherService:]', symObjAddr: 0x65C, symBinAddr: 0x14883, symSize: 0xC7 }
+  - { offsetInCU: 0x1F86, offset: 0x74169, size: 0x8, addend: 0x0, symName: '___73+[GTMSessionUploadFetcher uploadFetcherPointerArrayForBackgroundSessions]_block_invoke', symObjAddr: 0x753, symBinAddr: 0x1497A, symSize: 0x35 }
+  - { offsetInCU: 0x1FC7, offset: 0x741AA, size: 0x8, addend: 0x0, symName: '+[GTMSessionUploadFetcher uploadFetcherForSessionIdentifier:]', symObjAddr: 0x788, symBinAddr: 0x149AF, symSize: 0x222 }
+  - { offsetInCU: 0x214C, offset: 0x7432F, size: 0x8, addend: 0x0, symName: '+[GTMSessionUploadFetcher uploadFetchersForBackgroundSessions]', symObjAddr: 0x9AA, symBinAddr: 0x14BD1, symSize: 0x5EF }
+  - { offsetInCU: 0x24AF, offset: 0x74692, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setUploadData:]', symObjAddr: 0xF99, symBinAddr: 0x151C0, symSize: 0x92 }
+  - { offsetInCU: 0x257E, offset: 0x74761, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher uploadData]', symObjAddr: 0x102B, symBinAddr: 0x15252, symSize: 0x4A }
+  - { offsetInCU: 0x25EB, offset: 0x747CE, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setUploadFileHandle:]', symObjAddr: 0x1075, symBinAddr: 0x1529C, symSize: 0x92 }
+  - { offsetInCU: 0x26BA, offset: 0x7489D, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher uploadFileHandle]', symObjAddr: 0x1107, symBinAddr: 0x1532E, symSize: 0x4A }
+  - { offsetInCU: 0x2727, offset: 0x7490A, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setUploadFileURL:]', symObjAddr: 0x1151, symBinAddr: 0x15378, symSize: 0x92 }
+  - { offsetInCU: 0x27F6, offset: 0x749D9, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher uploadFileURL]', symObjAddr: 0x11E3, symBinAddr: 0x1540A, symSize: 0x4A }
+  - { offsetInCU: 0x2863, offset: 0x74A46, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setUploadFileLength:]', symObjAddr: 0x122D, symBinAddr: 0x15454, symSize: 0x48 }
+  - { offsetInCU: 0x28D1, offset: 0x74AB4, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setUploadDataLength:provider:]', symObjAddr: 0x1275, symBinAddr: 0x1549C, symSize: 0xA7 }
+  - { offsetInCU: 0x29AC, offset: 0x74B8F, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher uploadDataProvider]', symObjAddr: 0x131C, symBinAddr: 0x15543, symSize: 0x48 }
+  - { offsetInCU: 0x2A0D, offset: 0x74BF0, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setUploadMIMEType:]', symObjAddr: 0x1364, symBinAddr: 0x1558B, symSize: 0x61 }
+  - { offsetInCU: 0x2A9B, offset: 0x74C7E, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher uploadMIMEType]', symObjAddr: 0x13C5, symBinAddr: 0x155EC, symSize: 0x4A }
+  - { offsetInCU: 0x2B08, offset: 0x74CEB, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher chunkSize]', symObjAddr: 0x140F, symBinAddr: 0x15636, symSize: 0x3C }
+  - { offsetInCU: 0x2B81, offset: 0x74D64, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setLocationURL:uploadMIMEType:chunkSize:allowsCellularAccess:]', symObjAddr: 0x16AD, symBinAddr: 0x158D4, symSize: 0xE7 }
+  - { offsetInCU: 0x2C92, offset: 0x74E75, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher fullUploadLength]', symObjAddr: 0x1794, symBinAddr: 0x159BB, symSize: 0x15A }
+  - { offsetInCU: 0x2DBC, offset: 0x74F9F, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher generateChunkSubdataWithOffset:length:response:]', symObjAddr: 0x18EE, symBinAddr: 0x15B15, symSize: 0x3FB }
+  - { offsetInCU: 0x3210, offset: 0x753F3, size: 0x8, addend: 0x0, symName: '___74-[GTMSessionUploadFetcher generateChunkSubdataWithOffset:length:response:]_block_invoke', symObjAddr: 0x1CE9, symBinAddr: 0x15F10, symSize: 0x29 }
+  - { offsetInCU: 0x32A2, offset: 0x75485, size: 0x8, addend: 0x0, symName: '___74-[GTMSessionUploadFetcher generateChunkSubdataWithOffset:length:response:]_block_invoke.199', symObjAddr: 0x1D82, symBinAddr: 0x15F39, symSize: 0x29 }
+  - { offsetInCU: 0x3334, offset: 0x75517, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher generateChunkSubdataFromFileHandle:offset:length:response:]', symObjAddr: 0x1DAB, symBinAddr: 0x15F62, symSize: 0x135 }
+  - { offsetInCU: 0x34ED, offset: 0x756D0, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher generateChunkSubdataFromFileURL:offset:length:response:]', symObjAddr: 0x1EE0, symBinAddr: 0x16097, symSize: 0x489 }
+  - { offsetInCU: 0x3A3C, offset: 0x75C1F, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher uploadChunkUnavailableErrorWithDescription:]', symObjAddr: 0x2369, symBinAddr: 0x16520, symSize: 0xE0 }
+  - { offsetInCU: 0x3AE3, offset: 0x75CC6, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher prematureFailureErrorWithUserInfo:]', symObjAddr: 0x2449, symBinAddr: 0x16600, symSize: 0x2B }
+  - { offsetInCU: 0x3B52, offset: 0x75D35, size: 0x8, addend: 0x0, symName: '+[GTMSessionUploadFetcher uploadStatusFromResponseHeaders:]', symObjAddr: 0x2474, symBinAddr: 0x1662B, symSize: 0x9F }
+  - { offsetInCU: 0x3C0E, offset: 0x75DF1, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setCompletionHandler:]', symObjAddr: 0x2513, symBinAddr: 0x166CA, symSize: 0x6E }
+  - { offsetInCU: 0x3CB0, offset: 0x75E93, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setDelegateCallbackQueue:]', symObjAddr: 0x2581, symBinAddr: 0x16738, symSize: 0x61 }
+  - { offsetInCU: 0x3D3E, offset: 0x75F21, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher delegateCallbackQueue]', symObjAddr: 0x25E2, symBinAddr: 0x16799, symSize: 0x4A }
+  - { offsetInCU: 0x3DAB, offset: 0x75F8E, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher isRestartedUpload]', symObjAddr: 0x262C, symBinAddr: 0x167E3, symSize: 0x3C }
+  - { offsetInCU: 0x3E0C, offset: 0x75FEF, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher chunkFetcher]', symObjAddr: 0x2668, symBinAddr: 0x1681F, symSize: 0x4A }
+  - { offsetInCU: 0x3E79, offset: 0x7605C, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setChunkFetcher:]', symObjAddr: 0x26B2, symBinAddr: 0x16869, symSize: 0x61 }
+  - { offsetInCU: 0x3F07, offset: 0x760EA, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setFetcherInFlight:]', symObjAddr: 0x2713, symBinAddr: 0x168CA, symSize: 0x61 }
+  - { offsetInCU: 0x3F95, offset: 0x76178, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher fetcherInFlight]', symObjAddr: 0x2774, symBinAddr: 0x1692B, symSize: 0x4A }
+  - { offsetInCU: 0x4002, offset: 0x761E5, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setCancellationHandler:]', symObjAddr: 0x27BE, symBinAddr: 0x16975, symSize: 0x6E }
+  - { offsetInCU: 0x40A4, offset: 0x76287, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher cancellationHandler]', symObjAddr: 0x282C, symBinAddr: 0x169E3, symSize: 0x48 }
+  - { offsetInCU: 0x4105, offset: 0x762E8, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher beginFetchForRetry]', symObjAddr: 0x2874, symBinAddr: 0x16A2B, symSize: 0x66 }
+  - { offsetInCU: 0x417D, offset: 0x76360, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher destroyUploadRetryTimer]', symObjAddr: 0x28DA, symBinAddr: 0x16A91, symSize: 0x6D }
+  - { offsetInCU: 0x41F2, offset: 0x763D5, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher beginFetchWithCompletionHandler:]', symObjAddr: 0x2947, symBinAddr: 0x16AFE, symSize: 0x1C7 }
+  - { offsetInCU: 0x4355, offset: 0x76538, size: 0x8, addend: 0x0, symName: '___59-[GTMSessionUploadFetcher beginFetchWithCompletionHandler:]_block_invoke', symObjAddr: 0x2B0E, symBinAddr: 0x16CC5, symSize: 0x1C7 }
+  - { offsetInCU: 0x4519, offset: 0x766FC, size: 0x8, addend: 0x0, symName: '___59-[GTMSessionUploadFetcher beginFetchWithCompletionHandler:]_block_invoke_2', symObjAddr: 0x2CD5, symBinAddr: 0x16E8C, symSize: 0x27 }
+  - { offsetInCU: 0x45B7, offset: 0x7679A, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher beginChunkFetches]', symObjAddr: 0x2D46, symBinAddr: 0x16EB3, symSize: 0x24F }
+  - { offsetInCU: 0x4848, offset: 0x76A2B, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]', symObjAddr: 0x2F95, symBinAddr: 0x17102, symSize: 0x49 }
+  - { offsetInCU: 0x48FF, offset: 0x76AE2, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher shouldReleaseCallbacksUponCompletion]', symObjAddr: 0x2FDE, symBinAddr: 0x1714B, symSize: 0x8 }
+  - { offsetInCU: 0x4933, offset: 0x76B16, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher invokeFinalCallbackWithData:error:shouldInvalidateLocation:]', symObjAddr: 0x2FE6, symBinAddr: 0x17153, symSize: 0x18C }
+  - { offsetInCU: 0x4B29, offset: 0x76D0C, size: 0x8, addend: 0x0, symName: '___86-[GTMSessionUploadFetcher invokeFinalCallbackWithData:error:shouldInvalidateLocation:]_block_invoke', symObjAddr: 0x3172, symBinAddr: 0x172DF, symSize: 0x1A }
+  - { offsetInCU: 0x4B95, offset: 0x76D78, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher releaseUploadAndBaseCallbacks:]', symObjAddr: 0x318C, symBinAddr: 0x172F9, symSize: 0xA6 }
+  - { offsetInCU: 0x4C47, offset: 0x76E2A, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher stopFetchReleasingCallbacks:]', symObjAddr: 0x3232, symBinAddr: 0x1739F, symSize: 0xA3 }
+  - { offsetInCU: 0x4D02, offset: 0x76EE5, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher uploadNextChunkWithOffset:]', symObjAddr: 0x32D5, symBinAddr: 0x17442, symSize: 0x51 }
+  - { offsetInCU: 0x4D8F, offset: 0x76F72, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher sendQueryForUploadOffsetWithFetcherProperties:]', symObjAddr: 0x3326, symBinAddr: 0x17493, symSize: 0x105 }
+  - { offsetInCU: 0x4EC0, offset: 0x770A3, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher queryFetcher:finishedWithData:error:]', symObjAddr: 0x342B, symBinAddr: 0x17598, symSize: 0x283 }
+  - { offsetInCU: 0x518C, offset: 0x7736F, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher sendCancelUploadWithFetcherProperties:]', symObjAddr: 0x36AE, symBinAddr: 0x1781B, symSize: 0x19C }
+  - { offsetInCU: 0x532E, offset: 0x77511, size: 0x8, addend: 0x0, symName: '___65-[GTMSessionUploadFetcher sendCancelUploadWithFetcherProperties:]_block_invoke', symObjAddr: 0x384A, symBinAddr: 0x179B7, symSize: 0xB4 }
+  - { offsetInCU: 0x5449, offset: 0x7762C, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher uploadNextChunkWithOffset:fetcherProperties:]', symObjAddr: 0x3948, symBinAddr: 0x17A6B, symSize: 0x199 }
+  - { offsetInCU: 0x5624, offset: 0x77807, size: 0x8, addend: 0x0, symName: '___71-[GTMSessionUploadFetcher uploadNextChunkWithOffset:fetcherProperties:]_block_invoke', symObjAddr: 0x3AE1, symBinAddr: 0x17C04, symSize: 0xEF }
+  - { offsetInCU: 0x579C, offset: 0x7797F, size: 0x8, addend: 0x0, symName: '___71-[GTMSessionUploadFetcher uploadNextChunkWithOffset:fetcherProperties:]_block_invoke_2', symObjAddr: 0x3BD0, symBinAddr: 0x17CF3, symSize: 0x32C }
+  - { offsetInCU: 0x5B09, offset: 0x77CEC, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher beginUploadRetryTimer]', symObjAddr: 0x3F62, symBinAddr: 0x1801F, symSize: 0x27F }
+  - { offsetInCU: 0x5CE9, offset: 0x77ECC, size: 0x8, addend: 0x0, symName: '___48-[GTMSessionUploadFetcher beginUploadRetryTimer]_block_invoke', symObjAddr: 0x41E1, symBinAddr: 0x1829E, symSize: 0x16 }
+  - { offsetInCU: 0x5D37, offset: 0x77F1A, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher uploadRetryTimerFired:]', symObjAddr: 0x41F7, symBinAddr: 0x182B4, symSize: 0x8B }
+  - { offsetInCU: 0x5DD5, offset: 0x77FB8, size: 0x8, addend: 0x0, symName: '___49-[GTMSessionUploadFetcher uploadRetryTimerFired:]_block_invoke', symObjAddr: 0x4282, symBinAddr: 0x1833F, symSize: 0x58 }
+  - { offsetInCU: 0x5E43, offset: 0x78026, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher uploadRetryTimer]', symObjAddr: 0x42DA, symBinAddr: 0x18397, symSize: 0x4A }
+  - { offsetInCU: 0x5EB0, offset: 0x78093, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher maxUploadRetryInterval]', symObjAddr: 0x4324, symBinAddr: 0x183E1, symSize: 0x45 }
+  - { offsetInCU: 0x5F11, offset: 0x780F4, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setMaxUploadRetryInterval:]', symObjAddr: 0x4369, symBinAddr: 0x18426, symSize: 0x68 }
+  - { offsetInCU: 0x5F7F, offset: 0x78162, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setMinUploadRetryInterval:]', symObjAddr: 0x43D1, symBinAddr: 0x1848E, symSize: 0x68 }
+  - { offsetInCU: 0x5FED, offset: 0x781D0, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher minUploadRetryInterval]', symObjAddr: 0x4439, symBinAddr: 0x184F6, symSize: 0x45 }
+  - { offsetInCU: 0x604E, offset: 0x78231, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher beginChunkFetcher:offset:]', symObjAddr: 0x447E, symBinAddr: 0x1853B, symSize: 0x118 }
+  - { offsetInCU: 0x61D0, offset: 0x783B3, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher attachSendProgressBlockToChunkFetcher:]', symObjAddr: 0x4596, symBinAddr: 0x18653, symSize: 0x52 }
+  - { offsetInCU: 0x6231, offset: 0x78414, size: 0x8, addend: 0x0, symName: '___65-[GTMSessionUploadFetcher attachSendProgressBlockToChunkFetcher:]_block_invoke', symObjAddr: 0x45E8, symBinAddr: 0x186A5, symSize: 0x7B }
+  - { offsetInCU: 0x632A, offset: 0x7850D, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher uploadSessionIdentifierMetadata]', symObjAddr: 0x4663, symBinAddr: 0x18720, symSize: 0x32D }
+  - { offsetInCU: 0x65FC, offset: 0x787DF, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher uploadFetcherWithProperties:isQueryFetch:]', symObjAddr: 0x4990, symBinAddr: 0x18A4D, symSize: 0x447 }
+  - { offsetInCU: 0x6AEF, offset: 0x78CD2, size: 0x8, addend: 0x0, symName: '___68-[GTMSessionUploadFetcher uploadFetcherWithProperties:isQueryFetch:]_block_invoke', symObjAddr: 0x4DD7, symBinAddr: 0x18E94, symSize: 0xF6 }
+  - { offsetInCU: 0x6C87, offset: 0x78E6A, size: 0x8, addend: 0x0, symName: '___68-[GTMSessionUploadFetcher uploadFetcherWithProperties:isQueryFetch:]_block_invoke_2', symObjAddr: 0x4ECD, symBinAddr: 0x18F8A, symSize: 0x4C }
+  - { offsetInCU: 0x6D2E, offset: 0x78F11, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher chunkFetcher:finishedWithData:error:]', symObjAddr: 0x4F49, symBinAddr: 0x18FD6, symSize: 0x5E3 }
+  - { offsetInCU: 0x7348, offset: 0x7952B, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher destroyChunkFetcher]', symObjAddr: 0x552C, symBinAddr: 0x195B9, symSize: 0x229 }
+  - { offsetInCU: 0x7506, offset: 0x796E9, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher invokeDelegateWithDidSendBytes:totalBytesSent:totalBytesExpectedToSend:]', symObjAddr: 0x5755, symBinAddr: 0x197E2, symSize: 0x136 }
+  - { offsetInCU: 0x75E4, offset: 0x797C7, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x588B, symBinAddr: 0x19918, symSize: 0x16 }
+  - { offsetInCU: 0x7609, offset: 0x797EC, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x58A1, symBinAddr: 0x1992E, symSize: 0xF }
+  - { offsetInCU: 0x7634, offset: 0x79817, size: 0x8, addend: 0x0, symName: '___98-[GTMSessionUploadFetcher invokeDelegateWithDidSendBytes:totalBytesSent:totalBytesExpectedToSend:]_block_invoke', symObjAddr: 0x58B0, symBinAddr: 0x1993D, symSize: 0x67 }
+  - { offsetInCU: 0x7716, offset: 0x798F9, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher retrieveUploadChunkGranularityFromResponseHeaders:]', symObjAddr: 0x596E, symBinAddr: 0x199A4, symSize: 0x66 }
+  - { offsetInCU: 0x77A8, offset: 0x7998B, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher isPaused]', symObjAddr: 0x59D4, symBinAddr: 0x19A0A, symSize: 0x3C }
+  - { offsetInCU: 0x7809, offset: 0x799EC, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher pauseFetching]', symObjAddr: 0x5A10, symBinAddr: 0x19A46, symSize: 0x49 }
+  - { offsetInCU: 0x787A, offset: 0x79A5D, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher resumeFetching]', symObjAddr: 0x5A59, symBinAddr: 0x19A8F, symSize: 0x8D }
+  - { offsetInCU: 0x7918, offset: 0x79AFB, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher stopFetching]', symObjAddr: 0x5AE6, symBinAddr: 0x19B1C, symSize: 0x119 }
+  - { offsetInCU: 0x7A10, offset: 0x79BF3, size: 0x8, addend: 0x0, symName: '___39-[GTMSessionUploadFetcher stopFetching]_block_invoke', symObjAddr: 0x5BFF, symBinAddr: 0x19C35, symSize: 0x74 }
+  - { offsetInCU: 0x7A91, offset: 0x79C74, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher triggerCancellationHandlerForFetch:data:error:]', symObjAddr: 0x5C73, symBinAddr: 0x19CA9, symSize: 0xB2 }
+  - { offsetInCU: 0x7BE5, offset: 0x79DC8, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher updateChunkFetcher:forChunkAtOffset:]', symObjAddr: 0x5D25, symBinAddr: 0x19D5B, symSize: 0x318 }
+  - { offsetInCU: 0x7F51, offset: 0x7A134, size: 0x8, addend: 0x0, symName: '+[GTMSessionUploadFetcher removePointer:fromPointerArray:]', symObjAddr: 0x603D, symBinAddr: 0x1A073, symSize: 0x88 }
+  - { offsetInCU: 0x8044, offset: 0x7A227, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher useBackgroundSession]', symObjAddr: 0x60C5, symBinAddr: 0x1A0FB, symSize: 0x3C }
+  - { offsetInCU: 0x80A5, offset: 0x7A288, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setUseBackgroundSession:]', symObjAddr: 0x6101, symBinAddr: 0x1A137, symSize: 0xF7 }
+  - { offsetInCU: 0x819D, offset: 0x7A380, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher canFetchWithBackgroundSession]', symObjAddr: 0x61F8, symBinAddr: 0x1A22E, symSize: 0x8 }
+  - { offsetInCU: 0x81D1, offset: 0x7A3B4, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher responseHeaders]', symObjAddr: 0x6200, symBinAddr: 0x1A236, symSize: 0xF6 }
+  - { offsetInCU: 0x82B2, offset: 0x7A495, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher statusCodeUnsynchronized]', symObjAddr: 0x62F6, symBinAddr: 0x1A32C, symSize: 0x40 }
+  - { offsetInCU: 0x82EA, offset: 0x7A4CD, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setStatusCode:]', symObjAddr: 0x6336, symBinAddr: 0x1A36C, symSize: 0x3B }
+  - { offsetInCU: 0x8358, offset: 0x7A53B, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher initialBodyLength]', symObjAddr: 0x6371, symBinAddr: 0x1A3A7, symSize: 0x3C }
+  - { offsetInCU: 0x83B9, offset: 0x7A59C, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setInitialBodyLength:]', symObjAddr: 0x63AD, symBinAddr: 0x1A3E3, symSize: 0x3B }
+  - { offsetInCU: 0x8427, offset: 0x7A60A, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher initialBodySent]', symObjAddr: 0x63E8, symBinAddr: 0x1A41E, symSize: 0x3C }
+  - { offsetInCU: 0x8488, offset: 0x7A66B, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setInitialBodySent:]', symObjAddr: 0x6424, symBinAddr: 0x1A45A, symSize: 0x3B }
+  - { offsetInCU: 0x84F6, offset: 0x7A6D9, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher uploadLocationURL]', symObjAddr: 0x645F, symBinAddr: 0x1A495, symSize: 0x4A }
+  - { offsetInCU: 0x8563, offset: 0x7A746, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setUploadLocationURL:]', symObjAddr: 0x64A9, symBinAddr: 0x1A4DF, symSize: 0x61 }
+  - { offsetInCU: 0x85F1, offset: 0x7A7D4, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher activeFetcher]', symObjAddr: 0x650A, symBinAddr: 0x1A540, symSize: 0x4D }
+  - { offsetInCU: 0x8662, offset: 0x7A845, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher isFetching]', symObjAddr: 0x6557, symBinAddr: 0x1A58D, symSize: 0x5D }
+  - { offsetInCU: 0x86B2, offset: 0x7A895, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher waitForCompletionWithTimeout:]', symObjAddr: 0x65B4, symBinAddr: 0x1A5EA, symSize: 0x1EE }
+  - { offsetInCU: 0x884F, offset: 0x7AA32, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher currentOffset]', symObjAddr: 0x67A2, symBinAddr: 0x1A7D8, symSize: 0x11 }
+  - { offsetInCU: 0x8885, offset: 0x7AA68, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setCurrentOffset:]', symObjAddr: 0x67B3, symBinAddr: 0x1A7E9, symSize: 0x11 }
+  - { offsetInCU: 0x88C3, offset: 0x7AAA6, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher allowsCellularAccess]', symObjAddr: 0x67C4, symBinAddr: 0x1A7FA, symSize: 0x12 }
+  - { offsetInCU: 0x88F9, offset: 0x7AADC, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setAllowsCellularAccess:]', symObjAddr: 0x67D6, symBinAddr: 0x1A80C, symSize: 0x10 }
+  - { offsetInCU: 0x8937, offset: 0x7AB1A, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher delegateCompletionHandler]', symObjAddr: 0x67E6, symBinAddr: 0x1A81C, symSize: 0x16 }
+  - { offsetInCU: 0x896F, offset: 0x7AB52, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher lastChunkRequest]', symObjAddr: 0x67FC, symBinAddr: 0x1A832, symSize: 0x16 }
+  - { offsetInCU: 0x89A7, offset: 0x7AB8A, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setLastChunkRequest:]', symObjAddr: 0x6812, symBinAddr: 0x1A848, symSize: 0x11 }
+  - { offsetInCU: 0x89E7, offset: 0x7ABCA, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher isSubdataGenerating]', symObjAddr: 0x6823, symBinAddr: 0x1A859, symSize: 0x12 }
+  - { offsetInCU: 0x8A1D, offset: 0x7AC00, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setSubdataGenerating:]', symObjAddr: 0x6835, symBinAddr: 0x1A86B, symSize: 0x10 }
+  - { offsetInCU: 0x8A5B, offset: 0x7AC3E, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher shouldInitiateOffsetQuery]', symObjAddr: 0x6845, symBinAddr: 0x1A87B, symSize: 0x12 }
+  - { offsetInCU: 0x8A91, offset: 0x7AC74, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setShouldInitiateOffsetQuery:]', symObjAddr: 0x6857, symBinAddr: 0x1A88D, symSize: 0x10 }
+  - { offsetInCU: 0x8ACF, offset: 0x7ACB2, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher uploadGranularity]', symObjAddr: 0x6867, symBinAddr: 0x1A89D, symSize: 0x11 }
+  - { offsetInCU: 0x8B05, offset: 0x7ACE8, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setUploadGranularity:]', symObjAddr: 0x6878, symBinAddr: 0x1A8AE, symSize: 0x11 }
+  - { offsetInCU: 0x8B43, offset: 0x7AD26, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher uploadRetryFactor]', symObjAddr: 0x6889, symBinAddr: 0x1A8BF, symSize: 0x12 }
+  - { offsetInCU: 0x8B79, offset: 0x7AD5C, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher setUploadRetryFactor:]', symObjAddr: 0x689B, symBinAddr: 0x1A8D1, symSize: 0x12 }
+  - { offsetInCU: 0x8BB7, offset: 0x7AD9A, size: 0x8, addend: 0x0, symName: '-[GTMSessionUploadFetcher .cxx_destruct]', symObjAddr: 0x68AD, symBinAddr: 0x1A8E3, symSize: 0xFD }
+  - { offsetInCU: 0x8BEA, offset: 0x7ADCD, size: 0x8, addend: 0x0, symName: '-[GTMSessionFetcher(GTMSessionUploadFetcherMethods) parentUploadFetcher]', symObjAddr: 0x69AA, symBinAddr: 0x1A9E0, symSize: 0x60 }
+...

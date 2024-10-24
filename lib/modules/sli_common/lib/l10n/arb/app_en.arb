@@ -1,0 +1,12 @@
+{
+  "@@locale": "en",
+  "ok": "Ok",
+  "cancel": "Cancel",
+  "error": "Error",
+  "close": "Close",
+  "retry": "Retry",
+  "confirm": "Confirm",
+  "continueText": "Continue",
+  "setting": "Setting",
+  "permissionDenied": "Permission Denied"
+}

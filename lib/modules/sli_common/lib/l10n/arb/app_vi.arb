@@ -1,0 +1,12 @@
+{
+  "@@locale": "vi",
+  "ok": "Ok",
+  "cancel": "Hủy",
+  "error": "Lỗi",
+  "close": "Đóng",
+  "retry": "Thử lại",
+  "confirm": "Confirm",
+  "continueText": "Tiếp tục",
+  "setting": "Cài đặt",
+  "permissionDenied": "Quyển đã bị từ chối"
+}

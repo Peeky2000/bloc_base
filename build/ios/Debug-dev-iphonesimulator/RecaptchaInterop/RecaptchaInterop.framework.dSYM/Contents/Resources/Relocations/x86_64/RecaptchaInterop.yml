@@ -1,0 +1,7 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/peekaboo/Documents/Work/ATI/bloc_cubit_base/build/ios/Debug-dev-iphonesimulator/RecaptchaInterop/RecaptchaInterop.framework/RecaptchaInterop'
+relocations:
+  - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: _RecaptchaInteropVersionString, symObjAddr: 0x0, symBinAddr: 0xFA0, symSize: 0x0 }
+  - { offsetInCU: 0x67, offset: 0x67, size: 0x8, addend: 0x0, symName: _RecaptchaInteropVersionNumber, symObjAddr: 0x30, symBinAddr: 0xFD0, symSize: 0x0 }
+...

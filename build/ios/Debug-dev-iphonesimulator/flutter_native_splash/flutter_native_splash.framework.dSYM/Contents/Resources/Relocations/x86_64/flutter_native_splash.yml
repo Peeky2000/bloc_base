@@ -1,0 +1,10 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/peekaboo/Documents/Work/ATI/bloc_cubit_base/build/ios/Debug-dev-iphonesimulator/flutter_native_splash/flutter_native_splash.framework/flutter_native_splash'
+relocations:
+  - { offsetInCU: 0x33, offset: 0x3C65, size: 0x8, addend: 0x0, symName: _flutter_native_splashVersionString, symObjAddr: 0x0, symBinAddr: 0x1350, symSize: 0x0 }
+  - { offsetInCU: 0x67, offset: 0x3C99, size: 0x8, addend: 0x0, symName: _flutter_native_splashVersionNumber, symObjAddr: 0x38, symBinAddr: 0x1388, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x3CD5, size: 0x8, addend: 0x0, symName: '+[FlutterNativeSplashPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x116B, symSize: 0xB6 }
+  - { offsetInCU: 0x52, offset: 0x3D00, size: 0x8, addend: 0x0, symName: '+[FlutterNativeSplashPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x116B, symSize: 0xB6 }
+  - { offsetInCU: 0x130, offset: 0x3DDE, size: 0x8, addend: 0x0, symName: '-[FlutterNativeSplashPlugin handleMethodCall:result:]', symObjAddr: 0xB6, symBinAddr: 0x1221, symSize: 0xFF }
+...
